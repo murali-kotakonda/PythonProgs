@@ -20,6 +20,7 @@ p1 = Person(1100,"user8",23)
 # print obj data
 print("************p data************")
 p.show()
+p.show()
 
 # print obj data
 print("************p1 data************")
