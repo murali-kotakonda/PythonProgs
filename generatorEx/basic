@@ -1,0 +1,5 @@
+There is a lot of overhead in building an iterator in Python; we have to implement a class with __iter__() and __next__() method, keep track of internal states, raise StopIteration when there was no values to be returned etc.
+
+This is both lengthy and counter intuitive. Generator comes into rescue in such situations.
+
+Python generators are a simple way of creating iterators. All the overhead we mentioned above are automatically handled by generators in Python.
