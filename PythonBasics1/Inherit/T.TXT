@@ -1,0 +1,46 @@
+Inheritence:
+
+-> there are two types of classes.
+  
+  a)Parent class/SUper class/Basse class
+  b) sub class/child class/derived class
+    
+    
+Public properties and methods are inherited/available to child classes.
+
+adv: 
+reusability
+
+synatx:
+
+class Person :
+	  name=None;
+	  age=None;
+	  id=None;
+
+      def m1():
+        print("in m1")
+
+      def __m3():
+        print("in m3")
+  
+
+class Employee(Person):
+	pan=None;
+	pfNo=None;
+
+    def m2():
+      print("in m2")
+
+
+
+    
+How many I.V are in Person : 3 
+How manyI.V are in Employee : 5 
+  
+How many METHODS are in Person : 1 
+How many METHODS are in Employee : 2
+  
+  
+  
+  

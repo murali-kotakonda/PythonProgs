@@ -1,0 +1,14 @@
+list1 = [34,98,98787,43,9]
+print(list1)
+
+list2=list1
+print(list2)
+list2.append(91)
+
+
+print(list1)
+print(list2)
+
+
+print(id(list1))
+print(id(list2))

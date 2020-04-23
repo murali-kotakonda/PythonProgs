@@ -1,0 +1,56 @@
+Diff between c/c++/java vs python:
+----------------------------------------
+
+---> no main method 
+--->  .py ==> python file or python module
+----> a python file contains:
+      global code
+      global variables
+      global methods
+      class ----> (varibles + methods)
+-----> python ==  procedural + object oriented
+-----> python is scripting + programming lang
+-----> c/c++/java ----> 1st compilation then execution
+          1. compilation ---> compile all 100 lines
+          2. execution ---> execute each and every line
+-----> python ----> compilation + execute happens for evety line at smae time
+         1. compile line and execute line immediately          
+-----> python is an expression/ easy language
+-----> Python is a type less language
+no need to spevify data type
+
+          
+
+
+
+
+
+
+
+eclipse:
+-------------
+1. create new project: pyDev Project
+ specify name : python7pm
+2. create package:
+   package ===  folder
+   namew : basics
+3. create pyDev Module under basics package:
+    Name: Ex1
+    result----> EX1.py is created.
+ 
+ 
+ 
+ 
+ 
+ and/or: join multi conditions
+ 
+ and : - if block is executed only if all the conditions return true
+ 
+ or : if block will be executed if atleast one condition returns true
+ 
+ 
+ 
+ 
+ 
+ 
+  

@@ -1,0 +1,32 @@
+import cx_Oracle
+
+# Create a table in Oracle database
+cursor = None
+con = None
+try:
+
+    con = cx_Oracle.connect('krishna/oracle@localhost:1521/xe')
+
+    # Now execute the sqlquery
+    cursor = con.cursor()
+
+    print("conn success")
+
+    List = [(1008, 'User1', 30, 2390),(1009, 'User2', 30, 2390),(1020, 'User3', 30, 2391)]
+    cursor.executemany("INSERT INTO PERSON VALUES(?,?,?,?);", List)
+    con.commit()
+
+    print(cursor.rowcount, "record inserted.")
+    print("1 record inserted, ID:", cursor.lastrowid)
+except cx_Oracle.DatabaseError as e:
+    print("There is a problem with Oracle", e)
+
+# by writing finally if any error occurs
+# then also we can close the all database operation
+finally:
+    if cursor:
+        cursor.close()
+    if con:
+        con.close()
+
+

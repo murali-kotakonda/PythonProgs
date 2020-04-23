@@ -1,2 +1,0 @@
-
-myAddr = Address

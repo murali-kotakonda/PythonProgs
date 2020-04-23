@@ -1,0 +1,32 @@
+class Person:
+
+    def __init__(self, id, name):
+        self.id = id
+        self.name =  name
+
+    def printPerson(self):
+        print(self.id, self.name)
+
+class Student:
+
+    def __init__(self, branch):
+        self.branch = branch        
+    
+    def printStu(self):    
+      print(self.branch)
+
+# User is child for both Person,Student
+class User(Person,Student):
+     def __init__(self,id,name,branch,pan):
+        # call parent constr to init id,name,branch
+        Person.__init__(self, id, name)
+        Student.__init__(self, branch)
+        self.pan = pan
+    
+     def printUser(self):
+        print(self.pan)
+
+u = User(1234,"kumar", "csc", "bncpk")
+u.printPerson() # logic from Person
+u.printStu() # logic from Student
+u.printUser() # logic from User

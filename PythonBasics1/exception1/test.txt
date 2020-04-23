@@ -1,0 +1,22 @@
+IOError
+If the file cannot be opened.
+
+ImportError
+If python cannot find the module
+
+ValueError
+Raised when a built-in operation or function receives an argument that has the
+right type but an inappropriate value
+
+KeyboardInterrupt
+Raised when the user hits the interrupt key (normally Control-C or Delete)
+
+EOFError
+Raised when one of the built-in functions (input() or raw_input()) hits an
+end-of-file condition (EOF) without reading any data
+
+exception IndexError
+Raised when a sequence subscript is out of range. (Slice indices are silently truncated to fall in the allowed range; if an index is not an integer, TypeError is raised.)
+
+exception KeyError
+Raised when a mapping (dictionary) key is not found in the set of existing keys.

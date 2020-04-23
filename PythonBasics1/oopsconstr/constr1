@@ -1,0 +1,79 @@
+Constructor:
+-------------------
+When obj is created constr is called automatically.
+With constr we can set the data during obj creation.
+
+earlier:
+		1.create obj
+		2.set data
+Now:
+	create obj + set data
+
+
+we need to write constr within the class.
+Constr name is equal to __init__(self):
+Constr doesnt have any return type.
+A constr is called only one time for one obj..
+
+
+
+
+Adv:
+  creat obj + set the data in single line.
+
+
+syntax:
+
+earlier:
+	class Person:
+  	 id=None
+   	 age=None
+     name=None
+
+P = Person()  #create obj
+
+#set data
+p.id=2000
+p.name="user1"
+p.age=45
+
+
+
+class Person:
+    def __init__(self,pId,pName,pAge):
+        self.id=pId
+        self.name=pName
+        self.age=pAge
+
+
+
+
+
+Now:
+
+p = Person(2000,"user1", 45) # internally calls __init__(self) automatically
+
+Here id, name, age are instance variables.
+
+ 
+ //diff between constr and insatcne funtion.
+ 1.constr is called one time
+ method can b called any no of times
+
+ 2.constr name = __init__
+ method  name can be anything
+
+ 3.contsr doesnt have any return value
+ method have return type ...
+
+ 4.cosntr is called during obj creation
+  method should be called after obj created.
+
+
+ 5.constr is automatic call
+  method is explict call
+ 
+6.constr logic -> only initializing i.v
+ method logic -> any logic
+ 
+  

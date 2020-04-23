@@ -1,0 +1,34 @@
+# Python code to illustrate 
+# clean up actions finally
+def divide(x, y): 
+    try: 
+        # Floor Division : Gives only Fractional Part as Answer 
+        result = x // y 
+    except ZeroDivisionError: 
+        print("Sorry ! You are dividing by zero ") 
+    else: 
+        print("Yeah ! Your answer is :", result) 
+    finally: 
+        print("I'm finally clause, always raised !! ") 
+  
+# Look at parameters and note the working of Program 
+divide(3, 0) 
+
+
+
+
+# Python code to illustrate 
+# clean up actions 
+def divide2(x, y): 
+    try: 
+        # Floor Division : Gives only Fractional Part as Answer 
+        result = x // y 
+    except ZeroDivisionError: 
+        print("Sorry ! You are dividing by zero ") 
+    else: 
+        print("Yeah ! Your answer is :", result) 
+    finally: 
+        print("I'm finally clause, always raised !! ") 
+  
+# Look at parameters and note the working of Program 
+divide2(3, "3") 
