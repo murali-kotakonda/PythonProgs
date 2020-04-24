@@ -6,3 +6,4 @@ def add(x,y,z,a):
 
 
 add(5,6,8,1)
+add(5,6)

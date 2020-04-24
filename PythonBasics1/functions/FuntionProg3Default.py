@@ -23,8 +23,14 @@ printInfo(1000)
 def f2(name = "no Input",input2=55):
     print("input =", name)
     print("2nd arg=", input2)
- 
-     
+
+
+f2("user1")  # name = "user1" input2=55
+f2("user1", 34)  # name= "user1" , input2= 34
+f2()  # name = "no Input",input2=55
+f2(65)  # name = 65 ,input2=55
+f2(input2=65) #name = "no Input", input2 = 65
+
 f2(12)
 f2("user1")
 f2(1213.78)
@@ -32,6 +38,7 @@ f2(True)
 f2()
 f2(1)
 f2(1,2)
+f2(input2=65)
 
 
 

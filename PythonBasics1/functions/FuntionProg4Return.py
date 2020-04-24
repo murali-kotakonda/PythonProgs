@@ -1,3 +1,6 @@
+
+
+
 #taking string as input and string as output
 def getMsg(inputMsg):
     return "your data = " + inputMsg
@@ -92,12 +95,13 @@ print(div(2,2))
 
 
 
-
-
 #funtn returning multi values
-def big(x,y):
+def process(x,y):
+    x= x+10
+    y= y+10
     return "{} {}".format(x,y).split()
 
-a,b = big(5,6)
+a,b = process(5,6)
 print(a,b)
+
 

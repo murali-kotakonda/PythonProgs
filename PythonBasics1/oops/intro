@@ -1,8 +1,15 @@
+OOps:
+-------
+-> class, object , enapsulation , abstraction , inheritence .
+-> modern programing
+-> defines common rules, regulations , guidelines for writing the progs.
+
 # Class
 --------------------------
  -> Userdefined datatype
 -> Class is used to represent the real time entities/structure/model.
--> clss doesnt contain any data.
+ex: Company, Branch , Dep, sub-dept, Project , Employee ,
+-> Class doesnt contain any data.
 -> class is created before run-time
 ->class is a logical representation
 ->class is a template
@@ -18,7 +25,7 @@ x=90 #global variable
 
 def sum(x,y):  #global funtion
   s = x+y    # local variables are x, y , s
-	print(s)
+  print(s)
 
 
 class Person:
