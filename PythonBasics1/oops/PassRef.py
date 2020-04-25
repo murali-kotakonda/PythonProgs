@@ -24,3 +24,6 @@ change(p)  # call funtion and pass the obj
 print("************AFTER*****************")
 print(p.id, p.name, p.age)
 
+if we pass the primitive data int, float , str  to the funtion and if the funtion modofies the values , it will not have any impact to the caller
+if we pass the object to the funtion and if the funtion modifies the obj data , it will  have any impact to the caller
+

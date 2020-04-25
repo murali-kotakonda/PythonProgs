@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc8419ee-be58-4ae5-92ca-5193bbda4583" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PythonBasics1/oops/FunReturnObj11.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/functions/FuntionProg3Default.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/functions/FuntionProg3Default.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/functions/FuntionProg4Return.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/functions/FuntionProg4Return.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/functions/FuntionProg6OverloadNosupport.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/functions/FuntionProg6OverloadNosupport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oops/PassRef.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oops/PassRef.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oops/PersonPrivate.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oops/PersonPrivate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonBasics1/oops/intro" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oops/intro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +43,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PythonBasics1/oops" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Murali\Progs\GitHub\PythonProgs\PythonBasics1\oops" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.FuntionProg6OverloadNosupport">
     <configuration name="FuntionProg4Return" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
