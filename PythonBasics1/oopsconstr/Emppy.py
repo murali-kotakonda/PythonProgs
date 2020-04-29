@@ -1,5 +1,5 @@
 # constructor :: ------>
-#  when obj is created ----> implicitely constr is called....
+#  when obj is created automatically constr is called....
 # purpose ---> intilize the values for properties during obj creation
 
 # obj creation + with ---> 1 single step using contr

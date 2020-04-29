@@ -20,11 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc8419ee-be58-4ae5-92ca-5193bbda4583" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/oops/FunReturnObj11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonBasics1/oopsOperatorOverload/PersonObjPrint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonBasics1/oopsinstance/instance funtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonBasics1/staticEx/Notes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/oops/PassRef.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oops/PassRef.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/oops/PersonPrivate.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oops/PersonPrivate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/oops/intro" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oops/intro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopsOperatorOverload/Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oopsOperatorOverload/Data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopsOperatorOverload/PersonCompare.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oopsOperatorOverload/PersonCompare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopsconstr/Emppy.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oopsconstr/Emppy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopsconstr/Person.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oopsconstr/Person.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopsconstr/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oopsconstr/Student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopsconstr/constr1" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oopsconstr/constr1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopshasA/Person.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oopshasA/Person.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopsinstance/Calculatorold.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oopsinstance/Calculatorold.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopsinstance/InstanceFuntn.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oopsinstance/InstanceFuntn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/staticEx/staticEx.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/staticEx/staticEx.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +52,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PythonBasics1/oops" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PythonBasics1/oopsOperatorOverload" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Murali\Progs\GitHub\PythonProgs\PythonBasics1\oopsOperatorOverload" />
       <recent name="D:\Murali\Progs\GitHub\PythonProgs\PythonBasics1\oops" />
     </key>
   </component>
@@ -153,6 +163,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587667397422" />
+    <state x="452" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587961766577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="452" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1587961766577" />
     <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1587629404296">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -177,5 +191,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587667555928" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PythonBasics1/oopsconstr/Emppy.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

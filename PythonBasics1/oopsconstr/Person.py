@@ -9,7 +9,6 @@ class Person:
             print(self.name)
             print(self.age)
 
-
 #create obj with data
 p=Person(2000,"USER1",45) # obj is created , internally calls __init__
 p1=Person(2001,"user2",47)  #  obj is created , internally calls __init__

@@ -2,10 +2,15 @@
 
 Req: capture the personinfo with address and print
 
+
 Steps:
-1.Create person obj with data
-2.Create address obj with data
-3.keep adress obj inside person obj # relating the objs
+1.Create Address class
+2.Create Person class with addObj as instance varibale
+
+
+3.Create person obj with data
+4.Create address obj with data
+5.keep adress obj inside person obj # relating the objs
 
 """
 
@@ -39,12 +44,13 @@ class Address:
         print(self.state)
 
 
-#set data
+#Create person obj with data
 p1 = Person(2000,"user1",45)
 
-
+#Create address obj with data
 a1 = Address("marathalli","bangalore","67677","KA","IN")
 
+#keep adress obj inside person obj
 p1.addr = a1
 
 

@@ -1,7 +1,18 @@
 def add(n1, n2):
     print("from global ", n1 + n2)
 
+"""
+Requirement:
 
+take
+two
+numbers as input and perform
+add()
+sub()
+mul()
+div()
+
+"""
 class Cal:
 
     def add(self,n1,n2):

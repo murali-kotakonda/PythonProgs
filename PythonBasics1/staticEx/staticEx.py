@@ -1,7 +1,8 @@
-# assigned in class declaration, are class variables 
+
+# assigned in class declaration, are class variables
 from builtins import staticmethod
   
-class CSStudent:
+class Student:
     stream = 'cse'                  # Class Variable 
     def __init__(self,name,roll): 
         self.name = name            # Instance Variable 
@@ -11,16 +12,17 @@ class CSStudent:
     def showStream():
         print(CSStudent.stream) 
   
-    def test1(self):
-        print("test self")
+    def show(self):
+        print(self.name)
+        print(self.roll)
 
 
 
 # Objects of CSStudent class 
-a = CSStudent('ram', 1) 
-b = CSStudent('albert', 2)
+a = Student('ram', 1)
+b = Student('albert', 2)
 
-a.test1()
+a.show()
 print(a.name)    # prints "ram"
 print(a.roll)    # prints "1"
 
@@ -29,10 +31,10 @@ print(b.roll)    # prints "2"
 
 
 #access static variable or method using class name.
-print(CSStudent.stream) # prints "cse"
-CSStudent.showStream()
-CSStudent.stream = 'ECE'
-print(CSStudent.stream) # prints "ECE"
+print(Student.stream) # prints "cse"
+Student.showStream()
+Student.stream = 'ECE'
+print(Student.stream) # prints "ECE"
 
 
 

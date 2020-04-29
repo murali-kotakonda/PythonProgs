@@ -34,7 +34,10 @@ print(d3.n2)
 
 
 """
-
+      
+# + , - , * , / --->
+if we need to apply the opeartors on the objects; then developer has to write a method inside the class for every operator.
+  
 
 d4 = d1 + d2 + d3
 print(d4.n1)

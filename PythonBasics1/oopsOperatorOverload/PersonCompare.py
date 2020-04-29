@@ -4,12 +4,18 @@ class Person:
         self.name=name
         self.age=age
 
-    def __eq__(self, other):
+    def __eq__(self, other):  # self = p1 and other =p2
         return self.id == other.id and self.name == other.name and self.age == other.age
 
 
 p2 = Person(1000,"user1",67)
 p1 =Person(1000,"user1",67)
+
+"""
+print(p1, p2) #prints obj address  
+#by dafault p2==p1 compares the obj address 
+
+"""
 
 if p2==p1: # internally calls __eq__
     print("p2 and p1 are duplicates")

@@ -1,0 +1,7 @@
+instance function or method:
+---------------------------
+-> write inside the class
+-> default arg for the instance function is "self".
+  self -> refers to the current object under execution.
+->  instance function can be called only using the object.
+->  instance function can acces the instacne variables of the object.

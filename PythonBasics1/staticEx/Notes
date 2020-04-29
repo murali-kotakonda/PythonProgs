@@ -1,0 +1,18 @@
+Static variable:
+------------------
+-> common data for all objects.
+
+
+req:
+capture stu name + stu roll + stu colleage.
+
+
+in a class,
+declare stu name + stu roll as instance varibales.
+declare stu colleage  as static variable.
+
+-> static variable or class variable
+-> memory is allocated only one time
+-> memory is allocated during class loading
+-> static variable can be accessed without creating obj
+static varible can be accessed using class name.
