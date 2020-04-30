@@ -28,7 +28,7 @@ class PersonInfo:
         '''return "id =" + str(self.__id) +", nanme="+self.__name'''
         return "id={}, and name={}, age= {} , pan= {}".format(self.__id, self.__name,self.__age,self.pan)
 
-myObj = PersonInfo(12000, "murali", 34)
+myObj = PersonInfo(12000, "raj kumar", 34)
 
 # access data
 print(myObj.getAge())  # print(myObj.age)
