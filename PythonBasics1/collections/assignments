@@ -1,0 +1,31 @@
+
+
+
+#Take the size as input ; and take data for input number of times
+store in list and print
+
+#Take the size as input ; and take data for input number of times
+store in list  but avoid duplicates
+and print
+
+
+#take the list1 and list2 as inputs and
+add list1 and list2 data to list3  [ without using + opearator ]
+
+
+#Write the code to perform search by content , without using in operator
+cities = ['bangalore', 'chennai', 'mumbai', 'hyd']
+city = input("enter city")
+if (city in cities):
+    print("service provied")
+else:
+    print("service not provided")
+
+
+#Find the frequency    [without using count funtion ]
+intList = [1, 2, 3, 535, 35, 35, 5, 1]
+print(intList.count(1))  # frequency
+
+#Take the input for no of employee ; and take id,name,age   for every employee
+store in list and print
+store in set[avoid duplicates] and print

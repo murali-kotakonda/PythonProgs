@@ -1,3 +1,17 @@
+"""
+Multiple Inheritence:
+------------------------------
+-> One child having many parent classes
+class Person:
+
+class Employee:
+
+class Staff(Employee , Person):   # Staff is child class for Employee and Person
+
+
+#Staff will inherit props + methods from class Staff(Employee , Person):
+"""
+
 class Person:
     id=None
     name=None
@@ -17,6 +31,11 @@ class User(Person,Student):
      def printUser(self):
         print(self.pan)
 
+
+# How many i.v. are there in User :  4  [ id , name , branch , pan]
+# How many methiods are in User: 3  [printOerson()  printPerson()  printUser()   ]
+
+
 u = User()
 u.id=1234
 u.name="kumar"
@@ -25,4 +44,6 @@ u.pan="bncpk"
 u.printPerson() # logic from Person
 u.printStu() # logic from Student
 u.printUser() # logic from User
+
+#call u.show() that should print the user info.
         

@@ -1,3 +1,18 @@
+"""
+Multi Level :
+--------------------
+ [Threee class
+ Person
+ Employee extends Person
+ Staff extends Employee
+
+Person has  -> id,name, age
+Employee has -> id,name, age, pan, pfNo
+Staff has - > id,name, age, pan, pfNo,   contactId,contarctPeriod
+
+
+"""
+
 class Person:
     def __init__(self,id,name,age):
         self.id=id

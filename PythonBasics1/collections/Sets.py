@@ -11,16 +11,16 @@ print(mySet6)
 myset2 = {'sap', 'java', 'hana', 'sap', 'hadoop', 'angularjs', 'java'}
 print(myset2)
 
-myset3 = {1, 'murali', 23, 'murali', 23, 1}
+myset3 = {1, 'kumar', 23, 'kumar', 23, 1}
 print(myset3)
-
 
 # to add entry into the set
 myset3.add('mythri')
 print(myset3)
 
 # serach by content
-print('murali' in myset3)
+print('kumar' in myset3)
+print('ram' in myset3)
 
 # length
 print("size of set===========  ", len(myset3))
@@ -30,17 +30,16 @@ for data in myset3:
     print("element= ", data)
 
 # delete from set
-print("user2" in myset3)
-myset3.remove("user2")
-print("user2" in myset3)
+print("kumar" in myset3)
+myset3.remove("kumar")
+print("kumar" in myset3)
 print(len(myset3))
 
-myset4 = {1, 'murali', 23}
-myset5 = {'murali', 'banglalore', 'India'}
+myset4 = {1, 'raj', 23}
+myset5 = {'raj', 'banglalore', 'India'}
 # Plus operation is not applied for sets
 # Minus operation for sets :---- elements prest in set1 but not in set2
 print(myset4 - myset5)  # print wat is avilable in myset4 but not in myset5
-
 print(myset5 - myset4)
 
 # Union Opearation , merging both sets by avoiding duplicates
@@ -65,6 +64,7 @@ myset8 = set(myTupl)
 print(myTupl)
 print(myset8)
 
-# converst set to frozewn set ; frozen will no any update/remove operations; used only for read operations
+# converst set to frozewn set ;
+# frozen will no any update/remove operations; used only for read operations
 f = frozenset(myset)
 print(type(f))

@@ -20,9 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc8419ee-be58-4ae5-92ca-5193bbda4583" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/oopshasA/PersonStuEmp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/assignment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonBasics1/collections/assignments" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopsEncap/MyPrivate.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oopsEncap/MyPrivate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/Hierarchial.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/Hierarchial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/InheritAndComposition.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/InheritAndComposition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/MultiLevel.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/MultiLevel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/Multiple0.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/Multiple0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/Multiple2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/Multiple2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/SIngleInheri1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/SIngleInheri1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/SIngleInheri2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/SIngleInheri2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/T.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/T.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/collections/DataTypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/collections/DataTypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/collections/Dictionry.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/collections/Dictionry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/collections/Lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/collections/Lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/collections/Sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/collections/Sets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assign/StudentRank.py" beforeDir="false" afterPath="$PROJECT_DIR$/assign/StudentRank.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +70,7 @@
       <recent name="D:\Murali\Progs\GitHub\PythonProgs\PythonBasics1\oops" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PersonStuEmp">
+  <component name="RunManager" selected="Python.assignment">
     <configuration name="FuntionProg4Return" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,8 +155,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="assignment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTrain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonBasics1/Inherit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBasics1/Inherit/assignment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.assignment" />
         <item itemvalue="Python.PersonStuEmp" />
         <item itemvalue="Python.FuntionProg6OverloadNosupport" />
         <item itemvalue="Python.FuntionProg4Return" />
@@ -181,30 +216,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587667397422" />
-    <state x="452" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587961766577">
+    <state x="452" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588569472114">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="452" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1587961766577" />
+    <state x="452" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1588569472114" />
     <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1587629404296">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587629404296" />
-    <state width="1308" height="155" key="GridCell.Tab.0.bottom" timestamp="1588222987954">
+    <state width="1308" height="155" key="GridCell.Tab.0.bottom" timestamp="1588567440047">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588222987954" />
-    <state width="1308" height="155" key="GridCell.Tab.0.center" timestamp="1588222987953">
+    <state width="1308" height="155" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588567440047" />
+    <state width="1308" height="155" key="GridCell.Tab.0.center" timestamp="1588567440047">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588222987953" />
-    <state width="1308" height="155" key="GridCell.Tab.0.left" timestamp="1588222987952">
+    <state width="1308" height="155" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588567440047" />
+    <state width="1308" height="155" key="GridCell.Tab.0.left" timestamp="1588567440046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588222987952" />
-    <state width="1308" height="155" key="GridCell.Tab.0.right" timestamp="1588222987954">
+    <state width="1308" height="155" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588567440046" />
+    <state width="1308" height="155" key="GridCell.Tab.0.right" timestamp="1588567440047">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588222987954" />
+    <state width="1308" height="155" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588567440047" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1587667555928">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

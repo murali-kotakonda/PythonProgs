@@ -40,16 +40,36 @@ o/p:
 101    ----> 810,8754
 105  ---> 64544 
 200   ---> 2333, 765
+
+#Dictionary:
+#in dict every entry has two elements
+1.KEY   -> ANY DATATYPE
+2.VALUE  -> ANY DATA TYPE
+
+
+List, Tuple are index based operations.
+insert/update/delete/read based on position.
+
+Dict is a content based operation.
+insert/update/delete/read based on content.
+
+Tuple/List/Set one entry contains only one element
+
 """
 
-
-
-myData = { 
+myData = {
     "name":"murali",
     "age" : 25,
     "id" : 3456
 }
+"""
+# there are three entries
+# name , age  id are the keys 
+#key and value are seperated by :
+# every entry is seperated by comma
+Keys are unique
 
+"""
 print(type(myData))
  # print content
 print(myData)
@@ -67,7 +87,7 @@ print(myData)
 #add duplicate key
 print("add duplicate key")
 #update existing entry
-myData["name"] = "shyam"
+myData["name"] = "raj kumar"
 myData.update({"name":"shyam"})
 print(myData)
 
@@ -77,6 +97,8 @@ print(len(myData))
 # get the keys
 myKeys = myData.keys();
 print(type(myKeys))
+
+
 # get the values
 myvalues = myData.values()
 print(myvalues)

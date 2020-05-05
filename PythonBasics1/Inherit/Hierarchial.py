@@ -1,3 +1,10 @@
+"""
+one parent having multiple child classes.
+
+  RBI is a parent class
+  SBI , HDFC , ICICI are the child classes for RBI
+
+"""
 class RBI:
     def createAccount(self):
         print("RBI:: account created")
@@ -19,7 +26,11 @@ class HDFC(RBI):
 class ICICI(RBI):
     def demat3(self):
         print("ICICI demat")
-        
+
+print("**********RBI**********")
+rbi = RBI()
+rbi.createAccount() # LOGIC FROM RBI
+rbi.processLoan() # LOGIC FROM RBI
 #crate obj
 print("**********SBI**********")
 sbi = SBI()

@@ -2,6 +2,12 @@
 Created on Jul 23, 2018
 
 @author: I335484
+
+Person has id ,name , age , address [street, hno, city , state, country , pin]
+Employee has id ,name , age , address [street , hno,  city , state, country , pin] , pan , pfNo , healthInsuranceNumber
+
+-> create obj and set the data and display the data
+
 '''
 
 if __name__ == '__main__':

@@ -11,12 +11,22 @@ Public properties and methods are inherited/available to child classes.
 adv: 
 reusability
 
+
+
+
+Inheritence Types:
+->Single-
+-> Multilevel
+->Hietrarchial
+-?Multiple
+
+
 synatx:
 
 class Person :
-	  name=None;
-	  age=None;
-	  id=None;
+	  name=None
+	  age=None
+	  id=None
 
       def m1():
         print("in m1")
@@ -34,13 +44,21 @@ class Employee(Person):
 
 
 
-    
-How many I.V are in Person : 3 
-How manyI.V are in Employee : 5 
+
+
+How many I.V are in Person : 3  (id,name,age)
+How manyI.V are in Employee : 5 (id,name,age,pan,pfNo)
+
   
-How many METHODS are in Person : 1 
-How many METHODS are in Employee : 2
+How many METHODS are in Person : 2  ( m1() and m3() )
+How many METHODS are in Employee :  2  ( m1()  & m2() )
   
-  
-  
-  
+
+-> IS-A
+Inheritence is relatn between two classes ,
+but the parent child and child obj are indendent .
+  parent obj and child obj has no relationship.
+
+
+-> has-a relationship:
+relationship is BETween the classes and also BETween the objs.

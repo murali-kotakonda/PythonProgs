@@ -3,7 +3,6 @@
 # user1 70 , 80 90
 # user2 100 90 100
 # user3 100 80 70
-# from assign.Util import big
 # big(highMarks,total)
 
 size = int(input("enter no of students"))

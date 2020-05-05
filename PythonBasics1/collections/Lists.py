@@ -1,5 +1,3 @@
-
-
 myList = [12, 'krishna', 4587.432 ]
 # stores data of diff data types
 print(type(myList))
@@ -18,13 +16,13 @@ print(myList[2])
 
 #add new element to list
 # update the list or add element to list
-myList.append("bangalore");
+myList.append("bangalore")
 # myList[5] ="bangalore" # not supported for insert
 print(myList)
 
 
 
-#update an element
+#update an existing element
 myList[2] = 60000.78
 print(myList)
 

@@ -1,4 +1,6 @@
 #Person class as parent
+#logic inside a constr => to initialize the instace variables
+
 class Person:
     def __init__(self,id,name,age):
         self.id=id

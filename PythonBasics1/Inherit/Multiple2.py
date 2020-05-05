@@ -1,4 +1,3 @@
-
 # same method name in all parent + child class
 class Person:
 
