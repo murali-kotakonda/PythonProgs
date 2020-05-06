@@ -20,22 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc8419ee-be58-4ae5-92ca-5193bbda4583" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/assignment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/collections/assignments" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/Hierarchial.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/Hierarchial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/InheritAndComposition.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/InheritAndComposition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/MultiLevel.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/MultiLevel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/Multiple0.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/Multiple0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/Multiple2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/Multiple2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/SIngleInheri1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/SIngleInheri1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/SIngleInheri2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/SIngleInheri2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/T.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/T.TXT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/collections/DataTypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/collections/DataTypes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/collections/Dictionry.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/collections/Dictionry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/collections/Lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/collections/Lists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/collections/Sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/collections/Sets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assign/StudentRank.py" beforeDir="false" afterPath="$PROJECT_DIR$/assign/StudentRank.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
