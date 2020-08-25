@@ -1,10 +1,10 @@
 import sqlite3
 
 # connecting to the database
-connection = sqlite3.connect("myTable.db")
+con = sqlite3.connect("myTable.db")
 
 # cursor
-crsr = connection.cursor()
+cursor = con.cursor()
 
 # SQL command to create a table in the database
 sql_command = """CREATE TABLE PERSON (  
@@ -13,12 +13,13 @@ NAME VARCHAR(20),
 AGE INTEGER,  
 SALARY INTEGER);"""
 
-
-
 # execute the statement
-crsr.execute(sql_command)
-connection.commit()
+cursor.execute(sql_command)
+con.commit()
 
 print("table create success...")
 # close the connection
-connection.close()
+if cursor:
+   cursor.close()
+if con:
+   con.close()

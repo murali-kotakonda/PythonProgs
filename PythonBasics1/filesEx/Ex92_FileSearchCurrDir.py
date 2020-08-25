@@ -13,7 +13,7 @@ import os
 # This is to get the directory that the program is currently running in.
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
-for root, dirs, files in os.walk("C:\\test"):
+for root, dirs, files in os.walk("C:\\Users\\i335484\\OneDrive - SAP SE\\Desktop"):
     print(root)
     print(dirs)
     print(files)

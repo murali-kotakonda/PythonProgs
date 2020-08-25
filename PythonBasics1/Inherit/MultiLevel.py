@@ -11,6 +11,14 @@ Employee has -> id,name, age, pan, pfNo
 Staff has - > id,name, age, pan, pfNo,   contactId,contarctPeriod
 
 
+Employee constr will call person constr
+Staff constr will call the employee constr
+
+Person  constr has  3 args 
+Employee constr has  5 args
+Staff has  constr has  7 args
+
+Person , employee , staff objs are independent.
 """
 
 class Person:

@@ -24,7 +24,6 @@ threads.append(Mythread("th3", 300))
 threads.append(Mythread("th4", 400))
 # add thread to CPu queue
 
-print(threading.main_thread().name)
 
 for th in threads:
     th.start()

@@ -2,6 +2,8 @@ from conn import getConn
 
 con =getConn()
 cursor = con.cursor()
+
+
 print("conn success")
 sql1 = "SELECT ID,NAME  FROM person  "
 cursor.execute(sql1)

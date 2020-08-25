@@ -23,7 +23,7 @@ class Student:
         print("Student :: save")
 
 # User is child for both Person,Student
-class User(Person,Student):
+class User(Student , Person ):
     def __init__(self,id,name,branch,pan):
         # call parent constr to init id,name,branch
         Person.__init__(self, id, name)
@@ -38,7 +38,7 @@ u = User(1234,"murali", "csc", "bncpk")
 u.printPerson() # logic from Person
 u.printStu() # logic from Student
 u.printUser() # logic from User
-u.save() # logic from Student 
+u.save() # logic from Student
 
 # output depends on the method resolution order
 # the order in which the parent classes are declared.

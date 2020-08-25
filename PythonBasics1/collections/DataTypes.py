@@ -33,6 +33,12 @@ Read: List/ Tuple o/p: 50 , 60 , 10 , 67 , 100, 3
 Set/Dict stores the elements in random order.
 
 
+Allow duplicate:
+List and Tuple will add duplicate elements.
+set and dict avoids duplicates.
+ex: ADD "kumar" ,"kumar"  "kumar"
+List/Tuple : the no of elements is 3
+Set/Dict : the no of elements is 1
 
 Mutuable:
 can it be changed or altered ( add new element/ upddate existing / delete existing )

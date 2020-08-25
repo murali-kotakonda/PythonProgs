@@ -1,9 +1,21 @@
+def getData():
+    return "hello"
+
+
+z= getData()
+print(z)
+
+def getNum():
+    m =90
+    return m
+
+
 
 
 
 #taking string as input and string as output
 def getMsg(inputMsg):
-    return "your data = " + inputMsg
+    return "Mr/Mrs " + inputMsg
 
 # Calling function
 myData = getMsg("Mythri Technologies")  # capture the optput form the method getMsg

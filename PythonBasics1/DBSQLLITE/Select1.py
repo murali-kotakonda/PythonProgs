@@ -2,7 +2,10 @@ from conn import getConn
 
 con =getConn()
 cursor = con.cursor()
+
 print("conn success")
+
+
 cursor.execute("SELECT * FROM person")
 myresult = cursor.fetchall()
 for x in myresult:

@@ -8,6 +8,13 @@
 #input month number display month name
 #input month number show no of days
 
+#Find big of two Numbers
+#Find small of two Numbers
+#Find big of three Numbers
+#Find small of three Numbers
+
+
+
 
 # input 3 numbers, find big number
 #2 input userType , custId ::

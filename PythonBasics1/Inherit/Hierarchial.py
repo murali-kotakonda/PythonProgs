@@ -12,8 +12,6 @@ class RBI:
     def processLoan(self):
         print("RBI:: roi 10%")
     
-    def __processPPF(self):
-        print("RBI:: roi 10%")
 
 class SBI(RBI):
     def demat1(self):
@@ -27,10 +25,23 @@ class ICICI(RBI):
     def demat3(self):
         print("ICICI demat")
 
+
+
+
+
+
+
+
+
+
+
+
 print("**********RBI**********")
 rbi = RBI()
 rbi.createAccount() # LOGIC FROM RBI
 rbi.processLoan() # LOGIC FROM RBI
+
+
 #crate obj
 print("**********SBI**********")
 sbi = SBI()

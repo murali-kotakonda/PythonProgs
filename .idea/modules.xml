@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../pythonWork/PySelenium/.idea/PySelenium.iml" filepath="$PROJECT_DIR$/../../pythonWork/PySelenium/.idea/PySelenium.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PyTrain.iml" filepath="$PROJECT_DIR$/.idea/PyTrain.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/Python7PM/.idea/Python7PM.iml" filepath="$USER_HOME$/PycharmProjects/Python7PM/.idea/Python7PM.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/PythonMorning8/.idea/PythonMorning8.iml" filepath="$USER_HOME$/PycharmProjects/PythonMorning8/.idea/PythonMorning8.iml" />
     </modules>
   </component>
 </project>

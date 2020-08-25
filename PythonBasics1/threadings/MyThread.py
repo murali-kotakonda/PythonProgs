@@ -18,7 +18,7 @@ class Mythread(threading.Thread):
         print("thraed created", name)
         
     def run(self):
-        print("running ", self.name)
+        print("HI running ", self.name)
         
  
 # creating thread 

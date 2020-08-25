@@ -38,9 +38,9 @@ for row in workbook[ "sheet1" ].rows:
 
 """
 
-cells = sheet["A1:C1"]
+rows = sheet["A1:C1"]
 print("A1 TO C1")
-for row in cells:
+for row in rows:
     for c in row:
         print(c.value)
 

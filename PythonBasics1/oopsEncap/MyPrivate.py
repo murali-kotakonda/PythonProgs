@@ -4,7 +4,14 @@ class PersonInfo:
         self.__id = pId
         self.__name = pName
         self.__age = pAge
+        # here __id , __name , __name are private [cannot access outside class]
 
+    def show(self):
+        print(self.id,self.name,self.age)
+
+   #provide the setter and getter methods
+    # 3 setters and 3 getters
+    # for changing or accesisng use the methods
     def getName(self):
         return self.__name
 
@@ -30,10 +37,17 @@ class PersonInfo:
 
 myObj = PersonInfo(12000, "raj kumar", 34)
 
+
+
+
 # access data
-print(myObj.getAge())  # print(myObj.age)
-print(myObj.getName())  # print(myObj.name)
-print(myObj.getId())  # print(myObj.id)
+# print(myObj.age)
+print(myObj.getAge())
+# print(myObj.name)
+print(myObj.getName())
+# print(myObj.id)
+print(myObj.getId())
+
 
 
 print("******* change instance variables ********")

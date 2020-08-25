@@ -1,4 +1,9 @@
+
+
 myList = [12, 'krishna', 4587.432 ]
+
+
+
 # stores data of diff data types
 print(type(myList))
 print(myList)
@@ -8,48 +13,52 @@ print(myList)
 # find length
 print(len(myList))
 
-
-#search by position
+# search by position
 print(myList[0])
 print(myList[2])
 
 
-#add new element to list
+# add new element to list
 # update the list or add element to list
 myList.append("bangalore")
 # myList[5] ="bangalore" # not supported for insert
 print(myList)
 
 
-
-#update an existing element
+# update an existing element
 myList[2] = 60000.78
 print(myList)
 
 
-#insert in between
-myList.insert(1,"myNewPancard")
+
+
+
+# insert in between
+myList.insert(1, "myNewPancard")
 print(myList)
 
 
-#find position of element ,   if element not found throws exception
+
+
+# find position of element ,   if element not found throws exception
 print(myList.index("krishna"))
-#print(myList.index("krishna1"))
+# print(myList.index("krishna1"))
 
 
-#remove by element value
+# remove by element value
 myList.remove("myNewPancard")
-#myList.remove("myNewPancardazffsf") # throws exception if not found
+# myList.remove("myNewPancardazffsf") # throws exception if not found
 
-#remove by position
+# remove by position
 del myList[1]
-myList.remove(myList[0])
+#myList.remove(myList[0])
 print(myList)
 
 
-#search by content
+# search by content
 print('bangalore' in myList)
 print('bangalore1' in myList)
+
 
 cities = ['bangalore', 'chennai', 'mumbai', 'hyd']
 city = input("enter city")
@@ -60,7 +69,17 @@ else:
     print("service not provided")
 
 
-#deletes the last element
+
+print("****print all*****")
+for data in myList:
+    print(data)
+
+
+
+
+
+
+# deletes the last element
 myList.pop()
 print(myList)
 
@@ -72,7 +91,6 @@ myList.append("user5")
 myList.append("user6")
 myList.append("user8")
 
-
 # iterate all elements
 print("****print all*****")
 for i in range(len(myList)):
@@ -82,15 +100,12 @@ print("****print all*****")
 for data in myList:
     print(data)
 
-
-
 # concatenate
 myList2 = [1, 2, 3, 4, 5, 6]
 myList3 = myList + myList2
 print(myList)
 print(myList2)
 print(myList3)
-
 
 # min,max ,xiunt
 intList = [1, 2, 3, 535, 35, 35, 5, 1]
@@ -103,7 +118,7 @@ print(intList.count(1))  # frequency
 myList.clear()
 
 """
- 
+
 # slicing
 print("printing 0 to 2", myList[-1])
 print("printing 0 to 2", myList[0:2])
@@ -153,8 +168,6 @@ print(type(b1))
 
 """
 
-
-
 """
 With a given list [12,24,35,24,88,120,155,88,120,155], write a program to print this list after removing all duplicate values with original order reserved.
 
@@ -163,3 +176,31 @@ Use set() to store a number of values without duplicate.
 
 Solution:
 """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

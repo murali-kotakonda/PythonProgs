@@ -30,7 +30,7 @@ def sum(x,y):  #global funtion
 
 class Person:
   #instance variables
-	id=None.+
+	id=None
 	name=None
 	age=None
 

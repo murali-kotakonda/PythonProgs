@@ -10,7 +10,7 @@ printMsg()  # Mumbai
 
 
 
-def printInfo(id, name="NA"):
+def printInfo(id, name="Not Applicable"):
     print("id=", id)
     print("NAME ==", name)
 

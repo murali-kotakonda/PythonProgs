@@ -1,17 +1,17 @@
 from conn import getConn
 
 # connecting to the database
-connection = getConn()
+con = getConn()
 
 # cursor
-crsr = connection.cursor()
+cursor = con.cursor()
 
 
 # SQL command to insert the data in the table
 sql_command = """DELETE FROM PERSON WHERE Id=?"""
-crsr.execute(sql_command,[24])
+cursor.execute(sql_command,[24])
 
-connection.commit()
-print(crsr.rowcount, "record DELETED.")
+con.commit()
+print(cursor.rowcount, "record DELETED.")
 # close the connection
-connection.close()
+con.close()

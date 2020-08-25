@@ -2,14 +2,15 @@ Inheritence:
 
 -> there are two types of classes.
   
-  a)Parent class/SUper class/Basse class
-  b) sub class/child class/derived class
+  a)Parent class/Super class/Base class
+  b)Sub class/child class/derived class
     
     
 Public properties and methods are inherited/available to child classes.
 
 adv: 
-reusability
+reusability of instance variables and methods
+
 
 
 
@@ -35,12 +36,13 @@ class Person :
         print("in m3")
   
 
-class Employee(Person):
+class Employee(Person):#Employee is the child class and Person is parent class
 	pan=None;
 	pfNo=None;
 
     def m2():
       print("in m2")
+
 
 
 

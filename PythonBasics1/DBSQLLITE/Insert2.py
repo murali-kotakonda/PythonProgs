@@ -1,17 +1,17 @@
 from conn import getConn
 
 # connecting to the database
-connection = getConn()
+con = getConn()
 
 # cursor
-crsr = connection.cursor()
+cursor = con.cursor()
 
 
 # SQL command to insert the data in the table
 sql_command = """INSERT INTO PERSON VALUES (?,?,?,?)"""
-crsr.execute(sql_command,(26, "Rishabh1", 89,1313))
+cursor.execute(sql_command,(26, "Rishabh1", 89,1313))
 
-connection.commit()
-print(crsr.rowcount, "record inserted.")
+con.commit()
+print(cursor.rowcount, "record inserted.")
 # close the connection
-connection.close()
+con.close()

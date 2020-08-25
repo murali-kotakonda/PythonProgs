@@ -1,5 +1,5 @@
 
-#input : func obj , return type: f2 obj
+#input : i/p func obj , return type: f2 obj
 def f1(func):
     print("f1 is called")
     def f2():

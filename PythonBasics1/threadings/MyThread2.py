@@ -37,3 +37,27 @@ myTh3.start()
 myTh4.start()
 
 print("****************bye*****************")
+
+
+"""
+     
+  Thread states:
+1.Ready state
+myTh1.start()
+
+2.Running state
+when run() function is executed
+
+3.sleep  [for a defined time]
+time.sleep(5)
+AFTER SLEEP it goes back to running state
+
+4.wait state [for a undefined time]
+AFTER wait it goes back to running state
+
+5.dead
+once the run() method execution is completed.
+  
+  
+
+"""

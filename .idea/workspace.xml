@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc8419ee-be58-4ae5-92ca-5193bbda4583" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dc8419ee-be58-4ae5-92ca-5193bbda4583" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,17 +44,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PythonBasics1/oopsOperatorOverload" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/PythonMorning8/operatorOverload" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Murali\Progs\GitHub\PythonProgs\PythonBasics1\oopsOperatorOverload" />
-      <recent name="D:\Murali\Progs\GitHub\PythonProgs\PythonBasics1\oops" />
+      <recent name="C:\Users\i335484\PycharmProjects\PythonMorning8\operatorOverload" />
+      <recent name="C:\Users\i335484\PycharmProjects\PythonMorning8\oopsconstr" />
+      <recent name="C:\Users\i335484\PycharmProjects\PythonMorning8\oops" />
+      <recent name="C:\Murali\Training\pythonWork\PySelenium\report" />
+      <recent name="C:\Users\i335484\PycharmProjects\PythonMorning8\strOper" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.assignment">
-    <configuration name="FuntionProg4Return" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.PersonPrivate">
+    <configuration name="DictOpedel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,11 +65,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonBasics1/functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonBasics1/collections" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBasics1/functions/FuntionProg4Return.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBasics1/collections/DictOpedel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,7 +78,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FuntionProg6OverloadNosupport" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,11 +86,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonBasics1/functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonBasics1/collections" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBasics1/functions/FuntionProg6OverloadNosupport.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBasics1/collections/Lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,49 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PersonStuEmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyTrain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonBasics1/oopshasA" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBasics1/oopshasA/PersonStuEmp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Prog1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyTrain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonBasics1/basics" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBasics1/basics/Prog1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="assignment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Multiple3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,7 +111,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBasics1/Inherit/assignment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBasics1/Inherit/Multiple3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,13 +120,70 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="PersonPrivate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTrain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonBasics1/oops" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBasics1/oops/PersonPrivate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Sets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTrain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonBasics1/collections" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBasics1/collections/Sets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in Ex1.py (1)" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="PySelenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../pythonWork/PySelenium/datapro" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../../pythonWork/PySelenium/datapro/Ex1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.assignment" />
-        <item itemvalue="Python.PersonStuEmp" />
-        <item itemvalue="Python.FuntionProg6OverloadNosupport" />
-        <item itemvalue="Python.FuntionProg4Return" />
-        <item itemvalue="Python.Prog1" />
+        <item itemvalue="Python.PersonPrivate" />
+        <item itemvalue="Python.DictOpedel" />
+        <item itemvalue="Python.Sets" />
+        <item itemvalue="Python.Lists" />
+        <item itemvalue="Python.Multiple3" />
       </list>
     </recent_temporary>
   </component>
@@ -197,38 +213,75 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587667397422">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="484" y="0" key="#Ex1" timestamp="1591010646675">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587667397422" />
-    <state x="452" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588569472114">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="484" y="0" key="#Ex1/0.0.1536.824@0.0.1536.824" timestamp="1591010646675" />
+    <state x="484" y="0" key="#Ex1_(1)" timestamp="1591095379723">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="0" key="#Ex1_(1)/0.0.1536.824@0.0.1536.824" timestamp="1591095379723" />
+    <state x="484" y="0" key="#Unittests_in_Ex1.py_(1)" timestamp="1596464241636">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="0" key="#Unittests_in_Ex1.py_(1)/0.0.1536.824@0.0.1536.824" timestamp="1596464241636" />
+    <state x="508" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597222444249">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="452" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1588569472114" />
-    <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1587629404296">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="508" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597222444249" />
+    <state x="521" y="132" key="FileChooserDialogImpl" timestamp="1591008696067">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587629404296" />
-    <state width="1308" height="155" key="GridCell.Tab.0.bottom" timestamp="1588567440047">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="521" y="132" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591008696067" />
+    <state width="1515" height="148" key="GridCell.Tab.0.bottom" timestamp="1598279035761">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1308" height="155" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588567440047" />
-    <state width="1308" height="155" key="GridCell.Tab.0.center" timestamp="1588567440047">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1515" height="148" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598279035761" />
+    <state width="1515" height="148" key="GridCell.Tab.0.center" timestamp="1598279035761">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1308" height="155" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588567440047" />
-    <state width="1308" height="155" key="GridCell.Tab.0.left" timestamp="1588567440046">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1515" height="148" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598279035761" />
+    <state width="1515" height="148" key="GridCell.Tab.0.left" timestamp="1598279035760">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1308" height="155" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588567440046" />
-    <state width="1308" height="155" key="GridCell.Tab.0.right" timestamp="1588567440047">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1515" height="148" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598279035760" />
+    <state width="1515" height="148" key="GridCell.Tab.0.right" timestamp="1598279035761">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1308" height="155" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588567440047" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1587667555928">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1515" height="148" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598279035761" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1598261055674">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587667555928" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598261055674" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1598261055674">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598261055674" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1598261055674">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598261055674" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1598261055674">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598261055674" />
+    <state x="207" y="0" key="SettingsEditor" timestamp="1596630088567">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="207" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596630088567" />
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1593526099986">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1593526099986" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596167079582">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596167079582" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -238,7 +291,38 @@
           <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../pythonWork/PySelenium/basics/Ex1.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../pythonWork/PySelenium/sele/Ex6Dropdown.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/PycharmProjects/PythonMorning8/basics1/Prog5.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/PycharmProjects/PythonMorning8/conditions/Ex1.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../pythonWork/PySelenium/datapro/Ex1.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>

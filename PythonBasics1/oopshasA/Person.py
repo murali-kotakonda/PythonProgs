@@ -55,6 +55,7 @@ p1.addr = a1
 
 
 #display data
+print("**********approach1**************")
 print(p1.id)
 print(p1.name)
 print(p1.age)
@@ -69,8 +70,6 @@ print("***********approach2****************")
 p1.showPersonInfo()
 
 p1.addr.showAddressInfo()
-
-
 #Person with 3 addresses
 #Person has address, emp has address, student has address
 
