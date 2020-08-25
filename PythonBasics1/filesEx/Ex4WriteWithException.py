@@ -24,7 +24,7 @@ f.write("how are you")
 f.close();
 
 try:
-   f =open("test.txt","w")
+   f =open("test.txt", "w")
    f.write("hello\r")
    f.write("user\n")
    f.write("how are you")

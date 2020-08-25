@@ -1,7 +1,6 @@
 Diff between c/c++/java vs python:
 ----------------------------------------
-
----> no main method 
+---> no main method
 --->  .py ==> python file or python module
 ----> a python file contains:
       global code

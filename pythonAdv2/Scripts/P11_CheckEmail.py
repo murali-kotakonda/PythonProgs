@@ -4,7 +4,7 @@
 # First turn on this: https://myaccount.google.com/lesssecureapps?pli=1
 
 import email, getpass, imaplib, os
-detach_dir = '.'                # directory where to save attachments (default: current)
+detach_dir = ''  # directory where to save attachments (default: current)
 # user = input("Enter your Gmail Username:")
 pwd = getpass.getpass("Enter your Gmail Password: ")
 # connecting to the gmail imap server

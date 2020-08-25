@@ -9,7 +9,7 @@ if __name__ == '__main__':
 
 
 try:
-    f =open("test.txt","w")
+    f =open("test.txt", "w")
     lines_of_text = ["a line of text\n", "another line of text\n", "a third line"]
     f.writelines(lines_of_text)
 except IOError:

@@ -9,7 +9,7 @@ if __name__ == '__main__':
 
 
 try:
-    f =open("test.txt","w")
+    f =open("test.txt", "w")
     f.write("hello");
 except IOError:
     print("invalid file operations");

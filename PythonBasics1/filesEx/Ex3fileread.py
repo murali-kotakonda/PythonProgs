@@ -1,6 +1,6 @@
 "read file"
 
-f3 = open("user.txt","r")
+f3 = open("user.txt", "r")
 print(f3.read()) #print all
 
 
