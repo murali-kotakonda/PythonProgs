@@ -1,7 +1,7 @@
 list = [1, 2, 3]
 try:
     print(list[2])
-    print(list[0]) #IndexError
+    print(list[7]) #IndexError
 except IndexError as ex:
     print("in except block")
     print("invalid access to list.")

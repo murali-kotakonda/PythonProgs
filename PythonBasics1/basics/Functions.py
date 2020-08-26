@@ -4,8 +4,7 @@
 #SYNATX : 1. def keyword to write a function 
 #         2. after def specify funtion name
 #         3. function can take any data type and can return any data type
-# use the indentation for the funtion body   
-from basics.StrOpereatiuons1 import str
+# use the indentation for the funtion body
 
 # create a funtion with no input and no output
 def sayHi():

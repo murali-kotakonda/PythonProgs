@@ -1,0 +1,69 @@
+
+
+
+Python:
+---------
+->simple
+[ easy to learn, write, read ]
+-> Supports both procedural programming + Object oriented programming
+-> interpretor [ compilation + execution ] convert from HLL to machine progrmming.
+-> no data type specification.
+-> ; is optional , [statement termination]
+
+
+other lang:                                 python
+--------------------------------------------------
+int x = 90;                                 x = 90
+// int is dt                                // 90 is value
+//x is variable                             // then datatype of x is int
+// 90 is value
+
+x= "hi";                                     x="cost of 90"
+                                            // cost of 90 is value
+                                            // data type of x is str
+
+-> to run prog in other langs :
+   1.compile all 100 lines
+   2. run each line
+   run is possbile only if compilation is succsful.
+
+-> to run prog in python lang :
+   1.compile line and run the line
+   run is possbile if is there is a  compilation issue.
+
+-> expressive language
+-> cross-platform
+->free & open source
+-> biggest library/ frameworks
+->integrated with c/c++/java
+->python acts as programming lang + scripting lang
+-> python progtamming + automation testing(selenium)
+-> apps:
+a) GUI
+B)web apps
+C)WEB services
+d)Scientific apps
+e)Data science or AI or ML or IOT
+f)enterprose apps ( bidadata, content , stream, 3D cad , image processing)
+
+-> Target audience:
+  Developers
+  testers
+  R&D
+  anaylt
+  datascientist
+  dev ops
+  scripting dev
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -12,9 +12,8 @@ class Person:
 p2 = Person(1000,"user1",67)
 p1 = Person(1000,"user1",67)
 
-
-
-if p2==p1: # internally calls __eq__
+# internally calls __eq__
+if p2==p1:
     print("p2 and p1 are duplicates")
 else:
     print("p2 and p1 are not duplicates")
