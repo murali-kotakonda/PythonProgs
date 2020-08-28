@@ -1,3 +1,36 @@
+"""
+
+private:
+---------
+if the instance variable or funtion is private
+then it cannot be accessed outside the class.
+
+
+How to make instance variable private?
+class Person:
+	id= None   # public
+	__id = None # private
+
+
+How to make funtion  private?
+class Person:
+	#public
+  def show(self):
+      print("")
+
+   #private
+   def __myShow(self):
+   		print("")
+
+
+
+Req:
+- Create person class with id, name , age as instance variables.
+-  id, name , age are private
+- provide setters and getters
+- create object and set the data and print the data
+"""
+
 class PersonInfo:
 
     def __init__(self, pId, pName, pAge):
@@ -7,7 +40,7 @@ class PersonInfo:
         # here __id , __name , __name are private [cannot access outside class]
 
     def show(self):
-        print(self.id,self.name,self.age)
+        print(self.__id,self.__name,self.__age)
 
    #provide the setter and getter methods
     # 3 setters and 3 getters
@@ -36,9 +69,6 @@ class PersonInfo:
         return "id={}, and name={}, age= {} , pan= {}".format(self.__id, self.__name,self.__age,self.pan)
 
 myObj = PersonInfo(12000, "raj kumar", 34)
-
-
-
 
 # access data
 # print(myObj.age)

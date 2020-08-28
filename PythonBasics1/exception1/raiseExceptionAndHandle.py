@@ -6,13 +6,14 @@ def div(n1,n2):
 
 
 
-print("hi")
 try:
-    div(6,0)
+    div(6, 2)
+    div(6, 0)
+    div(6, 3)
 except ArithmeticError as Obj:
     print("invalid input due to ",Obj)
 
-print("bye bye")
+print("end")
 
 
 

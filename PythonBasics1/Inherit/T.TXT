@@ -1,29 +1,35 @@
 Inheritence:
 
+-> relation between two classes
+-> IS-A
 -> there are two types of classes.
-  
   a)Parent class/Super class/Base class
   b)Sub class/child class/derived class
     
-    
-Public properties and methods are inherited/available to child classes.
+
+ Ex:
+ 1.Parent class : Loan
+ Child classes: Vehicleloan, marriageLoan, personalLoan
+
+ 2.Parent class : Account
+ Child classes: CurrentAccount , LoanAccount ,CreditCardAccount
+
+ 3.Parent class : Card
+ Child classes: CreditCard , DebitCard , VirtalCard
+
+
+Public properties and funtions are inherited/available to child classes from parent class.
 
 adv: 
 reusability of instance variables and methods
 
-
-
-
-
 Inheritence Types:
 ->Single-
 -> Multilevel
-->Hietrarchial
--?Multiple
+->Hierarchial
+->Multiple
 
-
-synatx:
-
+syntax:
 class Person :
 	  name=None
 	  age=None
@@ -36,14 +42,13 @@ class Person :
         print("in m3")
   
 
-class Employee(Person):#Employee is the child class and Person is parent class
+#Employee is the child class and Person is parent class
+class Employee(Person):
 	pan=None;
 	pfNo=None;
 
     def m2():
       print("in m2")
-
-
 
 
 
@@ -58,9 +63,9 @@ How many METHODS are in Employee :  2  ( m1()  & m2() )
 
 -> IS-A
 Inheritence is relatn between two classes ,
-but the parent child and child obj are indendent .
-  parent obj and child obj has no relationship.
+but the parent child and child obj are independent .
+parent obj and child obj has no relationship.
 
 
--> has-a relationship:
-relationship is BETween the classes and also BETween the objs.
+->  HAS-A
+relationship is Between the classes and also BETween the objs.

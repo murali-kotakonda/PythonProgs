@@ -1,3 +1,27 @@
+"""
+
+Person has id, name, age as instance variables
+Employee has id, name, age, pan, pfNo as instance variables
+
+create obj and set data for person and employee.
+
+w/o inheritence
+#Employee class as child
+class Employee :
+    pan= None
+    pfNo=None
+    id=None
+    name=None
+    age=None
+
+    def printEmp(self):
+        print(self.pan)
+        print(self.pfNo)
+        print(self.id)
+        print(self.name)
+        print(self.age)
+
+"""
 #Person class as parent
 class Person:
      id=None
