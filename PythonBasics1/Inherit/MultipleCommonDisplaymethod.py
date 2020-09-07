@@ -1,4 +1,3 @@
-#
 """
 
 Req:
@@ -13,8 +12,12 @@ Solution:
 -> Create Student class
 -> Create User class with Person , Student as parent classes
 
-same method name in all parent + child class
 
+Person constr has 2 args [ id,name ]
+Student constr has 1 arg  [ branch ]
+User constr has 4 args [id,name , branch ,pan ]
+    and call Student constr
+        call Person constr
 """
 class Person:
 
@@ -24,9 +27,6 @@ class Person:
 
     def printPerson(self):
         print(self.id, self.name)
-        
-    def save(self):
-        print("Person :: save")
 
 class Student:
 
@@ -35,30 +35,22 @@ class Student:
     
     def printStu(self):    
       print(self.branch)
-      
-    def save(self):
-        print("Student :: save")
 
 # User is child for both Person,Student
 class User(Person,Student):
-    def __init__(self,id,name,branch,pan):
+     def __init__(self,id,name,branch,pan):
         # call parent constr to init id,name,branch
         Person.__init__(self, id, name)
         Student.__init__(self, branch)
         self.pan = pan
     
-    def printUser(self):
+     def display(self):
+        self.printPerson()
+        self.printStu()
         print(self.pan)
-    
-    # overriding
-    def save(self):
-        print("User :: save")
 
+#create obj + set data
 u = User(1234,"kumar", "csc", "bncpk")
-u.printPerson() # logic from Person
-u.printStu() # logic from Student
-u.printUser() # logic from User
-u.save() # logic from User
 
-# when method is called using obj , 1st it wil check in same class
-# if not found, then it will look for parent class
+#print data
+u.display()

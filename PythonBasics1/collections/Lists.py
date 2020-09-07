@@ -1,7 +1,5 @@
-
-
+#Create a list with data
 myList = [12, 'krishna', 4587.432 ]
-
 
 
 # stores data of diff data types
@@ -18,27 +16,26 @@ print(myList[0])
 print(myList[2])
 
 
-# add new element to list
+
 # update the list or add element to list
+# add new element to list
 myList.append("bangalore")
 # myList[5] ="bangalore" # not supported for insert
 print(myList)
-
-
-# update an existing element
-myList[2] = 60000.78
-print(myList)
-
-
-
 
 
 # insert in between
 myList.insert(1, "myNewPancard")
 print(myList)
 
+# update an existing element
+myList[2] = 60000.78
+print(myList)
 
 
+# search by content
+print('bangalore' in myList)
+print('bangalore1' in myList)
 
 # find position of element ,   if element not found throws exception
 print(myList.index("krishna"))
@@ -55,9 +52,6 @@ del myList[1]
 print(myList)
 
 
-# search by content
-print('bangalore' in myList)
-print('bangalore1' in myList)
 
 
 cities = ['bangalore', 'chennai', 'mumbai', 'hyd']
@@ -70,7 +64,7 @@ else:
 
 
 
-print("****print all*****")
+print("*********iterate and print ************")
 for data in myList:
     print(data)
 

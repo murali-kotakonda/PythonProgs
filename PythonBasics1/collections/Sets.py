@@ -1,39 +1,24 @@
 # declaration of a set
 # will not allow duplicates
 # search by content is fast
+# insertion order is not maintained.
 # item
 
 
 myset = {1, 45, 3,4,1, 1, 23, 0, -1 }
 print(myset)
 
-
-
-
-
 # creating a set using a constructor
 mySet6 = set()
 print(mySet6)
-
 
 
 myset2 = {'sap', 'java', 'hana', 'sap', 'hadoop', 'angularjs', 'java'}
 print(myset2)
 
 
-
-
-
-
-
-
-
-
-
 myset3 = {1, 'kumar', 23, 'kumar', 23, 1}
 print(myset3)
-
-
 
 
 # to add entry into the set
@@ -68,8 +53,10 @@ myset4 = {1, 'raj', 23}
 myset5 = {'raj', 'banglalore', 'India'}
 
 # Plus operation is not applied for sets
-# Minus operation for sets :---- elements prest in set1 but not in set2
-print(myset4 - myset5)  # print wat is avilable in myset4 but not in myset5
+
+
+# Minus operation for sets :---- elements present in set1 but not in set2
+print(myset4 - myset5)  # print wat is available in myset4 but not in myset5
 print(myset5 - myset4)
 
 

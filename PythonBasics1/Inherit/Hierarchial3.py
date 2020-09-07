@@ -1,16 +1,12 @@
 """
 #requiremnet:
 # ICICI WANTS TO GIVE RATE OF ROI @ 15%
+RBI is a parent class
+SBI , HDFC , ICICI are the child classes for RBI
 
-#solution:????
-no need of logic from parent
-logic should come only from child
-======> method overriding [replace the parent logic]
-parent and child class will have the same methodName 
-but with diff logic 
-
-Logic will come from child class:::
-
+RBI: Parent class has
+       - createAccount()
+       - processLoan()   -> roi 10%
 
 
 HDFC :---> roi 10 % is fine on top of that i would like to charge
@@ -20,10 +16,7 @@ HDFC :---> roi 10 % is fine on top of that i would like to charge
 
 
 
-
-
-
-solutionn :
+solution :
 overriding + call parent method from child
 
 """
@@ -34,8 +27,7 @@ class RBI:
     def processLoan(self):
         print("RBI:: roi 10%")
     
-    def __processPPF(self):
-        print("RBI:: roi 10%")
+
 
 class SBI(RBI):
     def demat(self):

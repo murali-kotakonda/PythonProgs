@@ -17,7 +17,7 @@ import csv
 with open('students.csv') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
-        print(row['name'], row['sub1'],row['sub2'],row['sub3'])
+        print(row['Name'], row['sub1'],row['sub2'],row['sub3'])
 
 
 # opening the CSV file
@@ -50,6 +50,7 @@ with open(filename, 'r') as csvfile:
 
     # extracting field names through first row
     fields = csvreader.next()
+
 
     # extracting each data row one by one
     for row in csvreader:

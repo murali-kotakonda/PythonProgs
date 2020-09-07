@@ -40,6 +40,7 @@ ex: ADD "kumar" ,"kumar"  "kumar"
 List/Tuple : the no of elements is 3
 Set/Dict : the no of elements is 1
 
+
 Mutuable:
 can it be changed or altered ( add new element/ upddate existing / delete existing )
 Tuple is immutabled. once creaed it cannot be changed,
@@ -57,5 +58,12 @@ Dictionay
 data = dict()
 
 
+
+Req1: [serach by position ]
+list has 500 elements ,get element at 400 position
+
+
+Req2: [search by content]
+list has 500 cities ,check if "london" exists
 
 """

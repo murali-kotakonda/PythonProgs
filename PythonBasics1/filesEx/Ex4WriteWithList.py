@@ -3,7 +3,8 @@ Created on Aug 6, 2018
 
 @author: i335484
 '''
-
+#read from list and write to file
+#use writelines() method
 if __name__ == '__main__':
     pass
 

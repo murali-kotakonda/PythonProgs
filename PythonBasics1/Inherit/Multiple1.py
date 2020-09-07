@@ -1,3 +1,24 @@
+"""
+
+Req:
+Person: id,name
+Student : branch
+User : id,name , branch ,pan
+
+create obj for User , set data and display.
+
+Solution:
+-> Create Person class
+-> Create Student class
+-> Create User class with Person , Student as parent classes
+
+
+Person constr has 2 args [ id,name ]
+Student constr has 1 arg  [ branch ]
+User constr has 4 args [id,name , branch ,pan ]
+    and call Student constr
+        call Person constr
+"""
 class Person:
 
     def __init__(self, id, name):
@@ -26,7 +47,10 @@ class User(Person,Student):
      def printUser(self):
         print(self.pan)
 
+#create obj + set data
 u = User(1234,"kumar", "csc", "bncpk")
+
+#print data
 u.printPerson() # logic from Person
 u.printStu() # logic from Student
 u.printUser() # logic from User

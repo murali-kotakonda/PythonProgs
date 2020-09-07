@@ -1,3 +1,13 @@
+"""
+
+Person has id, name, age as instance variables
+Employee has id, name, age, pan, pfNo as instance variables
+
+create obj and set data for person and employee.
+
+
+
+"""
 #Person class as parent
 #logic inside a constr => to initialize the instace variables
 

@@ -8,56 +8,50 @@ Employee has id ,name , age , address [street , hno,  city , state, country , pi
 
 -> create obj and set the data and display the data
 
+
+Relation between Person and Address: Has-A
+Relation between Employee and Address: Has-A
+Relation between Person and Employee: Is-A
 '''
 
-if __name__ == '__main__':
-    pass
 
-class Person(object):
+class Address:
+    def __init__(self, street, city, pin, state,country):
+        self.street = street
+        self.city = city
+        self.pin = pin
+        self.state=state
+        self.country = country
 
-    def __init__(self, id , name, age):
-        self.id = id
-        self.name = name
-        self.age = age
-        
-    def getName(self):
-        return self.name
-    
-    def display(self):
-        print("printing from person" , self.id , self.name , self.age)
-
-
-class Emp(Person):
-    
-    def __init__(self, id, name, age, projId, deptId):
-        '''invoke parent constructor'''        
-        Person.__init__(self, id, name, age)   
-        self.projId = projId
-        self.deptId = deptId
-        
-    def display(self):
-        Person.display(self)
-        print("printing from emp" ,self.projId, self.deptId)
+    def showAddressInfo(self):
+        print(self.street)
+        print(self.city)
+        print(self.pin)
+        print(self.country)
+        print(self.state)
 
 
-class Staff(Emp):
-    
-    def __init__(self, id, name, age, projId, deptId, contactId,contarctPeriod):
-        '''invoke parent constructor'''        
-        Emp.__init__(self, id, name, age,projId,deptId) 
-        self.contactId = contactId
-        self.contarctPeriod = contarctPeriod
-    
-    def showStaff(self):
-        print("printing from staff",self.contactId, self.contarctPeriod)    
+class Person:
+    def __init__(self,id,name,age,addr=None):
+        self.id=id
+        self.name=name
+        self.age=age
+        self.addr = addr
+
+    def showPersonInfo(self):
+        print(self.id)
+        print(self.name)
+        print(self.age)
+        print(self.addr)
 
 
+class Employee(Person):
+    def __init__(self, id, name, age, pfNo, pan, addR):
+        Person.__init__(self, id, name, age,addR)
+        # calling parent constr from child constr
+        # reuse the initializn logic for id,name,age
+        self.pfNo = pfNo
+        self.pan = pan
 
-s1 =Staff(1201, "user2", 28, "proj77777", "IT" ,"c_88888","12 months")
-print(s1.getName())
-s1.display();
-s1.showStaff()
-
-
-
-
+    def printEmp(self):
+        print(self.pan)

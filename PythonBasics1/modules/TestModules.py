@@ -1,4 +1,4 @@
-import  Module1, Module2;
+import  Module1, Module2
 
 Module1.display("hello")
 Module2.display("kumar")
@@ -15,17 +15,16 @@ m.display("hello")
 n.display("hello")
 
 from Module1 import Person
-from Module1 import Person,display1
 #from Module1 import *
+
+from Module1 import Person,display1
+from Module2 import performSum
 
 p = Person()
 p.id=3344
 print(p.id)
 display1(899999)
-#display(89)
 
-
-from Module2 import performSum
 
 sumRes = performSum(10,20)
 print(sumRes)

@@ -18,22 +18,24 @@ print all odd numbers till input
 4.take number as input
 print multiplication table
 
+
 5.take size as input
 then takes numbers for size no of times.
 and
-find 1.sum 2.sib 3. small
+find 1.sum 2.big 3. small
 
 ex:
 enter size : 4
 enter n1 : 30
-enter n1 : 40
-enter n1 : 50
-enter n1 : 20
+enter n2 : 40
+enter n3 : 50
+enter n4 : 20
 
 o/p:
 sum : 140
 big : 50
 small : 20
+
 
 6. sum of nunmbers from 1 to 90
 

@@ -1,5 +1,16 @@
 import csv
+"""
 
+Write to CSV using dictonary:
+-------------------
+STEPS:
+
+1.create file object  -> mention filname
+2. CREATE DictWriter OBJECT using file obj
+3. USE writeheader()   -> 1 row , i/p:tuple
+  OR writerows() -> multiple rows i/p:tuple of tuples
+
+"""
 myData = [
         {'Name': 'User1', 'sub1': '100', 'sub2': '90', 'sub3': '80'},
         {'Name': 'User2', 'sub1': '100', 'sub2': '90', 'sub3': '80'},

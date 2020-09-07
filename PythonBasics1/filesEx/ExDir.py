@@ -1,15 +1,26 @@
 import os
-import os.path
+
 import struct
 from os import path
 
-
+# create a folder
+import os.path
 if not os.path.exists("test5"):
     os.mkdir("test5")
-os.chdir("test5")
-#os.rename('test5','test56')
-#os.rmdir("test5")
 
+# rename a folder
+import os.path
+os.rename('test5', 'test56')
+
+# remove a folder
+import os.path
+os.rmdir("test5")
+
+
+
+os.chdir("test5")
 #print(os.listdir())
-#os.listdir('C:\\')
+
+
+
 

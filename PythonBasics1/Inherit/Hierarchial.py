@@ -4,6 +4,22 @@ one parent having multiple child classes.
   RBI is a parent class
   SBI , HDFC , ICICI are the child classes for RBI
 
+
+RBI: Parent class has
+       - createAccount()
+       - processLoan()
+SBI is a child of RBI
+		   - demat1()
+HDFC is a child of RBI
+			  - demat2)
+ICICI is a child of RBI
+			  - demat3)
+
+Create obj for RBI , SBI , HDFC , ICICI and call the methods.
+
+
+
+
 """
 class RBI:
     def createAccount(self):
@@ -26,8 +42,18 @@ class ICICI(RBI):
         print("ICICI demat")
 
 
+"""
+How many methods in SBI?
+3 [createAccount() , processLoan(), demat1() ]
+
+How many methods in HDFC?
+3 [createAccount() , processLoan(), demat2() ]
+
+How many methods in ICICI?
+3 [createAccount() , processLoan(), demat3() ]
 
 
+"""
 
 
 

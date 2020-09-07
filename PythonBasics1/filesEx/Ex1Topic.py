@@ -1,4 +1,5 @@
-#The open() function takes two parameters; filename, and mode.
+#The open() function takes two parameters;
+# filename, and mode.
 # "r" - Read - Default value. Opens a file for reading, error if the file does not exist
 # 
 # "a" - Append - Opens a file for appending, creates the file if it does not exist
@@ -6,6 +7,11 @@
 # "w" - Write - Opens a file for writing, creates the file if it does not exist
 #
 # "x" - Create - Creates the specified file, returns an error if the file exists
+"""
+f = open("demofile.txt","r")
+f = open("demofile.txt","a")
+f = open("demofile.txt","w")
+f = open("demofile.txt","x")
 
 # In addition you can specify if the file should be handled as binary or text mode
 # 
@@ -24,6 +30,8 @@ f = open("demofile.txt", "rt")
 # 
 # The open() function returns a file object, which has a read() method for reading 
 # the content of the file:
+"""
+
 
 """
 Read Only (‘r’) : Open text file for reading. The handle is positioned at the beginning of the file. If the file does not exists, raises I/O error. This is also the default mode in which file is opened.

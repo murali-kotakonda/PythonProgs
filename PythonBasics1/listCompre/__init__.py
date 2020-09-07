@@ -3,6 +3,7 @@
 # Reference sequence
 # Predicate (Optional)
 
+#Ex1
 print("numbers square")
 mylist = [1, 2, 3, 4, 5, 6]
 
@@ -10,21 +11,33 @@ output =[]
 for number in mylist:
     output.append(number * number)
 print(output)
-
+"""
+Variable -> number
+Expression  -> number * number
+Reference -> mylist
+"""
 # approach2
+print("********************square of every number*******************************")
 output = [(number * number) for number in mylist]
 print(output)
 
+#Ex2
+mylist = [1, 2, 3, 4, 5, 6]
+print("********************add each num in second number*******************************")
 output = [(number) for number in mylist]
 print(output)
 
+#Ex3
+mylist = [1, 2, 3, 4, 5, 6]
+print("********************double of  each num in second number*******************************")
 output = [(number * 2) for number in mylist]
 print(output)
 
 output = [(number + 1) for number in mylist]
 print(output)
 
-
+#Ex4
+#split the word in sentence and add to list
 word = "Python#hana#sap#hana"
 letters = []
 for letter in word.split("#"):
@@ -36,8 +49,8 @@ word = "Python#hana#sap#hana"
 letters = [letter for letter in word.split("#")]
 print(letters)
 
-
-list_string = ['maNgo', 'BanAna', 'PytHoN iS Love', 'my Name IS Kuamr']
+#add upper for every word
+list_string = ['maNgo', 'BanAna', 'PytHoN iS Love', 'my Name IS Kumar']
 upperList = [sentence.upper() for sentence in list_string]
 print(upperList)
 
@@ -50,7 +63,9 @@ myList = [1, 2, 3, 4, 5, 6]
 evenList = [(number) for number in myList if number % 2 == 0]
 print(evenList)
 
-
+myList = [1, 2, 3, 4, 5, 6]
+oddList = [(number) for number in myList if number % 2 != 0]
+print(oddList)
 
 string_words =""
 word_list = string_words.split()

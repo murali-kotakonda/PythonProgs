@@ -12,7 +12,7 @@ def getConn():
 steps:
 1.Get connection
 2.Get cursor 
-use cursor obj for executing queries ( Create, Update, Select , update)
+use cursor obj for executing queries ( Insert, delete, Select , update)
 3.1 FOR INSERT/UPDATE/DELETE 
 call cursor.execute(<sql here>)  method
 
@@ -30,12 +30,12 @@ connection.commit()
 5.close connection
 connection.close()
 """
-def executeQuery(sql):
+def executeQuery(sql,data):
     rows = 0
     con = getConn()
     cursor = con.cursor()
     print("conn success")
-    cursor.execute(sql)
+    cursor.execute(sql,data)
     con.commit()
 
     print(cursor.rowcount, "record inserted.")

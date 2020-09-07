@@ -12,6 +12,8 @@ Steps:
 4.Create address obj with data
 5.keep adress obj inside person obj # relating the objs
 
+
+
 """
 
 class Person:
@@ -25,7 +27,7 @@ class Person:
         print(self.id)
         print(self.name)
         print(self.age)
-        print(self.addr)
+
 
 
 class Address:
