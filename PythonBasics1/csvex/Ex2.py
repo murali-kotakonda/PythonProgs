@@ -4,11 +4,11 @@ import csv
 Write to CSV using dictonary:
 -------------------
 STEPS:
-
+i/p : myData [dictionary ]
 1.create file object  -> mention filname
 2. CREATE DictWriter OBJECT using file obj
-3. USE writeheader()   -> 1 row , i/p:tuple
-  OR writerows() -> multiple rows i/p:tuple of tuples
+3. USE writeheader()  -> pass tuple for header   
+  OR writerows() -> pass  myData
 
 """
 myData = [
@@ -25,6 +25,7 @@ fields = ['Name', 'sub1', 'sub2', 'sub3']
 # name of csv file
 filename = "students1.csv"
 
+#csvfile = open("students1.csv", 'w',newline='')
 # writing to csv file
 with open(filename, 'w',newline='') as csvfile:
     # creating a csv dict writer object

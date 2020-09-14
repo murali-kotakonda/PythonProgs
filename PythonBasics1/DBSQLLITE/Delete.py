@@ -7,9 +7,9 @@ con = getConn()
 cursor = con.cursor()
 
 
-# SQL command to insert the data in the table
+# Delete the row whose id is 26
 sql_command = """DELETE FROM PERSON WHERE Id=?"""
-cursor.execute(sql_command,[24])
+cursor.execute(sql_command,[26])
 
 con.commit()
 print(cursor.rowcount, "record DELETED.")

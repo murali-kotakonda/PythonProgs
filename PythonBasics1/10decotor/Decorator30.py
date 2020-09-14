@@ -7,7 +7,9 @@ Synchronization
 """
 
 def myDecorator(funObj):
+    print("**********myDecorator outer*************")
     def alter():
+        print("**********alter inner*************")
         res = funObj()  # res = m1() , res will have 10
         res = res +100  # add 10 + 100
         return res
@@ -16,7 +18,7 @@ def myDecorator(funObj):
 
 @myDecorator
 def m1():
-    return 10;
+    return 10
 
 
 print(m1())

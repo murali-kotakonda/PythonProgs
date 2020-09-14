@@ -32,9 +32,13 @@ if(all(myConditions)):
     print("procced")
 else:
     print("stop")
-    
-print(chr(120)) # unicode to char
-print(ord('x')) # char to unicode
+
+# unicode to char
+print(chr(120))
+
+
+# char to unicode
+print(ord('x'))
 
 
 
@@ -52,7 +56,11 @@ printList(range(2, 5))
 
 printList(range(1, 10, 2))
 
-print(isinstance(12, int))
-print(isinstance('hello', int))
+#check for data type
+x= 12
+print(isinstance(x, int))
+
+x= 'hello'
+print(isinstance('hello', str))
 
 

@@ -5,10 +5,11 @@ Created on Aug 16, 2018
 
 
 '''
-
-import threading
 import time
 import _thread
+
+import threading
+
 
 class Mythread(threading.Thread):
 

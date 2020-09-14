@@ -9,10 +9,21 @@ def getConn():
 #except cx_Oracle.DatabaseError as e:
 
 """
+
+python     ----------->  Connection obj + cursor obj ------------------> Database
+                           [ C  R  U  D ]
+                           
+            
+for sqllite3
+-----------------------------
+import sqlite3
+
+                          
 steps:
 1.Get connection
 2.Get cursor 
 use cursor obj for executing queries ( Insert, delete, Select , update)
+
 3.1 FOR INSERT/UPDATE/DELETE 
 call cursor.execute(<sql here>)  method
 

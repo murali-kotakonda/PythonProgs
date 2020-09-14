@@ -1,3 +1,22 @@
+"""
+
+Table : PERSON
+columns:
+id
+name
+age
+salary
+
+SQL: 
+CREATE TABLE PERSON (  
+			ID INTEGER PRIMARY KEY,  
+			NAME VARCHAR(20),  
+			AGE INTEGER,  
+			SALARY INTEGER
+  );
+
+
+"""
 import sqlite3
 
 # connecting to the database

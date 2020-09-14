@@ -14,6 +14,7 @@ def myFun():
 
 def f3():
     print("F3 function")
+
 #call f1 function by passing funtn obj "myFun"
 # capture funtn obj "f2"
 

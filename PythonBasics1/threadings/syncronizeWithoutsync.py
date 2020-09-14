@@ -1,18 +1,18 @@
 import threading
 import time
 
-amount = 6000;
+amount = 6000
 
 class Mythread(threading.Thread):
     def __init__(self, name, withdraw):
         threading.Thread.__init__(self)
         self.name = name
-        self.withdraw = withdraw;
+        self.withdraw = withdraw
         
     def run(self):
-       global amount;
+       global amount
        time.sleep(3)
-       amount = amount - self.withdraw;
+       amount = amount - self.withdraw
        time.sleep(1)
        print("name = {} , withdraw= {} , final bal ={}".format(self.name ,self.withdraw ,amount))
 

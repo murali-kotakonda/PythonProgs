@@ -8,13 +8,13 @@ for root, dirs, files in os.walk(dir_path):
         if file.endswith('.txt'): 
             print(root+'/'+str(file))
 
-import os
 
-# This is to get the directory that the program is currently running in.
-dir_path = os.path.dirname(os.path.realpath(__file__))
+"""
+Read all the files/folders recursively for the given folder name:
 
-for root, dirs, files in os.walk("C:\\Users\\i335484\\OneDrive - SAP SE\\Desktop"):
-    print(root)
+"""
+for root, dirs, files in os.walk("C:\\test"):
+    print("**************************",root,"************************")
     print(dirs)
     print(files)
 

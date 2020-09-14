@@ -30,3 +30,14 @@ chart.add_data(data, titles_from_data=True)
 sheet.add_chart(chart, "E2")
 
 workbook.save("chart.xlsx")
+
+
+"""
+1.workbook obj
+2.sheet obj
+3.select the data for bar chart
+4.bar chart obj
+5.add data to chart
+6.add bar chart to the sheet
+
+"""

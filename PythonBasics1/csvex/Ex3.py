@@ -1,5 +1,6 @@
 import csv
 
+#file = open("students.csv", 'r', newline='')
 # opening the CSV file
 with open('students.csv', mode='r')as file:
     # reading the CSV file

@@ -3,7 +3,7 @@ Created on Aug 16, 2018
 
 @author: I335484
 
-
+main thread has to end after completing all threads
 '''
 
 import threading

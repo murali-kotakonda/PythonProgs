@@ -5,8 +5,8 @@ sheet = workbook.active
 sheet = workbook.create_sheet("Mysheet")
 
 sheet["A1"] = 60
-sheet["B1"] = 70
-sheet["C1"] = 80
+sheet["B1"] = 100
+sheet["C1"] = 90
 
 sheet["D1"] = "=AVERAGE(A1:C1)"
 sheet["E1"] = "=SUM(A1:C1)"

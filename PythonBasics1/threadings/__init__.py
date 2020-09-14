@@ -1,9 +1,12 @@
 """
 Threading:
 ------------
+-> concurrent programmimg/ parallel programming.
+
+
 -> by default single thread is created by python to run prog.
   
--> concurrent programmimg/ parallel programming.
+
   
   
 -> test 1000 test cases  on chrome , firefox , internet explorer.

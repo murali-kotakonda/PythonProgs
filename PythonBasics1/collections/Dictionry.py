@@ -5,10 +5,10 @@
 
 # key should be unique
 """
-#words :
-# how many times a word has been repeated
-#5 ,   ---> sap , hana , sap , hana, java
-# sap--> 2 , hana--> 2 , java --1
+words :
+ how many times a word has been repeated
+i/p: sap , hana , sap , hana, java
+o/p:  sap--> 2 , hana--> 2 , java --1
 
 
 # Requirement : words as input
@@ -23,6 +23,7 @@
 # keys are unique
 
 
+I/p:
 Deptid, Empid
 100 , 500
 101 , 800
@@ -63,10 +64,10 @@ myData = {
     "id" : 3456
 }
 """
-# there are three entries
-# name , age  id are the keys 
-#key and value are seperated by :
-# every entry is seperated by comma
+  there are three entries
+  name , age  id are the keys 
+ key and value are seperated by :
+  every entry is seperated by comma
 Keys are unique
 
 """
@@ -88,9 +89,9 @@ print(myData)
 print("add duplicate key")
 #update existing entry
 myData["name"] = "raj kumar"
-myData.update({"name":"shyam"})
-print(myData)
 
+print(myData)
+myData.update({"name":"shyam"})
 # length 
 print(len(myData))
 
@@ -106,7 +107,7 @@ print(myvalues)
 # iterate the dictionary
 print("printing entire dictinary")
 for k, v in myData.items():
-        print(k , v)
+        print("key = " , k ,  " value= " , v)
 
 
 #check if the key exists
@@ -125,46 +126,3 @@ del myData["name"]
 print(myData)
 
 
-
-############################################
-myMap = {
-    "1000":"user1",
-    "1001":"user2",
-    "1003":"user3",
-    "1004":"user4",
-    7890:14555,
-    67576:"shyam"
-    }
-
-print(myMap)
-
-
-print(myMap.get(67576))
-
-#add new key + value
-myMap.update({"1005":"user5"})
-print(myMap)
-
-# add same key with diff value
-myMap.update({"1000":"user500"})
-print(myMap)
-
-
-#update the existing key, value
-myMap["1000"] = "USER600"
-print(myMap)
-
-
-#GET ONLY KEYS
-print(myMap.keys())
-
-#GET ONLY values
-print(myMap.values())
-
-# traverse the entire dict
-for k,v in myMap.items():
-    print(k)
-    print(v)
-
-
-    

@@ -20,3 +20,19 @@ Raised when a sequence subscript is out of range. (Slice indices are silently tr
 
 exception KeyError
 Raised when a mapping (dictionary) key is not found in the set of existing keys.
+
+
+What is python role?
+->python creates the exception object based on the reason
+->Exception obj contains the exception msg + what are the class+method+line nos involved for exeption(stacktrace)
+->python stops the application flow..
+
+
+How to do exception handing:
+-------------------------------------------
+Introduce 4 blocks:
+try  :  write code that has chances for exception
+except : write exception handling code ; executed when there is a exception
+else : write success  code ; executed when there is no exception
+finally : executed every time. optional most of the cases. Required for handling 3rd party resources
+

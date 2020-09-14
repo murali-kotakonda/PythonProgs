@@ -79,6 +79,7 @@ print("Day of week: ", now.strftime("%A"))
 print("Day of week: ", now.strftime("%a"))
 print("Time: ", now.time())
 
+
 print("************************string to datetime.**********************************")
 # program to convert a string to datetime.
 """
@@ -86,7 +87,8 @@ strftime -> obj to str
 strptime -> str to obj
 """
 from datetime import datetime
-date_object = datetime.strptime('Jul 1 2014 2:43PM', '%b %d %Y %I:%M%p')
+dateStr= 'Jul 1 2014 2:43PM'
+date_object = datetime.strptime(dateStr, '%b %d %Y %I:%M%p')
 print(date_object)
 
 

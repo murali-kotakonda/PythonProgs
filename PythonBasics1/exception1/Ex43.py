@@ -1,5 +1,9 @@
 
 #group all exceptions
+"""
+for ValueError,IndexError,ArithmeticError --> print Client error
+for any exception --> print server error
+"""
 intNum = 0
 arr = [1, 2, 3, 4, 7]
 try:

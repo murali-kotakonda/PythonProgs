@@ -10,7 +10,7 @@ def writeContent(f):
 #f = open("C:/Python33/README.txt") 
 #writeContent(f)
 
-    
+#to create file os.chdir('C:\\test')
 f = open("user.txt", "w")
 
 print(f.mode)
@@ -24,7 +24,7 @@ print(f.writable())
 print("Last modified: %s" % time.ctime(os.path.getmtime("test.txt")))
 print("Created: %s" % time.ctime(os.path.getctime("test.txt")))
 
-
+print('Size         :', os.path.getsize(f.name))
 
 
 

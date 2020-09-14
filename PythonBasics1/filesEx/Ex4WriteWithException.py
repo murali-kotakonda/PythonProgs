@@ -17,9 +17,9 @@ f.close();
 
 f = open("test.txt", "a")
 
-f.write("hello1\r")
-f.write("user\n")
-f.write("how are you")
+f.write("hello11111\r")
+f.write("user1111111\n")
+f.write("how are you11111111")
 
 f.close();
 

@@ -3,7 +3,9 @@ from openpyxl import Workbook
 
 #Example2
 workbook = load_workbook(filename="response.xlsx")
+
 print(workbook.sheetnames)
+
 sheet = workbook.active
 print(sheet.title)
 
@@ -12,7 +14,9 @@ print(cell.value)
 
 
 print("rows=",sheet.max_row)
-print("rows=",sheet.max_column)
+print("columns=",sheet.max_column)
+
+#read particular cell
 print(sheet.cell(row=1, column=1).value)
 
 print("**********print entire sheet*****************")
@@ -28,6 +32,7 @@ for row in range( 1, sheet.max_row + 1 ):
         value = sheet[ row ][ col ].value
 
 
+print("**********print entire sheet*****************")
 
 for row in workbook[ "sheet1" ].rows:
     for cell in row:
@@ -56,7 +61,7 @@ cells = sheet[5]
  # Get all cells for a range of rows
 cells = sheet[5:6]
 
-print("rowssssssssssssss")
+print("selected read by row and column")
 for row in sheet.iter_rows(min_row=1,
                           max_row=2,
                             min_col=1,

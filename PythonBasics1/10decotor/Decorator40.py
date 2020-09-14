@@ -12,7 +12,7 @@
 #       decorator ----> caller
 # b)    if decortore decides to deny  decoratir---- > caller
  
-
+#print "numbers cannot be negative, cannot call the function" if num1 or num2 is negative
 def checkNegative(func):
     def operation(n1,n2):
         if n1<0 or n2 <0:

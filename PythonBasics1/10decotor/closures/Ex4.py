@@ -13,12 +13,14 @@ def f2(text):  # input is str
 def greet(func):  # input is fun obj
     greeting = func("hello user how are you")
     print(greeting)
-
+"""
+pass f1 obj and f2 obj as args to greet
+"""
 
 f1Obj = f1
 f2Obj = f2
 
 
-greet(f1Obj) #call greet funcyon by passing f1 obj
-greet(f2Obj) #call greet funcyon by passing f2 obj
+greet(f1Obj) #call greet funt by passing f1 obj
+greet(f2Obj) #call greet funt by passing f2 obj
 

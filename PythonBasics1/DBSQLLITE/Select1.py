@@ -1,3 +1,13 @@
+"""
+
+SELECT * FROM person   -> Get all rows and all  columns values
+SELECT ID,NAME  FROM person -> Get all rows and fetch only ID,NAME  column values
+SELECT * FROM person where ID=?   -> Get  all  columns values for a row  whose ID = 26
+SELECT * FROM person where NAME=?   -> Get  all  columns values for a row  whose NAME = KUMAR
+SELECT ID FROM person where NAME=? -> Get  Only Idcolumn value for a row  whose NAME = KUMAR
+
+"""
+
 from conn import getConn
 
 con =getConn()
@@ -5,11 +15,11 @@ cursor = con.cursor()
 
 print("conn success")
 
-
+#Get all rows
 cursor.execute("SELECT * FROM person")
-myresult = cursor.fetchall()
-for x in myresult:
-  print(x)
+rows = cursor.fetchall() # returns list of tuples
+for row in rows:
+  print(row)
 
 if cursor:
     cursor.close()

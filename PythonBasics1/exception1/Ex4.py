@@ -1,4 +1,4 @@
-# seperate except fro every error
+# seperate except for every error
 intNum = 0
 arr = [1, 2, 3, 4, 7]
 try:

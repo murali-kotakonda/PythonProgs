@@ -1,4 +1,19 @@
 """
+
+can a dev creats exception?
+YES
+
+STEPS:
+1.Create exception obj
+2.raise the exception
+
+syntax:
+
+ex = ArithmeticError("NUM2 cannot be zero")
+raise ex
+
+
+
 Req: Perform div of two nums
 if the second num is zero then throw exception
 """
