@@ -30,7 +30,7 @@ print(mysum(10,20))
 i/P : x,y
 expresion :  x+y
 """
-sum = lambda a,b: (a+b)
+sum = lambda x,y: (x+y)
 print (sum(1, 2))
 
 ###############################################################################################################
@@ -43,7 +43,8 @@ expresion :  x+10
 """
 f = lambda x: x+10
 print(f(5))
-
+##################################################################################
+# lambda for sum of 3 nums
 x = lambda a, b, c : a + b + c
 print(x(5, 6, 2))
 
@@ -55,15 +56,17 @@ def bigger(x,y):
         return y
  
 print(bigger(20,13))
-f1 = lambda x,y : x if x>y else y
-print(f1(10,9))
-print(f1(50,78))
+print(bigger(3,14))
+
+big = lambda x,y : x if x>y else y
+print(big(10,9))
+print(big(50,78))
 
 
 print("******************** printing   even2 *******************************")
 li = [1,2,3,4,5,6,7,8,9,10]
-evenFun = lambda x: x%2==0
-evenNumbers = filter(evenFun, li)  # lambda funtion + input list
+isEven = lambda x: x%2==0
+evenNumbers = filter(isEven, li)  # lambda funtion + input list
 for e in evenNumbers:
    print(e)
 

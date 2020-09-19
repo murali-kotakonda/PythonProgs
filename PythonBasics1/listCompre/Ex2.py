@@ -1,3 +1,6 @@
+#add 1 to 100 to list using list comprehension
+
+#add even no  from 2 to 500 in a list
 a = [i for i in range(1, 100)]
 print(a)
 

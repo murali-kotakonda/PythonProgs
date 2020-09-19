@@ -11,19 +11,22 @@ print(sheet.title)
 
 cell = sheet["A1"]
 print(cell.value)
+print(sheet["B1"].value)
+print(sheet["C1"].value)
+#read particular cell
+print(sheet.cell(row=1, column=1).value)
 
 
 print("rows=",sheet.max_row)
 print("columns=",sheet.max_column)
 
-#read particular cell
-print(sheet.cell(row=1, column=1).value)
+
 
 print("**********print entire sheet*****************")
 for row in sheet.rows:
     print("")
-    for c in row:
-        print(c.value, end= "  ")
+    for cell in row:
+        print(cell.value, end= "  ")
 
 
 
@@ -43,23 +46,24 @@ for row in workbook[ "sheet1" ].rows:
 
 """
 
-rows = sheet["A1:C1"]
+
 print("A1 TO C1")
+rows = sheet["A1:C1"]
 for row in rows:
     for c in row:
         print(c.value)
 
 # Get all cells from column A
-cells = sheet["A"]
+rows = sheet["A"]
 
 # Get all cells for a range of columns
-cells = sheet["A:B"]
+rows = sheet["A:B"]
 
  # Get all cells from row 5
-cells = sheet[5]
+rows = sheet[5]
 
  # Get all cells for a range of rows
-cells = sheet[5:6]
+rows = sheet[5:6]
 
 print("selected read by row and column")
 for row in sheet.iter_rows(min_row=1,

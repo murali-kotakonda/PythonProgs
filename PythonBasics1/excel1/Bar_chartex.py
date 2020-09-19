@@ -19,6 +19,16 @@ rows = [
 for row in rows:
     sheet.append(row)
 
+
+#bar chart
+#what data to show  -> reference
+#where to show -> sheet info
+#add refernce to chart
+#add chart to sheet
+
+
+
+
 chart = BarChart()
 data = Reference(worksheet=sheet,
                  min_row=1,

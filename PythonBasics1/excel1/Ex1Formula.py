@@ -1,5 +1,13 @@
 from openpyxl import Workbook
 #The recommended package for reading and writing Excel 2010 files (ie: .xlsx)
+
+"""
+Write to excel with formula:
+-----------------------
+60 100 90 83.33333333	250
+
+"""
+
 workbook = Workbook()
 sheet = workbook.active
 sheet = workbook.create_sheet("Mysheet")
