@@ -36,22 +36,6 @@
 #if not print service not provided
 
 
-#loops
-#Print even nums till input
-#Print odd nums till input
-#Find the sum of given input Nums
-#Find the bigNum and smallNum for given inputs
-#Display the multiplication Table
-#enter words and end prog only after entering bye
-#Find the Factorial of a Number
-#Find the Fibonosis till that number
-#sum of numbers from 1 till the input
-#Find the rank for given studnet Name , sub1 , sub2 , sub3
-# take size as input : 3
-# user1 70 , 80 90
-# user2 100 90 100
-# user3 100 80 70
-
 
 
 #Write a Python program to count the number of even and odd numbers from a series of numbers

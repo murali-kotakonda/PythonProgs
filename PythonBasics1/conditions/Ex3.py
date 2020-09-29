@@ -1,3 +1,11 @@
+"""
+//take input for id , age
+//validate id & age
+//if id is positive print valid id , if not print invalid id
+//if age is greater than 18 print valid age else print invalid age
+//if usertype is "admin" print valid usertype else print invalid usertype
+"""
+
 id=int(input("enter id value"))
 age=int(input("enter age"))
 usertype=input("entyer user type")

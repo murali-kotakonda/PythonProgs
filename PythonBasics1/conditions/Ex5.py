@@ -1,3 +1,8 @@
+
+"""
+ Take two numbers as input and find the big number
+
+"""
 num1 = int(input("Enter num1"))
 num2 = int(input("Enter num2"))
 num3 = int(input("Enter num3"))
