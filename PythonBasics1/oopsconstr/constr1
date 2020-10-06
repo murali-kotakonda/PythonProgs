@@ -1,11 +1,20 @@
+assignment using constr.:
+--------------------------
+student has branch , sem,  rollNum
+create obj and set data and print the data.
+
+
+
 Constructor:
 -------------------
 When obj is created constr is called automatically.
 With constr we can set the data during obj creation.
 -> constr has to be written inside the class
  A constr is called only one time for one obj..
+ Constr doesnt have any return type.
+
 Constr name is equal to __init__(self):
-Constr doesnt have any return type.
+
 
 purpose :
 initialize the values for properties/instance variables during obj creation
@@ -37,6 +46,49 @@ p = Person(200,"user1",45) # create obj + set the data
 
 
 
+Changes for class:
+-----------------
+
+
+Req:
+Create class for person with id,name , age as instance variables.
+
+Earlier:
+-------
+class Person:
+
+  id= None
+  age= None
+  name= None
+
+#id, name , age are insance variables.
+
+P = Person()  #create obj
+
+#set data
+p.id=2000
+p.name="user1"
+p.age=45
+
+
+
+Now:
+--------------------
+class Person:
+
+   def __init__(self,pId,pName,pAge):
+      print("constr is called")
+      self.id=pId
+      self.name=pName
+      self.age=pAge
+
+#__init__ is the constructor
+#pId,pName,pAge are the local variables
+#self is the defalut param to the constr.
+#here id, name, age are the instance variables
+
+p = Person(2000,"user1", 45) # internally calls __init__(self) automatically
+
 
 
 
@@ -47,45 +99,6 @@ Now:
 	create obj + set data
 
 
-
-
-
-syntax:
-
-earlier:
-class Person:
-  	 id=None
-   	 age=None
-     name=None
-
-P = Person()  #create obj
-
-#set data
-p.id=2000
-p.name="user1"
-p.age=45
-
-
-Now:
-class Person:
-   def __init__(self,pId,pName,pAge): # this is a constr;
-      print("constr is called")
-
-      self.id=pId
-      self.name=pName
-      self.age=pAge
-
-      #here id, name, age are the instance variables
-      #pId,pName,pAge are the local variables
-      #self is the defalut param to the constr.
-
-
-
-Now:
-
-p = Person(2000,"user1", 45) # internally calls __init__(self) automatically
-
-Here id, name, age are instance variables.
 
  
  //diff between constr and instance funtion.

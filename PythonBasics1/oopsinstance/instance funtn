@@ -2,11 +2,36 @@ instance function or method:
 ---------------------------
 -> write inside the class
 ->  instance function can be called only using the object.
--> from a  instance function can access the instance variables of the object using 'self'
+-> from a  instance function we can access the instance variables of the object using 'self'
  self:
     - self refers to the current obj under execution
     - every method inside class has self as default argument and the 1st argument.
     - self being 1st argument is mandatory
+
+ex:
+def display(x):
+    print(x)
+
+
+class Data:
+
+  def show(self):
+     print("hello")
+
+
+# Data is the class
+# display  is a global funtion [ outside the class ]
+# show is a instance function [ inside the class ]
+
+syntax for calling the instance method:
+--------------------------------------------
+
+#create the object
+d = Data()
+
+#call the method uisng the object
+d.show()
+
 
 
 Object is the default arg available to the instance method in the form of self.

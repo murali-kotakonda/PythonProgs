@@ -1,28 +1,29 @@
 class Person:
     def __init__(self,pId,pName,pAge):
+        print("constr is called")
         self.id=pId
         self.name=pName
         self.age=pAge
 
-    def show(self):
-            print(self.id)
-            print(self.name)
-            print(self.age)
+# Person is the class ,
+# __init__ is the  constructor
 
-    def __str__(self):
-        '''return "id =" + str(self.__id) +", nanme="+self.__name'''
-        return "id={}, and name={}, age= {} , pan= {}".format(self.id, self.name,self.age)
+#create obj & set data
+p1 = Person(1000,"kumar",43)  # internally calls   __init__
+p2 = Person(2000,"raj",33)  # internally calls   __init__
 
-#create obj with data
-p=Person(2000,"USER1",45)
-
-p1=Person(2001,"user2",47)
-p1.name="user5" #change only the name
-
-print(p.id)
-print(p.name)
-print(p.age)
-
+print("***************show p1********************")
+#print
 print(p1.id)
 print(p1.name)
 print(p1.age)
+
+print("***************show p2********************")
+#print
+print(p2.id)
+print(p2.name)
+print(p2.age)
+
+
+
+

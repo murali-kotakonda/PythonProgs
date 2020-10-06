@@ -5,7 +5,7 @@
 
 #Print odd nums till input
 
-#Find the sum of given input Nums
+#Find the sum of 1st  input Nums
 i/p: 5
 perform 1+2+3+4+5
 O/p : 15
@@ -21,6 +21,7 @@ O/p : 120
 #enter words and end prog only after entering bye
 #Find the Fibonosis till that number
 #sum of numbers from 1 till the input
+
 #Find the rank for given studnet Name , sub1 , sub2 , sub3
 # take size as input : 3
 # user1 70 , 80 90
@@ -106,6 +107,7 @@ for i in range(n,0,-1):
 
 I/p: 5
 
+O/p:
 1
 1 2
 1 2 3
@@ -114,6 +116,7 @@ I/p: 5
 
 
 i/p:5
+O/p:
 5 4 3 2 1
 5 4 3 2
 5 4 3
@@ -122,6 +125,7 @@ i/p:5
 
 
 i/p:5
+O/p:
 1
 2 3
 4 5 6

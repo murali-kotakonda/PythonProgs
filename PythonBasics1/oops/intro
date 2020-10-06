@@ -4,28 +4,33 @@ OOps:
 -> modern programing
 -> defines common rules, regulations , guidelines for writing the progs.
 
+
+can a dev create his own data type?
+Yes using a class
+class is also a data type.
+
 # Class
 --------------------------
- -> Userdefined datatype
+-> Userdefined datatype
 -> Class is used to represent the real time entities/structure/model.
-ex: Company, Branch , Dep, sub-dept, Project , Employee ,
+ex: Company, Branch , Dep, sub-dept, Project , Employee ,Address
 -> Class doesnt contain any data.
 -> class is created before run-time
 ->class is a logical representation
 ->class is a template
 
 
--> Class is  block for instance varibles + functions
-    a)insatance variables to hold data for entity
-    b)funtion logic would operate on instance varibles
+-> Class is  block for instance variables + instance functions
+    a)instance variables to hold data for entity
+    b)instance funtion logic would operate on instance variables
 
 
-x=90 #global variable
 
+z=90  #global variable
 
 def sum(x,y):  #global funtion
-  s = x+y    # local variables are x, y , s
-  print(s)
+     s = x+y    # local variables are x, y , s
+     print(s)
 
 
 class Person:
@@ -38,6 +43,11 @@ class Person:
 	def show(self):
 		print("hello inside show")
 .......
+
+Person is also a datatype
+
+creating the variable/instance for person datatype ===> object
+
 
 Object:
 ---------

@@ -1,0 +1,29 @@
+conditions:
+
+conditional block(code) will be executed only if the certain condition is satisfied.
+
+ex:
+if
+if else
+if elif
+
+
+
+conditions for int/float:
+--------------------------
+==
+!=
+>
+<
+>=
+<=
+
+
+condition for str:
+-----------------------
+==
+!=
+
+
+
+
