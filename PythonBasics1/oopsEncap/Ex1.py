@@ -1,3 +1,15 @@
+"""
+
+
+Ex1:
+Req: create obj , set data display
+
+hint:
+make instance variables private
+
+
+"""
+
 class PersonInfo:
 
     def __init__(self, pId, pName, pAge):
@@ -13,4 +25,13 @@ class PersonInfo:
 
 p1 = PersonInfo(10000,"shyam",34)
 p1.show()
+
+
+
+#here  PersonInfo is the class
+#__id , __name , __name are  instance varioables
+#show() is instance method and is public
+#__process() is instance method and is private
+
+#private cannot be accessed outside the class
 
