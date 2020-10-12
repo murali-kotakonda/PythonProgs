@@ -11,9 +11,9 @@ RBI: Parent class has
 SBI is a child of RBI
 		   - demat1()
 HDFC is a child of RBI
-			  - demat2)
+			  - demat2()
 ICICI is a child of RBI
-			  - demat3)
+			  - demat3()
 
 Create obj for RBI , SBI , HDFC , ICICI and call the methods.
 

@@ -1,6 +1,5 @@
-"""
 #requiremnet:
-# ICICI WANTS TO GIVE RATE OF ROI @ 15%
+"""
 RBI is a parent class
 SBI , HDFC , ICICI are the child classes for RBI
 
@@ -9,12 +8,8 @@ RBI: Parent class has
        - processLoan()   -> roi 10%
 
 
-HDFC :---> roi 10 % is fine on top of that i would like to charge
-           rs.2000
-       roi 10% from RBI and additional charge 2000    
-
-
-
+HDFC :---> roi 10 % is fine on top of that HDFC would like to charge Rs.2000.
+          Roi 10% should come from RBI and additional charge 2000 should come from HDFC
 
 solution :
 overriding + call parent method from child
@@ -47,7 +42,7 @@ class HDFC(RBI):
 
 
 
-#crate obj
+#create obj
 print("**********SBI**********")
 sbi = SBI()
 sbi.createAccount() # LOGIC FROM RBI
@@ -57,12 +52,12 @@ sbi.demat() # LOGIC FROM SBI
 print("**********HDFC**********")
 h = HDFC()
 h.createAccount()# LOGIC FROM RBI 
-h.processLoan()# LOGIC FROM RBI
+h.processLoan()# LOGIC FROM HDFC + RBI
 h.demat() # LOGIC FROM HDFC
 
 print("**********ICICI**********")
 i = ICICI()
 i.createAccount() # LOGIC FROM RBI
-i.processLoan() # LOGIC FROM ICICI
+i.processLoan() # LOGIC FROM RBI
 i.demat() # LOGIC FROM ICICI
         

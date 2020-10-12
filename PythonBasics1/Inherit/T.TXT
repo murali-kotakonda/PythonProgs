@@ -22,6 +22,8 @@ Public properties and funtions are inherited/available to child classes from par
 
 adv: 
 reusability of instance variables and methods
+write instance variables and methods for parent and reuse for parent and child
+
 
 Inheritence Types:
 ->Single-
@@ -41,6 +43,17 @@ class Person :
       def __m3():
         print("in m3")
   
+#Person is a class
+#name, age, id are instance variables
+#m1 is public method
+#m3 is private mthod
+
+
+How to make employee class as child class for Person:
+--------------------------------------------------------
+class Employee(Person): #Now Employee is the child of Person class
+   <some code>
+
 
 #Employee is the child class and Person is parent class
 class Employee(Person):

@@ -11,10 +11,12 @@ create obj and set data for person and employee.
 #Person class as parent
 #logic inside a constr => to initialize the instace variables
 
-
+#__init__ is the constructor we need to write for Person and Employee.
 #Person constr HAS 3 args
 #Employee constr has 5 args
 #From empl constr we need to call the person constr
+
+
 class Person:
     def __init__(self,id,name,age):
         self.id=id

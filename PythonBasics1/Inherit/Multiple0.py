@@ -9,7 +9,7 @@ class Employee:
 class Staff(Employee , Person):   # Staff is child class for Employee and Person
 
 
-#Staff will inherit props + methods from class Staff(Employee , Person):
+#Staff will inherit props + methods from Employee , Person.
 
 
 Req:
@@ -47,7 +47,7 @@ class User(Person,Student):
 
 
 # How many i.v. are there in User :  4  [ id , name , branch , pan]
-# How many methiods are in User: 3  [printPerson()  printStu()  printUser()   ]
+# How many methods are in User: 3  [printPerson()  printStu()  printUser()   ]
 
 
 #create obj

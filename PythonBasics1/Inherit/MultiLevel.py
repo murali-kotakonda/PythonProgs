@@ -1,4 +1,9 @@
 """
+Person has id,name, age
+Employee has id,name, age , pan , pf
+Staff has id,name, age , pan , pf , contractId , contractPeriod.
+
+
 Multi Level :
 --------------------
  [Threee class
@@ -12,6 +17,14 @@ Person has  -> id,name, age
 Employee has -> id,name, age, pan, pfNo
 Staff has - > id,name, age, pan, pfNo,   contactId,contarctPeriod
 
+Person , employee , staff objs are independent.
+
+How many methods are there in Staff class:??
+->3
+	showPersonalInfo()
+	printEmp()
+	displayStaff()
+
 
 Person  constr has  3 args
 Employee constr has  5 args
@@ -20,14 +33,6 @@ Staff has  constr has  7 args
 Employee constr will call person constr
 Staff constr will call the employee constr
 
-
-Person , employee , staff objs are independent.
-
-How many methods are there in Staff class:??
-->3
-	showPersonalInfo()
-	printEmp()
-	displayStaff()
 
 """
 
