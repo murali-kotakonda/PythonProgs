@@ -29,3 +29,35 @@ print(intList.count(1))  # frequency
 #Take the input for no of employee ; and take id,name,age   for every employee
 store in list and print
 store in set[avoid duplicates] and print
+
+
+
+# Requirement : words as input
+# find word count
+# Collection ----> person objs . p1,p2,p3,p4,p5,p6.
+#  find p6 ----> set
+
+words :
+ how many times a word has been repeated
+i/p: sap , hana , sap , hana, java
+o/p:  sap--> 2 , hana--> 2 , java --1
+
+
+I/p:
+Deptid, Empid
+100 , 500
+101 , 800
+105, 64544
+100 , 800
+200 , 765
+101, 8754
+100 , 790
+200 , 2333
+
+
+
+o/p:
+100     ---> 500, 790, 800
+101    ----> 810,8754
+105  ---> 64544
+200   ---> 2333, 765

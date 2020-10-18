@@ -6,6 +6,9 @@ Collections/Data Structures:
 ->Is required when we have large group of data.
 -> collecting and manipulating a group of objects.
 ->Operations : searching, sorting, insertion, manipulation, deletion, updation.
+
+collection supported in python:
+---------------------------
 -> List
 ->Tuple
 ->Set
@@ -23,28 +26,32 @@ insert/delete/update/read based on positions.
 position starts from 0
 1st element is added at 0 position.
 2nd element is added at 1 position.
+list and tuple supports the index based operations.
 ........
 
 
 Insertion order:
 The order in which the elements are added === the order in which the elements are stored.
 add: 50 , 60 , 10 , 67 , 100, 3
-Read: List/ Tuple o/p: 50 , 60 , 10 , 67 , 100, 3
-Set/Dict stores the elements in random order.
+Read:
+List/ Tuple o/p: 50 , 60 , 10 , 67 , 100, 3
+Set/Dict  : 60 , 50 ,  100, 3 ,  67  ,10
+[stores the elements in random order.]
 
 
 Allow duplicate:
-List and Tuple will add duplicate elements.
-set and dict avoids duplicates.
+List and Tuple will allowsset and dict avoids duplicates.
 ex: ADD "kumar" ,"kumar"  "kumar"
 List/Tuple : the no of elements is 3
-Set/Dict : the no of elements is 1
+Set/Dict : the no of elements is 1 [no duplicate elements.]
 
 
 Mutuable:
-can it be changed or altered ( add new element/ upddate existing / delete existing )
+can it be changed or altered ( add new element/ update existing / delete existing )
 Tuple is immutabled. once creaed it cannot be changed,
 
+syntax:
+-----------------
 List:
 data = [] or data = list()
 

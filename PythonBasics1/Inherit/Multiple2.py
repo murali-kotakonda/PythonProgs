@@ -62,3 +62,10 @@ u.save() # logic from User
 
 # when method is called using obj , 1st it wil check in same class
 # if not found, then it will look for parent class
+
+"""
+when a method is called using the object,
+python checks whether method is available in same class
+if not found then python will look into the parent class
+
+"""

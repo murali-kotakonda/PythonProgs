@@ -111,6 +111,14 @@ print(intList.count(1))  # frequency
 # empty list
 myList.clear()
 
+
+
+
+
+
+
+
+
 """
 
 # slicing
