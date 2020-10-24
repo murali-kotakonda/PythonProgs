@@ -1,5 +1,21 @@
 import logging
+"""
+input id,age ,usertype
+perform validation for id,age ,usertype
 
+id validation ===> id < 0 is invalid
+age validation ===> age < 18 is invalid
+usertype validation ==> only 'admin' and 'agent' allowed
+
+use exception and execption handling to perform validation
+
+if any data is invalid stop prog prnt error message
+if all data is valid print valid data
+
+
+
+
+"""
 class ServiceException(Exception):
 
     def __init__(self, errorCode, errorMsg):

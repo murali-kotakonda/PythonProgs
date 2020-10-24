@@ -7,21 +7,20 @@ class MyException(Exception):
         self.errorMsg = errorMsg
 
 
-# raise exception if input is < 0
 
-def f1(n):
-    if n < 0:
+
+#raise exception
+def square(num):
+    if num<0:
         raise MyException("erro1", "Negative numbers not allowed")
-    print("result", n * 2)
+    print("square =" , num*num)
 
 
-# handle exception
+
 try:
-    f1(1)
-    f1(-10)
+    num1 = int(input("enter num"))
+    square(num1)
 except MyException as ex:
-    print("failed execution due to ", ex.errorMsg)
+    print("operation failed due to ", ex.errorMsg)
 else:
-    print("success")
-
-
+    print("operation success")

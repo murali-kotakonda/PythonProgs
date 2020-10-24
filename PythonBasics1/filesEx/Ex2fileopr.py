@@ -21,8 +21,8 @@ print(f.newlines)
 print(f.readable())
 print(f.writable())
 
-print("Last modified: %s" % time.ctime(os.path.getmtime("test.txt")))
-print("Created: %s" % time.ctime(os.path.getctime("test.txt")))
+print("Last modified: %s" % time.ctime(os.path.getmtime("user.txt")))
+print("Created: %s" % time.ctime(os.path.getctime("user.txt")))
 
 print('Size         :', os.path.getsize(f.name))
 

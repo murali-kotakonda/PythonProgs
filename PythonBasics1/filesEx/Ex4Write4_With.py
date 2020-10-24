@@ -8,3 +8,5 @@ f.close()
 with open("test.txt", "w") as f:
     f.write("Hello World!!!")
     f.write("Bye!!!")
+
+#closing file is automatically taken care

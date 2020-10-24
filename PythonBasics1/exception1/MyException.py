@@ -1,21 +1,56 @@
 """
 Custom Exception or use defined exception:
 -----------------------------------------------
-This is required for hanndling negative scenarios in the application.
+
+why should a dev create exception?
+This is required for handling negative scenarios in the application.
+
 ex:
-if age <18  ====> which exception should We use from python ? None ; hence we hav to create our own exception class
+if age <18
+this is valid for python
+but invalid for our project.
+
+which exception obj we need to create for negative scenarios?
+-> we should not use inbuilt exception.
+-> create our own exception class and use class for obj creation.
+
+age <18
+====> which exception should We use from python ? None ;
+===> hence we hav to create our own exception class
 
 
 1.Dev will create exeception class
 2.dev will raise exception
 3.dev will handle the exception
 
+exception class : any class which is a child of Exception is termed as exception class
 
 syntax for creating custom Exception class:
 ------------------------------------------
 1.create a class that inherits Exception
 2.provide constructor ;
     from child constructor call parent constructor
+
+
+ex1:
+class ServiceException(Exception):
+
+    def __init__(self, errorCode, errorMsg):
+        Exception.__init__(self,errorMsg)
+        self.errorCode = errorCode
+        self.errorMsg = errorMsg
+
+  raise ServiceException("erro1", "Negative numbers not allowed")
+
+ex2:
+class MyException(Exception):
+
+    def __init__(self, errorMsg):
+        Exception.__init__(self)
+        self.errorMsg = errorMsg
+
+raise MyException("age caanot be less then 18")
+
 
 Req:
 if id is negative or age is less than 18 throw exception

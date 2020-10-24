@@ -13,6 +13,10 @@ f = open("demofile.txt","a")
 f = open("demofile.txt","w")
 f = open("demofile.txt","x")
 
+a , w , x ===> will creare file if file doesnot exists.
+r ==> file should exists.
+
+
 # In addition you can specify if the file should be handled as binary or text mode
 # 
 # "t" - Text - Default value. Text mode

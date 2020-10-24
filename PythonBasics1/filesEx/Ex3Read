@@ -1,0 +1,21 @@
+"read file"
+"""
+Read from files:
+-> open file with 'r' mode
+
+#read all
+read()   #returns a string
+readlines()#returns a list  , every line is a element in the list
+
+#read specific
+readline(<num>)
+f3.readline(3) --> read 3rd line
+
+readline() # read a single line
+
+read(<num>)
+f3.read(5) - print 1st 5 chars
+ex:
+f3.read(5) - print 1st 5 chars
+f3.readline(3) --> read 3rd line
+"""

@@ -1,27 +1,36 @@
 """
-
 write common exception handling for ValueError,IndexError,ArithmeticError
+for ValueError,IndexError,ArithmeticError --> print "Client error"
+
+Req:
+when we have common exception handling for different execption
+how can we group it
 
 """
-arr = [1, 2, 3, 4, 7]
+
+list = [1, 2, 3]
+
+x= 50
+y =0
 
 
-def square():
-    intNum = 0
-    try:
-        intNum = int("1");
-        print(arr[2])
-        print(1/1)
-    except (ValueError,IndexError,ArithmeticError):
-            print("error invalid usage of arguments...")
-    else:
-        print("No Exception.......")
+try:
+    print(list[2])
+    print(list[8])  # trying to access 8th element but list has 3 elements
 
-    
-square()
+    divRes = x / y
+    print("result = ", divRes)
 
+    age = int(input("enter age"))
+    print("after concerting age= ", age)
 
+except (IndexError,ZeroDivisionError,ValueError) as ex: # executed when there is an exception
+    print("Client error")
 
+else:
+    print("all operations success")
+
+print("end")
 
 
 

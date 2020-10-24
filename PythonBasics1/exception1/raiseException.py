@@ -1,6 +1,6 @@
 """
 
-can a dev creats exception?
+can a dev create exception?
 YES
 
 STEPS:

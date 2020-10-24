@@ -1,25 +1,22 @@
-"""
-global exception handling
+#global or generic exception handling
 
-"""
+list = [1, 2, 3]
 
-arr = [1, 2, 3, 4, 7]
-def square():
-    intNum = 0
-    try:
-        intNum = int("hgh");
-        print(arr[2])
-        print(1/1)
-    except Exception:
-            print("error invalid usage of arguments...")
-    else:
-        print("No Exception.......")
-    
-    print("bye ")
-square()
+x= 50
+y =1
+try:
+    print(list[2])
+    print(list[8])  # trying to access 8th element but list has 3 elements
 
+    divRes = x / y
+    print("result = ", divRes)
 
+    age = int(input("enter age"))
+    print("after concerting age= ", age)
 
+except Exception as ex:# ex is the execption obj
+    print("Opeartion failed possible reason :; ", ex)
+else:
+    print("all operations success")
 
-
-
+print("end")

@@ -1,9 +1,13 @@
-divRes =-1;
-try:
-    x= 50
-    y =1
-    divRes = x/y
-except ZeroDivisionError as ex:
-    print("denominator cannot be zero")
+x= 50
+y =2
 
-print("result = ", divRes)# ZeroDivisionError
+try:
+    divRes = x/y
+    print("result = ", divRes)
+except ZeroDivisionError as ex:
+    print("division failure")
+    print("division by zero not possible")
+else:
+    print("division success")
+
+print("end")

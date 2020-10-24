@@ -1,17 +1,8 @@
 
-age  =  int ( input("enter age") )
-print("after concerting age= " ,age)  # ValueError
-
-
-
 try:
     age  =  int ( input("enter age") )
-    print("after concerting age= " ,age)  # ValueError
+    print("after concerting age= ",age)
 except ValueError as ex:
-    print("please enter age in numbers..."  )# msg to customer
-    print(ex) # info to be written un server logs
-print("prog ends")
+    print("conversion not possible")
 
-
-
-
+print("end")
