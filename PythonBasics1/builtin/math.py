@@ -28,16 +28,16 @@ print(pow(8,3))
 data = (34,1,6,78,90)
 print(sorted(data))
 
-data = [34,1,6,78,90]
-print(sorted(data))
-
 "sort numbers in decending order"
 print(sorted(data,reverse=True))
 
 
-"SORT strings in desc order"
-print(sorted(("HELLO","APPLE","ZEBRA"),reverse=True))
+
+data = ("HELLO","APPLE","ZEBRA")
+print(sorted(data))
+#"SORT strings in desc order"
+print(sorted(data,reverse=True))
 
 
-print(sorted(("HELLO","APPLE","ZEBRA")))
+
 

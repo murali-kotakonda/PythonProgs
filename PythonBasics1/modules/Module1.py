@@ -1,7 +1,21 @@
 '''
-Created on Jul 10, 2018
+Modules:
+------------------------------
 
-@author: I335484
+create packages:
+
+1.modules
+   Module1.py
+   Module2.py
+   Ex1.py
+   Ex2.py
+   Ex3.py
+   Ex4.py
+2.modulesext
+  Module3.py
+  Module4.py
+
+
 '''
 def display(name):
     print("printing display from Module1",name)

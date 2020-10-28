@@ -12,16 +12,19 @@ set()
 dict()
 len()
 type()
-
+open()
 """
+
+
 def printList(list):
     print("-------------------")
     for i in list:
         print(i)
 
 
-# any () -> takes multple conditions as input and returns trur if any condition is true
+# any () -> takes multiple conditions as input and returns true if any condition is true
 myConditions = [True, True, True, True]
+myConditions = [5>7, 8<9 ,6>5, 1==1]
 if(any(myConditions)):
     print("procced")
 else:
@@ -55,6 +58,9 @@ printList(range(5));
 printList(range(2, 5))
 
 printList(range(1, 10, 2))
+
+#how to identify datatype : type()
+#how to compare data type: isinstance()
 
 #check for data type
 x= 12

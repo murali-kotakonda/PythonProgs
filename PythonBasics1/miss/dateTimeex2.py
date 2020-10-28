@@ -7,6 +7,8 @@
 # f) Day of year
 # g) Day of the month
 # h) Day of week
+
+
 """
 %Y - year
 %B - month full name
@@ -58,6 +60,10 @@ Directive	Meaning	Example
 %x	Locale’s appropriate date representation.	09/30/13
 %X	Locale’s appropriate time representation.	07:06:05
 %%	A literal '%' character.	%
+
+for date formats use strftime() function
+
+
 """
 import time
 import datetime
@@ -67,7 +73,8 @@ from datetime import datetime
 now = datetime.now()
 
 print("Current date and time: ",  now)
-print("Current date format: ", now.strftime("%Y/%B/%d  %I:%M%p"))
+print("date1 : ", now.strftime("%Y-%m-%d %H:%M:%S"))
+print("date2: ", now.strftime("%Y/%B/%d  %I:%M%p"))
 print("Current year: ", now.strftime("%Y"))
 print("Month of year: ",now.strftime("%B"))
 print("Month of year: ", now.strftime("%b"))
@@ -83,8 +90,9 @@ print("Time: ", now.time())
 print("************************string to datetime.**********************************")
 # program to convert a string to datetime.
 """
-strftime -> obj to str
-strptime -> str to obj
+strftime  [ format ]-> obj to str
+strptime  [ parsing ]-> str to obj
+ 
 """
 from datetime import datetime
 dateStr= 'Jul 1 2014 2:43PM'
@@ -112,21 +120,7 @@ print("Output 4:", d)
 d = date_time.strftime("%I%p")
 print("Output 5:", d)
 
-print("************************program to print yesterday, today, tomorrow.**********************************")
-# n program to print yesterday, today, tomorrow.
-import datetime
 
-today = datetime.date.today()
-yesterday = today - datetime.timedelta(days=1)
-tomorrow = today + datetime.timedelta(days=1)
-dt = today - datetime.timedelta(5)
-
-print('Yesterday : ', yesterday)
-print('Today : ', today)
-print('Tomorrow : ', tomorrow)
-print('5 days before Current Date :', dt)
-
-print("************************print next 5 days starting from today.**********************************")
 # print next 5 days starting from today.
 import datetime
 
@@ -145,6 +139,21 @@ s = "01/10/2016"
 print()
 print(time.mktime(datetime.datetime.strptime(s, "%d/%m/%Y").timetuple()))
 print()
+
+
+
+
+
+#Write a Python program to calculate number of days between two dates.
+from datetime import date
+#creatre date using date, month , year
+f_date = date(2014, 7, 2)
+l_date = date(2014, 7, 25)
+
+#diff
+delta = l_date - f_date
+print(delta.days)
+
 
 
 
