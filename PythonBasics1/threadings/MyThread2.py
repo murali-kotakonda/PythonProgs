@@ -39,9 +39,21 @@ myTh4.start()
 print("****************bye*****************")
 
 
+
+#run() method contains the code the thread should execute.
+
+
 """
-     
-  Thread states:
+  thread states:
+	  1. ready state -- when the developer creates the thread and adds to the cpu job list
+	  2. running -- when cpu gives appointment to the thread
+	  3. possible 3 states after running state
+	  		a. dead state or completed state
+	  		b. wait state : we don't know the time
+	  		c. sleep state : we will know for how long it is going to know sleep
+	  
+	       
+Thread states:
 1.Ready state
 myTh1.start()
 
@@ -59,5 +71,4 @@ AFTER wait it goes back to running state
 once the run() method execution is completed.
   
   
-
 """

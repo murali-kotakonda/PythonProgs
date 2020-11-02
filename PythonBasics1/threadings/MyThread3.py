@@ -36,7 +36,8 @@ myTh3.start()
 myTh4.start()
 
 print("all threads are pipelined..")
-#wait till all thread execution compltes
+
+#main has to wait till all thread execution compltes
 myTh1.join()
 myTh2.join()
 myTh3.join()

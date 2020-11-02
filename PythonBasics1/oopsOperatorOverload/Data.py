@@ -4,14 +4,14 @@ class Data:
         self.n2=n2
 
     def __add__(self, other):
-        num1= self.n1 + other.n1
-        num2 = self.n2 + other.n2
+        num1= self.n1 + other.start
+        num2 = self.n2 + other.end
         d = Data(num1,num2)
         return d
 
     def __sub__(self, other):
-        num1 = self.n1 - other.n1
-        num2 = self.n2 - other.n2
+        num1 = self.n1 - other.start
+        num2 = self.n2 - other.end
         d = Data(num1, num2)
         return d
 

@@ -17,7 +17,8 @@ from PythonBasics1.oopshasA.Person import Address
 
 
 class Student:
-    def __init__(self,firstName,lastName,branch, sem,addr=None):
+    def __init__(self,id,firstName,lastName,branch, sem,addr=None):
+        self.id = id
         self.firstName=firstName
         self.lastName=lastName
         self.branch=branch
@@ -29,9 +30,15 @@ class Student:
         print(self.branch)
         print(self.sem)
 
+"""
+Create Student obj with data
+Create address obj with data
+keep adress obj inside Student obj # relating the objs
+Print Student info and address info
+"""
 
 
-#Create person obj with data
+#Create Student obj with data
 s1 = Student(2000,"Tom","Johnass","Computer science" , 4)
 
 #Create address obj with data
@@ -56,9 +63,9 @@ print(s1.addr.street)
 
 #approach2
 print("***********approach2****************")
-s1.showPersonInfo()
-
+s1.showStudent()
 s1.addr.showAddressInfo()
+
 #Person with 3 addresses
 #Person has address, emp has address, student has address
 

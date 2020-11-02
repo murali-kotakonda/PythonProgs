@@ -6,6 +6,22 @@ Created on Aug 16, 2018
 
 '''
 
+"""
+
+print nums from 10 to 50
+
+create 4 threads
+thread1 print from 10 to 20
+thread2 print from 21 to 30
+thread3 print from 31 to 40
+thread4 print from 41 to 50
+
+for every thread the start and end is different.
+
+
+"""
+
+
 import threading
 import time
 import _thread
@@ -13,14 +29,15 @@ import _thread
 
 class Mythread(threading.Thread):
 
-    def __init__(self, name, n1, n2):
+    def __init__(self, name, begin, end):
         threading.Thread.__init__(self)
         self.name = name
-        self.n1 = n1
-        self.n2 = n2
+        self.begin = begin
+        self.end = end
 
     def run(self):
-        for i in range(self.n1, self.n2 + 1):
+        time.sleep(5)
+        for i in range(self.begin, self.end + 1):
             print("  {} ".format(i))
 
 
@@ -32,7 +49,6 @@ myTh4 = Mythread("th4", 40, 50)
 
 
 # add thread to CPu queue
-print(type(myTh1))
 myTh1.start()
 myTh2.start()
 myTh3.start()

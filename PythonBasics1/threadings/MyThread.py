@@ -1,10 +1,3 @@
-'''
-Created on Aug 16, 2018
-
-@author: I335484
-
-
-'''
 import time
 import _thread
 
@@ -17,13 +10,13 @@ class Mythread(threading.Thread):
         threading.Thread.__init__(self)
         self.name = name
         print("thraed created", name)
-        
+
     def run(self):
-        print("HI running ", self.name)
+        print("Thread started running ", self.name)
         
  
-# creating thread 
-myTh1 = Mythread("th1")            
+# creating thread
+myTh1 = Mythread("th1")
 myTh2 = Mythread("th2")
 myTh3 = Mythread("th3")
 myTh4 = Mythread("th4")
@@ -35,3 +28,6 @@ myTh3.start()
 myTh4.start()
 
 print("bye")
+
+#How many threads are running in this program?
+# 5 [main , th1, th2, th3, th4 ]

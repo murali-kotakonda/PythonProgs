@@ -11,6 +11,7 @@ Steps:
 3.Create person obj with data
 4.Create address obj with data
 5.keep adress obj inside person obj # relating the objs
+6.Print person info and address info
 
 
 
@@ -44,6 +45,13 @@ class Address:
         print(self.pin)
         print(self.country)
         print(self.state)
+
+"""
+Create person obj with data
+Create address obj with data
+keep adress obj inside person obj # relating the objs
+Print person info and address info
+"""
 
 
 #Create person obj with data

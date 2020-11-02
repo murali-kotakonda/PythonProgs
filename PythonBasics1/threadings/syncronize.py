@@ -1,7 +1,7 @@
 import threading
 import time
 
-amount = 6000;
+amount = 6000
 
 threadLock = threading.Lock()
 
@@ -14,10 +14,11 @@ class Mythread(threading.Thread):
     def run(self):
        global amount;
        time.sleep(3)
+
        threadLock.acquire()
        amount = amount - self.withdraw;
        time.sleep(1)
-       print("name = {} , withdraw= {} , final bal ={}".format(self.name ,self.withdraw ,amount))
+       print("\n name = {} , withdraw= {} , final bal ={}".format(self.name ,self.withdraw ,amount))
        threadLock.release()
 
 threads = []

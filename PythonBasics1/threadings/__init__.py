@@ -2,12 +2,9 @@
 Threading:
 ------------
 -> concurrent programmimg/ parallel programming.
-
-
 -> by default single thread is created by python to run prog.
   
 
-  
   
 -> test 1000 test cases  on chrome , firefox , internet explorer.
   solution: threading.
@@ -17,8 +14,7 @@ adv:
 -> save time , response time/Turn around time is improved.
 
   
-  
-module : threading
+
 
 Process: Requires seprate memory.   
 Thread:  
@@ -37,7 +33,8 @@ A)
   o/p of one task is not required for the other task.
   
          
-      
+
+module : threading
 
 How to create Thread:
 -------------------------
@@ -45,8 +42,11 @@ How to create Thread:
 2. Provide the run() function inside the class.
 3.create the Object for MyThread.
 4.call the start method using the object.
+[start method internally calls the run() function]
   
   
+By deafult python creates the main thread.
+using the main thread we need to create the additional threads.
 
     
     
