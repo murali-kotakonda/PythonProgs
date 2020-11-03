@@ -6,6 +6,7 @@ Synchronization
 
 """
 
+#Ex1
 def myDecorator(funObj):
     print("**********myDecorator outer*************")
     def alter():
@@ -23,6 +24,8 @@ def m1():
 
 print(m1())
 
+
+#Ex2
 def removeSpl(function):
     def process():
         s = str(function())

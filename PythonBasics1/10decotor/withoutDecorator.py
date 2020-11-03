@@ -18,7 +18,8 @@ def messageWithWelcome(str):
     # Return concatenation of addWelcome() 
     # and str. 
     return  addWelcome() + str
-  
+
+
 # To get site name to which welcome is added 
 def site(site_name): 
     return messageWithWelcome(site_name) 
