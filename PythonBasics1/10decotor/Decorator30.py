@@ -21,11 +21,15 @@ def myDecorator(funObj):
 def m1():
     return 10
 
+@myDecorator
+def m2():
+    return 50
 
 print(m1())
+print(m2())
 
 
-#Ex2
+#Ex2 [REPLACE $ WITH -)
 def removeSpl(function):
     def process():
         s = str(function())
@@ -34,7 +38,7 @@ def removeSpl(function):
 
 
 
-def convert(function):
+def convert(function): #CONVERT TO UPPER
     def toUpper():
         s = function()
         return s.upper()

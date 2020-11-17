@@ -45,12 +45,13 @@ def f1(num):
 
 
 # get the funtion obj by calling the funtion
-fObj = f1(25)
-# fObj is funton obj for sqr()
+sqrObj = f1(25)   # sqrObj is funton obj for sqr()
+print(sqrObj())  # call the funtion obj, [call the sqr()]
+print(sqrObj())  # call the funtion obj, [call the sqr()]
 
-print(fObj())  # call the funtion obj, [call the sqr()]
 
-
+sqrObj = f1(6)   # sqrObj is funton obj for sqr()
+print(sqrObj())  # call the funtion obj, [call the sqr()]
 
 
 #Ex3 input : int , retuntype : funt obj
@@ -71,6 +72,8 @@ innerFobj()
 
 
 # Ex4: innner functn with arg
+#outerfun :i/p: int  , retunr: funvtn obj
+#inner funt : i/P -int , retunr :NA
 def f1(x):
     print("called f1")
 
@@ -82,24 +85,32 @@ def f1(x):
 
 
 f2Obj = f1(15)  # get inner futn obj
+
+f2Obj = f1(15)  # get inner futn obj
 f2Obj(10)  # call innner funtn
+f2Obj(20)  # call innner funtn
+f2Obj(30)  # call innner funtn
 
 
 
 
 #Ex5 inner functn return value
+
+#Outer functn: i/p: int , return : inner functn obj
+#Inner functn: i/P : int ,  return : int
+
 def mul(n1):
     def operate(n2):
         return n1 * n2;
     return operate
 
 
-myObj = mul(2)
-print(myObj(6)) # multiply 2 * 6
-print(myObj(10)) # multiply 2 * 10
+operateObj = mul(2)
+print(operateObj(6)) # multiply 2 * 6
+print(operateObj(10)) # multiply 2 * 10
 
-myObj = mul(3)
-print(myObj(6)) # multiply 3 * 6
-print(myObj(10)) # multiply 3 * 10
+operateObj = mul(3)
+print(operateObj(6)) # multiply 3 * 6
+print(operateObj(10)) # multiply 3 * 10
 
 

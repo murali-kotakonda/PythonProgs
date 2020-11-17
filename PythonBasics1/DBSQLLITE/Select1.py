@@ -2,9 +2,9 @@
 
 SELECT * FROM person   -> Get all rows and all  columns values
 SELECT ID,NAME  FROM person -> Get all rows and fetch only ID,NAME  column values
-SELECT * FROM person where ID=?   -> Get  all  columns values for a row  whose ID = 26
-SELECT * FROM person where NAME=?   -> Get  all  columns values for a row  whose NAME = KUMAR
-SELECT ID FROM person where NAME=? -> Get  Only Idcolumn value for a row  whose NAME = KUMAR
+SELECT * FROM person where ID=1212; -> Get  all  columns values for a row  whose ID = 1212
+SELECT * FROM person where NAME='KUMAR'   -> Get  all  columns values for a row  whose NAME = KUMAR
+SELECT ID FROM person where NAME='KUMAR' -> Get  Only Idcolumn value for a row  whose NAME = KUMAR
 
 """
 

@@ -14,14 +14,13 @@ def log(func):
     return operation;
 
 @log
-def sum(x,y):
-    r = x+y
-    print(" sum = ",r)
+def sum():
+     print("In sum")
+
 
 @log
-def sub(x,y):
-    r = x - y
-    print(" sub = ", r)
+def sub():
+    print("In sub")
 
-sum(40,20)
-sub(30,20)
+sum()
+sub()

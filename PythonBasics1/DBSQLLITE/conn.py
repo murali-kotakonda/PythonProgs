@@ -10,15 +10,52 @@ def getConn():
 
 """
 
+
+Oracle:
+-----------------------------------------
+for woking with oracle db 
+-> install cx_Oracle package
+command: pip install cx_Oracle
+ import cx_Oracle
+ con = cx_Oracle.connect('krishna/oracle@localhost:1521/xe')
+ 
+
+Mysql:
+------------------
+-> install mysql-connector
+command: pip install mysql-connector
+ import MySQLdb
+con = MySQLdb.connect("localhost","testuser","testpassword","gfgdb" )
+ 
+
+
+
+Sqllite:
+---------------
+import sqlite3
+
+for db operations we need
+-> connection obj
+-> cursor obj
+
+
 python     ----------->  Connection obj + cursor obj ------------------> Database
                            [ C  R  U  D ]
+C - Create
+R - Read
+U - Update
+D - Delete
                            
             
 for sqllite3
 -----------------------------
 import sqlite3
 
-                          
+Expectation : 
+->Table , column :      
+-> Row:
+-> basic Sql queries ( insert/update/delete/read..etc.)
+                 
 steps:
 1.Get connection
 2.Get cursor 

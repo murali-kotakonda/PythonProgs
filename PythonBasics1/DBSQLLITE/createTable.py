@@ -1,11 +1,13 @@
 """
+How to create atable using sqlite
 
 Table : PERSON
+
 columns:
-id
-name
-age
-salary
+id INTEGER
+name VARCHAR(20)
+age INTEGER
+salary INTEGER
 
 SQL: 
 CREATE TABLE PERSON (  
@@ -14,9 +16,8 @@ CREATE TABLE PERSON (
 			AGE INTEGER,  
 			SALARY INTEGER
   );
-
-
 """
+
 import sqlite3
 
 # connecting to the database
@@ -26,14 +27,14 @@ con = sqlite3.connect("myTable.db")
 cursor = con.cursor()
 
 # SQL command to create a table in the database
-sql_command = """CREATE TABLE PERSON (  
+sql= """CREATE TABLE PERSON (  
 ID INTEGER PRIMARY KEY,  
 NAME VARCHAR(20),  
 AGE INTEGER,  
 SALARY INTEGER);"""
 
 # execute the statement
-cursor.execute(sql_command)
+cursor.execute(sql)
 con.commit()
 
 print("table create success...")
