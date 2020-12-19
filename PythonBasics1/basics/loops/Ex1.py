@@ -11,39 +11,68 @@ for loop has 3 sections:
 1.init
 2.condition
 3.increment/decerment
+=> while loop only condition is mandatory
+
+when should i use for loop?
+ans) when we know the number of iterations/runs
+     when we are looping the collections like list,tuple,dict
+     
+when should i use while loop? 
+ans)
+when we dont know the number of iterations/runs.
+
+
 """
 
+
+"""
+for is a block so : is required at the end of for statement
+use indentation or tab space for writing the code
+
+
+"""
 #Print Hello for 20 times
 print("***************************Print Hello for 20 times****************************************")
 for i in range(20):
     print("Hello")
 """
-1.  i=0
-2. i<20
-3. i =i +1
+1. init : i=0
+2. condition : i<20
+3. increment : i =i +1
 """
 
 print("***************************Print numbers from 1  for 50 ****************************************")
 for i in range(1,51):  # prints from 1 to 50
     print(i)
 """
-1. i=1
-2.i<51
-3.i = i+1
+1.  init : i=1
+2.condition : i<51
+3.increment : i = i+1
 """
 
 print("***************************Print numbers  starts with 3 till 50 increment by 4 ****************************************")
 for i in range(3,50,4):
     print(i)
 """
-1.  i=3
-2.  i<50
-3.  i = i+4
+1. init :  i=3
+2. condition :  i<51
+3. increment :   i = i+4
 """
 
 
 
 """
+
+here i is variable
+range() is the function
+                     init   condition   increment
+range(50)        :    0       <50         +1
+range(2,50)      :    2       <50         +1
+range(4, 50, 3)  :    4       <50         +3
+
+
+
+
                          init           condition         increment
 range(20)                  0               <20               +1
 range(2,51)                2               <51               +1

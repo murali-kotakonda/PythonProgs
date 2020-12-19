@@ -1,0 +1,10 @@
+"""
+    create class , create obj , set data, print
+    1.  for student
+    sId, fName, lName, rollNo,SemNo
+
+    2.  for Product
+    pid, Pname, price , brand , discount
+
+
+"""

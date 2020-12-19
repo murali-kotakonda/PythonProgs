@@ -5,10 +5,10 @@
 //if age is greater than 18 print valid age else print invalid age
 //if usertype is "admin" print valid usertype else print invalid usertype
 
-if id is valid then only validate the age [ when age is invalid dont validate further ]
-if age is valid then only validate the usertype
+if id is valid then only validate the age [ when id is invalid dont validate further ]
+if age is valid then only validate the usertype[ when age is invalid dont validate further ]
 
-there is a dependency between the consitions
+there is a dependency between the conditions
 solution:
 nested if statements. [ if inside a if]
 

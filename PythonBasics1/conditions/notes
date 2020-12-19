@@ -26,4 +26,25 @@ condition for str:
 
 
 
+Block:
+---------
+if
+else
+for
+while
+class
+funtion
+try
+except
+finally
+
+block contains sequence/group of code.
+every block should start with ":"
+and block code should be written with indentation.
+
+
+
+
+
+
 
