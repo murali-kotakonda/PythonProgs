@@ -1,7 +1,25 @@
+python suports :
+-functional Oriented Programming
+-Object Oriented Programming
+
+functional Oriented Programming:
+-----------------------------------
+1. write a global funtion
+2. call the global function
+
+
+
 function:
 ------------
-is a block of code shard under a name.
+is a block of code shared under a name.
 
 adv:
 ----
 write code one time and reuse for any number of times
+
+"""
+syntax:
+
+def <function_name>(<arguments>) :
+    <function body>
+"""

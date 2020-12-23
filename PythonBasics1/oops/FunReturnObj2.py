@@ -1,28 +1,47 @@
-class Person:
-    id = None
-    name = None
-    age = None
+"""
+#create 3 objs , set data and show data
+simplify logic for create the obj and set the data
 
+solution:
+write a function that takes id,name ,age as input args and retuns obj 
+
+"""
 
 def show(pObj):
-    print("*****************PRINTNG DATA*********************")
     print(pObj.id)
     print(pObj.name)
     print(pObj.age)
 
 
-def getObj(pid, pname, page):
-    pObj = Person()
-    pObj.id = pid
-    pObj.name = pname
-    pObj.age = page
-    return pObj
+# function that retuns obj
+def create(pId, pName, pAge):
+    # create obj
+    pObj = person()
+
+    # set the data
+    pObj.id = pId
+    pObj.name = pName
+    pObj.age = pAge
+
+    return pObj  # return obj
 
 
-p1 = getObj(1, "raju", 23)
-p2 = getObj(2, "kiran", 25)
-p3 = getObj(3, "ram", 26)
+class person:
+    id = None
+    name = None
+    age = None
 
-show(p1)
-show(p2)
-show(p3)
+
+# create object
+print("************** show p1 *************************")
+p1 = create(1, 'raju', 23)
+show(p1)  # then pObj will be p1
+
+print("************** show p2 *************************")
+p2 = create(2, 'kiran', 25)
+show(p2)  # then pObj will be p2
+
+print("************** show p3 *************************")
+p3 = create(3, 'ripesh', 26)
+show(p3)  # then pObj will be p3
+

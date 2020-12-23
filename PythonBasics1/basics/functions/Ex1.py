@@ -6,6 +6,9 @@ Write a function that prints welcome msg
 and call the function
 
 """
+ 
+
+
 
 #how to write function
 def myfunction():

@@ -7,5 +7,5 @@ def printInfo(name="Not applicable", age= -1):# passing  name , age is optional
 
 #call function
 printInfo("user1", 56)
-printInfo("Kumar") #name is kumar
+printInfo("Kumar")  
 printInfo()

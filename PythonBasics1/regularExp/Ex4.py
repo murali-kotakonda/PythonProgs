@@ -1,0 +1,29 @@
+import re
+"""
+[]	A set of characters
+ATLEAST ONE OF TEH CHAR EXISTS :
+
+
+[0123]	Returns a match where any of the specified digits (0, 1, 2, or 3) are present
+[arn]	Returns a match where one of the specified characters (a, r, or n) are present	
+[a-n]	Returns a match for any lower case character, alphabetically between a and n	
+[0123]	Returns a match where any of the specified digits (0, 1, 2, or 3) are present	
+[0-9]	Returns a match for any digit between 0 and 9	
+[0-5][0-9]	Returns a match for any two-digit numbers from 00 and 59	
+[a-zA-Z]	Returns a match for any character alphabetically between a and z, lower case OR upper case
+
+[^arn]	Returns a match for any character EXCEPT a, r, and n	
+
+only [_.,!] Returns a match where any of the specified match is found
+
+"""
+pattern = "[0123]";
+
+test_string = 'hibye'
+
+result= re.findall(pattern, test_string)
+
+if result:
+  print("valid successful.")
+else:
+  print("Invalid.")
