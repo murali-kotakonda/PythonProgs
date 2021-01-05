@@ -71,7 +71,8 @@ p.name="user1"
 p.age=45
 
 
-
+__init__.py  -> is a python file name
+ __init__ -> is a constructor inside the class
 Now:
 --------------------
 class Person:
@@ -106,19 +107,19 @@ Now:
  method can b called any no of times
 
  2.constr name = __init__
- method  name can be anything
+ instance funtion  name can be anything
 
  3.contsr doesnt have any return value
- method have return type ...
+ instance funtion have return type ...
 
  4.cosntr is called during obj creation
-  method should be called after obj created.
+  instance funtion should be called after obj created.
 
 
  5.constr is automatic call
-  method is explict call
+  instance funtion is explict call
  
-6.constr logic -> only initializing i.v
- method logic -> any logic
+6.constr logic -> only initializing instance variables.
+ instance funtion logic -> any logic
  
   

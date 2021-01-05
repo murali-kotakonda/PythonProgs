@@ -1,12 +1,12 @@
 import re
-"""
-start with hi and end with bye
-"""
-import re
 
-pattern = "^hi.*bye$"
+"""
+any character except a or b or c
+"""
 
-test_strings = ['hi kumar bye', 'aadhi kumar byeeeeeeeeee', 'hi kumar sffffffffffffbye', ]
+pattern = "[^abc]";
+
+test_strings = ['hi123bye', 'Apple', 'cat', '---B---', '1313','!@#!#!#!#','6789']
 
 for testStr in test_strings:
   result = re.match(pattern, testStr)

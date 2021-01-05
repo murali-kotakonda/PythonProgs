@@ -1,0 +1,54 @@
+Difference between local varibales , global variables , instance variables:
+------------------------------------------------------------------------------
+
+x = 90
+
+
+def process2():
+  a =78
+
+class Data:
+  y = 100
+
+  def process(self):
+    z= 89
+
+
+Points:
+---------------------
+class: Data
+instance function : process()
+global function : process2()
+local variables: a and z are local variables
+instance variables: y
+Global variable: x
+
+
+local variable:
+     - variable created inside the function
+     - memory is alocatted every time when the function is called
+     - is not associated with object
+     - memory is deleted when funtion execution compltes
+     - access only inside the funtion or block
+     - use for temporary purpose
+
+global variable:
+      - variable created outside the class or in global area
+      - memory is alocatted 1 time
+      - is not associated with object
+      - memory is available for long during or till prog terminates
+      - acces any where
+      - use when we have common data across the project
+
+instance variables:
+      - variable created inside the class
+      - memory is alocatted every time when object is created.
+      - is associated with object
+      - memory is deleted when the object is deleted
+      - access only using the object
+      - use to store the model or entity information ex: one object internally contains multiple data
+
+
+
+
+

@@ -5,16 +5,22 @@
 """
 
 Ex:
-create obj , set data and display for perosn id,name,age
+
+create obj , set data and display for Person that has  id,name,age as instance variables.
+
+
 """
 
 class Person:
 
+    # construtor to set data
     def __init__(self, id, name, age):
         self.id = id
         self.name = name
         self.age = age
 
+
+    # function to show data
     def show(self):
         print(self.id)
         print(self.name)
@@ -36,26 +42,33 @@ print(p.id)
 print(p.name)
 print(p.age)
 
-# print data - approach2
-print("*******************************************************")
-p.show()  # calling instance function for printing the object data
-#if show function is called using p , then logic of show function is applied on data of "p"
 
 
-# create object and set data
+
 print("***********************Show p1********************************")
-p1 = Person(1300, "kumar123", 34)
-p1.show()
-#if show function is called using p1 object  , then logic of show function is applied on data of "p1"
+# create obj , set data
+p1 = Person(1200, "kumar", 45)
+#print data
+p1.show()     # calling instance function for printing the object data
+#if show function is called using p1 , then logic of show function is applied on data of "p1",self= p1
 
 
 
 
-# create object and set data
+
 print("***********************Show p2********************************")
-p2 = Person(2100, "raj", 25)
-p2.show()
-#if show function is called using p2 object  , then logic of show function is applied on data of "p2"
+p2 = Person(1300, "kumar123", 34)
+p2.show()     # calling instance function for printing the object data
+#if show function is called using p2 , then logic of show function is applied on data of "p2" , self= p2
+
+
+
+
+
+print("***********************Show p3********************************")
+p3= Person(2100, "raj", 25)
+p3.show()    # calling instance function for printing the object data
+#if show function is called using p3 , then logic of show function is applied on data of "p3" , self= p3
 
 
 

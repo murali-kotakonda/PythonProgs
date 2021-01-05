@@ -4,10 +4,13 @@ import re
 """
 pattern ="bye$"
 
-test_string = 'hi kumar bye'
-result = re.match(pattern, test_string)
 
-if result:
-  print("valid successful.")
-else:
-  print("Invalid.")
+test_strings =  ['hi kumar bye' ,'hi kumar byeeeeeeeeee','hi kumar sffffffffffffbye', ]
+
+for testStr in test_strings:
+  result = re.search(pattern, testStr)
+
+  if result:
+    print(testStr, " - valid successful.")
+  else:
+    print(testStr, " -Invalid.")

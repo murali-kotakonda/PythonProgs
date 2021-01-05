@@ -13,3 +13,18 @@ p=Person(2000,"USER1",45)
 
 #display
 print(p)
+
+"""
+by default print function prints the obj address.
+
+print funtoon has to print the obj data?
+solution:
+provide the __str__ function inside the class
+
+print() function internally calls the __str__ function.
+
+
+
+"""
+
+

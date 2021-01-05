@@ -1,12 +1,15 @@
 import re
-"""
-start with hi and end with bye
-"""
-import re
 
-pattern = "^hi.*bye$"
+"""
+  USAGE OF *
+  python followed by any NUMBER OF X
+  
+"""
+pattern = "python*X";
 
-test_strings = ['hi kumar bye', 'aadhi kumar byeeeeeeeeee', 'hi kumar sffffffffffffbye', ]
+
+test_strings = ['python', 'pythonX', 'pythonXXX', 'abcX', 'abonX','Z6789','hi hi hi hi']
+
 
 for testStr in test_strings:
   result = re.match(pattern, testStr)

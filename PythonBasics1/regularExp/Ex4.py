@@ -1,7 +1,7 @@
 import re
 """
 []	A set of characters
-ATLEAST ONE OF TEH CHAR EXISTS :
+ATLEAST ONE OF THE CHAR EXISTS :
 
 
 [0123]	Returns a match where any of the specified digits (0, 1, 2, or 3) are present
@@ -15,15 +15,25 @@ ATLEAST ONE OF TEH CHAR EXISTS :
 [^arn]	Returns a match for any character EXCEPT a, r, and n	
 
 only [_.,!] Returns a match where any of the specified match is found
+[0-39] is the same as [01239]
+[^abc] means any character except a or b or c
+[^0-9] means any non-digit character.
+"""
 
 """
+string should contain either 0 or 1 or 2 or 3
+"""
+
+
 pattern = "[0123]";
 
-test_string = 'hibye'
+test_strings = ['hi123bye', '111', '9999', '5ggrrg', 'gg6']
 
-result= re.findall(pattern, test_string)
+for testStr in test_strings:
+  result = re.match(pattern, testStr)
 
-if result:
-  print("valid successful.")
-else:
-  print("Invalid.")
+  if result:
+    print(testStr, " - valid successful.")
+  else:
+    print(testStr, " -Invalid.")
+

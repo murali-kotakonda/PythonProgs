@@ -12,8 +12,22 @@ class PersonInfo:
         print(self.__age)
         print(self.pan)
 
-    def __myprivate(self): #private method ; cannot be called outside the class
+    def show1(self):
+        print(self.__id, self.__name, self.__age)
+
+    def __process(self): #private method ; cannot be called outside the class
         print("hello im in private")
+
+
+#here  PersonInfo is the class
+#__id , __name , __name are  instance varioables
+#show()  is instance method and is public
+#__process() is instance method and is private
+
+#private cannot be accessed outside the class
+
+
+
 
 myObj = PersonInfo(12000, "murali", 34, "myTestPan")
 myObj.show()

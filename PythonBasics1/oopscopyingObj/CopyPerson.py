@@ -1,5 +1,14 @@
 import copy
+"""
+COPY OBJECT:
+-------------------
+import copy
 
+p1 = Person(1000, "user1", 34)
+p2 = copy.copy(p1)
+p2 = copy.deepcopy(p1)
+
+"""
 class Person:
     def __init__(self,id,name,age): #instance varibales
         self.id=id
@@ -18,7 +27,7 @@ p2.id=9000
 p2.name ="shyam"
 p2.age=34
 
-print("*************changer p2*********************")
+print("*************change p2*********************")
 print(p1.id,p1.name,p1.age)
 print(p2.id,p2.name,p2.age)
 

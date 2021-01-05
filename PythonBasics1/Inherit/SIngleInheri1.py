@@ -3,10 +3,25 @@
 Person has id, name, age as instance variables
 Employee has id, name, age, pan, pfNo as instance variables
 
+Req:
+Person has id, name, age as instance variables
+Employee has id, name, age, pan, pfNo as instance variables
+
 create obj and set data for person and employee.
 
 w/o inheritence
-#Employee class as child
+------------------------------------------
+class Person:
+     id=None
+     name=None
+     age=None
+
+    def showPersonalInfo(self):
+        print(self.id)
+        print(self.name)
+        print(self.age)
+
+
 class Employee :
     pan= None
     pfNo=None
@@ -20,6 +35,27 @@ class Employee :
         print(self.id)
         print(self.name)
         print(self.age)
+
+With Inheritence:
+--------------------------------------------------
+#Person class as parent
+class Person:
+     id=None
+     name=None
+     age=None
+
+    def showPersonalInfo(self):
+        print(self.id)
+        print(self.name)
+        print(self.age)
+
+class Employee(Person):
+   pan= None
+   pfNo=None
+
+   def printEmp(self):
+        print(self.pan)
+        print(self.pfNo)
 
 """
 #Person class as parent
@@ -64,6 +100,6 @@ emp.pfNo = "testpf"
 emp.showPersonalInfo()  # shows id,name, age for emp
 emp.printEmp()  # show pan, pfNo of emp
 
-# emp class is reusing id,name,age and showPersonalInfo() funtn
+# emp obj is reusing id,name,age and showPersonalInfo() funtn
 #showPersonalInfo()  can be called by parent obj and child obj
 

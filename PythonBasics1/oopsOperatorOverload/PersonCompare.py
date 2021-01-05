@@ -4,7 +4,7 @@ class Person:
         self.name=name
         self.age=age
 
-    def __eq__(self, other):  # self = p2 and other =p1
+    def __eq__(self, other):  # self = p1 and other =p2
         return self.id == other.id and self.name == other.name and self.age == other.age
     #returns boolean
 
@@ -20,20 +20,27 @@ else:
 
 
 
+"""
+by default  ==  compares the address of the objects
 
 
+1.steps to be followed for == should compare the content :
+solution:
+provide __eq__ funtion inside the Person class
+and write the compare logic inside the function.
 
-
-
-
-
-
+summary:
+if we want to compare two objects , the basic rule is the class has to provide the __eq__ funtion.
 
 """
-print(p1, p2) #prints obj address  
-#by dafault p2==p1 compares the obj address 
 
-"""
+
+
+
+
+
+
+
 
 
 

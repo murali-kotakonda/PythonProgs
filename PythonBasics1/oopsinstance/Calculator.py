@@ -1,3 +1,4 @@
+#self is the current obj under execution
 class Cal:
     n1=None
     n2=None
@@ -39,3 +40,5 @@ c2.add()
 c2.sub()
 c2.mul()
 c2.div()
+
+

@@ -4,14 +4,14 @@ class Data:
         self.n2=n2
 
     def __add__(self, other):
-        num1= self.n1 + other.start
-        num2 = self.n2 + other.end
+        num1= self.n1 + other.n1
+        num2 = self.n2 + other.n2
         d = Data(num1,num2)
         return d
 
     def __sub__(self, other):
-        num1 = self.n1 - other.start
-        num2 = self.n2 - other.end
+        num1 = self.n1 - other.n1
+        num2 = self.n2 - other.n2
         d = Data(num1, num2)
         return d
 
@@ -61,9 +61,7 @@ Bitwise AND         p1 & p2                        __and__
 Bitwise OR          p1 | p2                        __or__
 Bitwise XOR         p1 ^ p2                        __xor__
 Bitwise NOT        ~p1                             __invert__() 
-'''
 
-'''
 Less than                  p1 < p2                        __lt__
 Less than or equal to      p1 <= p2                       __le__
 Equal to                   p1 == p2                        __eq__ 

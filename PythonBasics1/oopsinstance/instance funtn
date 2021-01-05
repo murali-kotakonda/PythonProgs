@@ -3,14 +3,15 @@ instance function or method:
 -> write inside the class
 ->  instance function can be called only using the object.
 -> from a  instance function we can access the instance variables of the object using 'self'
+-> 'self' is the mandatory argument for every instance function
  self:
     - self refers to the current obj under execution
     - every method inside class has self as default argument and the 1st argument.
     - self being 1st argument is mandatory
 
 ex:
-def display(x):
-    print(x)
+def display():
+    print("in display)
 
 
 class Data:
@@ -20,18 +21,32 @@ class Data:
 
 
 # Data is the class
-# display  is a global funtion [ outside the class ]
-# show is a instance function [ inside the class ]
+# display()  is a global funtion [ outside the class ]
+# show() is a instance function [ inside the class ]
+
+
 
 syntax for calling the instance method:
 --------------------------------------------
 
+1.create the object
+2.call the instance function using the object
+
+
+instance function() --> common function for all the objects  created for the class
+
+
+
 #create the object
 d = Data()
 
-#call the method uisng the object
+#call the function using the object
 d.show()
 
+
+How to call global function:
+-----------------------------------
+display()
 
 
 Object is the default arg available to the instance method in the form of self.
@@ -44,5 +59,9 @@ class Product has
  - showProduct() -> instance funtion to show product info
  - finalPrice()-> instance funtion to print final price after discount
  - takeInput() -> instance funtion to take input for  prodId,prodName,productBrand ,price , discount
+
+
+ -perform for 5 objects
+
 
  create two objects

@@ -6,6 +6,16 @@ write sum , sub, mul , div functions
 solution:
 create a class and write 4 instance functions
 create obj and call the functions
+
+
+#Approach2:
+create a Class 'Calc'.
+There are two instance variables n1 ,n2 and constructor.
+1.take 2 nums as input
+2.create object and set the data
+3.call functions using the object
+
+
 """
 
 

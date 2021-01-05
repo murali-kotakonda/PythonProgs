@@ -5,14 +5,13 @@ Req: capture the personinfo with address and print
 
 Steps:
 1.Create Address class
-2.Create Person class with addObj as instance varibale
+2.Create Person class with addObj as instance variable
 
 
 3.Create person obj with data
 4.Create address obj with data
 5.keep adress obj inside person obj # relating the objs
 6.Print person info and address info
-
 
 
 """
@@ -28,7 +27,11 @@ class Person:
         print(self.id)
         print(self.name)
         print(self.age)
-
+"""
+class: Person
+instance variables: id,name,age,addr , here addr is the address object
+instance function : showPersonInfo()
+"""
 
 
 class Address:
@@ -45,6 +48,13 @@ class Address:
         print(self.pin)
         print(self.country)
         print(self.state)
+
+"""
+class: Address
+instance variables: street, city, pin, state,country
+instance function : showAddressInfo()
+"""
+
 
 """
 Create person obj with data

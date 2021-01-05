@@ -1,12 +1,13 @@
 import re
-"""
-start with hi and end with bye
-"""
-import re
 
-pattern = "^hi.*bye$"
+"""
+ EITHER C or P allowed TO START WITH AND followed by digit
+"""
+pattern = "(C|P)[0-9]";
 
-test_strings = ['hi kumar bye', 'aadhi kumar byeeeeeeeeee', 'hi kumar sffffffffffffbye', ]
+
+test_strings = ['C13131331', 'P13131331', 'a131313', '---P---', '!@#!#!#!#','Z6789','hi hi hi hi']
+
 
 for testStr in test_strings:
   result = re.match(pattern, testStr)
