@@ -1,3 +1,10 @@
+setup:
+------------------
+download the python:
+https://www.python.org/downloads/
+
+download community version for  pycharm:
+https://www.jetbrains.com/pycharm/download/#section=windows
 
 
 
@@ -22,14 +29,17 @@ x= "hi";                                     x="cost of 90"
                                             // cost of 90 is value
                                             // data type of x is str
 
+conclusion:
+the same veriable dynamically can point to  data  of any data type
+
 -> to run prog in other langs :
    1.compile all 100 lines
    2. run each line
-   run is possbile only if compilation is succsful.
+   run the prog is possbile only if compilation is successful.
 
 -> to run prog in python lang :
    1.compile line and run the line
-   run is possbile if is there is a  compilation issue.
+    run the prog is possbile evn if  there is a  compilation .
 
 -> expressive language
 -> cross-platform
@@ -37,23 +47,24 @@ x= "hi";                                     x="cost of 90"
 -> biggest library/ frameworks
 ->integrated with c/c++/java
 ->python acts as programming lang + scripting lang
--> python progtamming + automation testing(selenium)
+-> python supports programming + automation testing(selenium)
 -> apps:
 a) GUI
 B)web apps
 C)WEB services
 d)Scientific apps
 e)Data science or AI or ML or IOT
-f)enterprose apps ( bidadata, content , stream, 3D cad , image processing)
+f)enterprise apps ( bidadata, content , stream, 3D cad , image processing)
 
 -> Target audience:
   Developers
   testers
+  scripting dev
   R&D
-  anaylt
+  analyst
   datascientist
   dev ops
-  scripting dev
+
 
 
 

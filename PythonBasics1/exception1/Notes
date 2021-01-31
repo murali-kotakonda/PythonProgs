@@ -1,0 +1,63 @@
+Exception handling:
+------------------------
+->Unexpected scenario/event that occurs at the run time.
+
+
+what happens when there is an exception?
+---------------------------------------
+-> Prog will stop/ the flow would break.
+-> customer will see the technical message
+instead of meaningful message.
+-> affect the business/transaction
+
+
+Why do we have Exception?:
+------------------------
+->Bad coding practices
+->3rd party/ server/ hardware
+ ex: db down , server is down , file is deleted
+-> Missing testing the scenario ( edge case )
+
+
+Can we avoid exception during runtime??
+No
+
+
+Exception handling:
+---------------------
+Exception handling is what to do when there is an exception..
+To handle negative scenarios
+Exception handling will be required when there is an exception...
+
+
+Adv of Exception handling:
+---------------------------------
+-> choice for retry/ continue/ stop the flow
+->prepare meaning msg to the customer..
+-> resume the application flow
+
+
+what is the python role?
+------------------------------
+->creates the exception object based on the reason
+->Exception obj contains the exception msg +
+what are the class+method+line nos involved for exeption(stacktrace)
+->stops the application flow..
+
+
+how to do exception hanlding in python:
+------------------------------------------
+introduce 4 blocks:
+->try
+    [write the code that has chances for exception]
+->except
+   -> write exception handling logic
+   -> executed only when there is an exception
+->else
+   -> executed only when there is no exception
+->finally
+   -> optionl
+   -> executed every time
+   -> required only when dealing with 3rd parties ( db/file/external calls)
+   -> write the clean up code for resources
+

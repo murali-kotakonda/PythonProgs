@@ -1,5 +1,17 @@
 import copy
 """
+How to create the copy of an obj?
+create a new obj with data from other obj ; but both are independent
+
+ 
+solution:
+import copy
+
+
+use copy.copy() function
+
+
+
 COPY OBJECT:
 -------------------
 import copy
@@ -15,10 +27,12 @@ class Person:
         self.name=name
         self.age=age
 
+
+#create the obj with data
 p1 = Person(1000,"user1",67)
 
 #p2 =p1  #new object is not created
-p2 = copy.copy(p1) #new object is createdwith data from old obj
+p2 = copy.copy(p1) #new object is created with data from old obj
 
 print(p1.id,p1.name,p1.age)
 print(p2.id,p2.name,p2.age)

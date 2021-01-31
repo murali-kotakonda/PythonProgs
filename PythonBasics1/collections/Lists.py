@@ -6,46 +6,54 @@ myList = [12, 'krishna', 4587.432 ]
 print(type(myList))
 print(myList)
 
-
-
-# find length
-print(len(myList))
+#find length : use len() function
+print("length of list = ",len(myList))
 
 # search by position
+print("************************** search by position ************************************")
 print(myList[0])
+print(myList[1])
 print(myList[2])
 
 
 
+
+print("************************** Add new element ************************************")
 # update the list or add element to list
 # add new element to list
+# use append() funtion
 myList.append("bangalore")
+print(myList)
 # myList[5] ="bangalore" # not supported for insert
 print(myList)
 
-
-# insert in between
+print("************************** Add in between ************************************")
+# insert in between, use insert() funtion mention position num and new element
 myList.insert(1, "myNewPancard")
 print(myList)
 
+
+print("************************** update  existing element ************************************")
 # update an existing element
 myList[2] = 60000.78
 print(myList)
 
-
-# search by content
+print("************************** search by content ************************************")
+# search by content : use 'in' keyword
 print('bangalore' in myList)
-print('bangalore1' in myList)
+print('delhi' in myList)
 
+print("**************************  find position of element ************************************")
 # find position of element ,   if element not found throws exception
 print(myList.index("krishna"))
 # print(myList.index("krishna1"))
 
-
+print("************************** remove element by content ************************************")
 # remove by element value
 myList.remove("myNewPancard")
 # myList.remove("myNewPancardazffsf") # throws exception if not found
 
+print("************************** remove by position ************************************")
 # remove by position
 del myList[1]
 #myList.remove(myList[0])
@@ -101,15 +109,19 @@ print(myList)
 print(myList2)
 print(myList3)
 
-# min,max ,xiunt
+
+# delete all elements : empty list
+myList.clear()
+
+
+# min,max and sum functions,xiunt
 intList = [1, 2, 3, 535, 35, 35, 5, 1]
 print(max(intList))
 print(min(intList))
 print(sum(intList))
 print(intList.count(1))  # frequency
 
-# empty list
-myList.clear()
+
 
 
 

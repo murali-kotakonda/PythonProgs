@@ -1,5 +1,6 @@
 
-# take name and pass as input , if name == 'admin'  + pass ='admin' login success else login failure
+# take name and pass as input , 
+#if name == 'admin' and  pass ='admin' login success else login failure
 name = input("enter name")
 password = input("enter pass")
  

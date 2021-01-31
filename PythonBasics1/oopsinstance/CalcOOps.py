@@ -1,11 +1,13 @@
 """
-input for n1,n2
-and perform calulations
-write sum , sub, mul , div functions
+take input for n1,n2
+and perform operation for sum, sub mul div
+
+write sum ,sub, mul ,div functions inside the class
 
 solution:
-create a class and write 4 instance functions
-create obj and call the functions
+1.create a class and write 4 instance functions
+2.create the object
+3.call the 4 instance functions using the obj
 
 
 #Approach2:

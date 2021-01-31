@@ -1,6 +1,8 @@
 x= 50
 y =0
+
 divRes = x/y
 print("result = ", divRes)
+print("bye")
 
-# ZeroDivisionError
+#python is creating ZeroDivisionError: division by zero

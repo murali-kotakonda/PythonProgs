@@ -1,3 +1,10 @@
+"""
+
+one person has multiple objects:
+
+
+"""
+
 class Person:
     def __init__(self,id,name,age):
         self.id=id

@@ -58,10 +58,6 @@ How many methods in ICICI?
 
 
 
-
-
-
-
 print("**********RBI**********")
 rbi = RBI()
 rbi.createAccount() # LOGIC FROM RBI

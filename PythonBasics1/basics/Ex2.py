@@ -4,7 +4,7 @@
 #snfsjgfbnmdabgmdsabgdbgdbgdsbgdbgdang,danvm,mzmbvbdznmdvnbd
 """
 
-How to write comments in pythoon?
+How to write comments in python?
 ans)
 1. for single line comment use [ # ]
 2. for multi line comments use  [ """    """ ]

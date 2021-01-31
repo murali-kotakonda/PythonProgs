@@ -6,7 +6,7 @@ x= 50
 y =1
 try:
     print(list[2])
-    print(list[8])  # trying to access 8th element but list has 3 elements
+    print(list[1])  # trying to access 8th element but list has 3 elements
 
     divRes = x / y
     print("result = ", divRes)
@@ -15,8 +15,9 @@ try:
     print("after concerting age= ", age)
 
 except Exception as ex:# ex is the execption obj
-    print("Opeartion failed possible reason :; ", ex)
+    print("exception occured .Please contact admin.",ex)
 else:
+    print("No exception")
     print("all operations success")
 
 print("end")

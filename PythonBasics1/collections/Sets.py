@@ -82,13 +82,13 @@ print(res)
 #solution : use set() function.
 
 
-# convert list to set
+# convert list to set , use set() function
 myList = [1, 2, 3, 4, 1, 4, 1, 7, 8, 9, 1, 3]
 resSet = set(myList)
 print("list = ",myList)
 print("set = ",resSet)
 
-# convert a tuple to set
+# convert a tuple to set, use set() function
 myTupl = (1, 2, 3, 4, 1, 4, 1, 7, 8, 9, 1, 3)
 resSet = set(myTupl)
 print("tuple = ",myTupl)

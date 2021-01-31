@@ -19,6 +19,26 @@ class Person:
 	id= None   # public
 	__id = None # private
 
+Ex:
+class Person:
+    id = None
+    __name = None
+
+id , __name are instance variable
+id -> is public , can be accessed outside the class
+__name -> is private , cannot access outside the class
+
+
+class PersonInfo:
+
+    def __init__(self, pId, pName, pAge):
+        self.__id = pId
+        self.__name = pName
+        self.__age = pAge
+
+
+        # here __id , __name , __age are instance variables and are private [cannot access outside class]
+
 
 How to make funtion  private?
 class Person:
@@ -30,18 +50,6 @@ class Person:
    def __myShow(self):
    		print("")
 
-
-
-
-class PersonInfo:
-
-    def __init__(self, pId, pName, pAge):
-        self.__id = pId
-        self.__name = pName
-        self.__age = pAge
-
-
-        # here __id , __name , __name are instance variables and are private [cannot access outside class]
 
 
 

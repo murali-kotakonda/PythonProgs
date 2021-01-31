@@ -1,14 +1,15 @@
 instance function or method:
 ---------------------------
 -> write inside the class
-->  instance function can be called only using the object.
--> from a  instance function we can access the instance variables of the object using 'self'
+
 -> 'self' is the mandatory argument for every instance function
  self:
     - self refers to the current obj under execution
     - every method inside class has self as default argument and the 1st argument.
     - self being 1st argument is mandatory
 
+->  instance function can be called only using the object.
+-> from a  instance function we can access the instance variables of the object using 'self'
 ex:
 def display():
     print("in display)
@@ -60,8 +61,9 @@ class Product has
  - finalPrice()-> instance funtion to print final price after discount
  - takeInput() -> instance funtion to take input for  prodId,prodName,productBrand ,price , discount
 
-
+ create two objects
+ 
+ 
  -perform for 5 objects
 
 
- create two objects

@@ -2,10 +2,8 @@
 
 
 Ex1:
-Req: create obj , set data display
-
-hint:
-make instance variables private
+Req: create obj , set data and display obj data 
+but make instance variables private
 
 
 """

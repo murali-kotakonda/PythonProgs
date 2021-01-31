@@ -30,7 +30,8 @@ provide __eq__ funtion inside the Person class
 and write the compare logic inside the function.
 
 summary:
-if we want to compare two objects , the basic rule is the class has to provide the __eq__ funtion.
+if we want to compare two objects , 
+the basic rule is the class has to provide the __eq__ funtion.
 
 """
 
@@ -71,7 +72,7 @@ else:
 
 p2 =Person(1000,"user1",68)
 
-print(p1==p2)    
+print(p1==p2)    zd
 """
 
 

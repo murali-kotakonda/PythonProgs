@@ -11,7 +11,7 @@ os.chdir('C:\\test') -> to point to the folder, so that operations  will perform
 import os
 os.chdir('C:\\test')
 
-
+#print all the content inside the  'C:\\test'
 for f in os.listdir('C:\\test'):
     # f_name, f_ext = os.path.splitext(f)
     if os.path.isdir(f) :

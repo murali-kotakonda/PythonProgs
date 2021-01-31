@@ -14,13 +14,12 @@ RBI: Parent class has
 #solution:????
 no need of logic from parent
 logic should come only from child
-======> method overriding [replace the parent inherited method]
-parent and child class will have the same methodName
-but with diff logic 
+-> parent and child class will have the same methodName
+but with diff logic
+->replace the parent inherited method with child method
+-> with overriding logic will come from child class:::
 
-Logic will come from child class:::
 """
-
 
 class RBI:
     def createAccount(self):

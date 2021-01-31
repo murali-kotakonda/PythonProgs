@@ -3,6 +3,7 @@
 """
 Collections/Data Structures:
 --------------------------------
+- is a variable that internally can maintain/store multiple data.
 ->Is required when we have large group of data.
 -> collecting and manipulating a group of objects.
 ->Operations : searching, sorting, insertion, manipulation, deletion, updation.
@@ -39,8 +40,9 @@ Set/Dict  : 60 , 50 ,  100, 3 ,  67  ,10
 [stores the elements in random order.]
 
 
-Allow duplicate:
-List and Tuple will allowsset and dict avoids duplicates.
+Allow duplicates:
+List and Tuple will allows duplicates.
+Set and dict avoids duplicates.
 ex: ADD "kumar" ,"kumar"  "kumar"
 List/Tuple : the no of elements is 3
 Set/Dict : the no of elements is 1 [no duplicate elements.]
@@ -48,10 +50,11 @@ Set/Dict : the no of elements is 1 [no duplicate elements.]
 
 Mutuable:
 can it be changed or altered ( add new element/ update existing / delete existing )
-Tuple is immutabled. once creaed it cannot be changed,
+Tuple is imMutuable ,once created it cannot be changed,
 
-syntax:
------------------
+
+syntax for creating a variable:
+-----------------------------
 List:
 data = [] or data = list()
 
@@ -65,12 +68,11 @@ Dictionay
 data = dict()
 
 
-
-Req1: [serach by position ]
-list has 500 elements ,get element at 400 position
-
+Req1: [search by position ]
+collection has 500 elements ,get element at 400 position
+use: list or tuple
 
 Req2: [search by content]
-list has 500 cities ,check if "london" exists
-
+collection has 500 cities ,check if "london" exists
+use: set or dict
 """

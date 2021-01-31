@@ -1,12 +1,17 @@
 Diff between c/c++/java vs python:
 ----------------------------------------
----> no main method
---->  .py ==> python file or python module
-----> a python file contains:
-      global code
-      global variables
-      global methods
-      class ----> (varibles + methods)
+-> no main method
+->  .py ==> python file or python module
+-> a python file contains:
+   global code
+   global variables
+   global functions
+   class:
+     instance variables
+	 instance functions
+	 static variables
+	 static methods
+
 -----> python ==  procedural + object oriented
 -----> python is scripting + programming lang
 -----> c/c++/java ----> 1st compilation then execution

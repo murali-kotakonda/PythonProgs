@@ -85,9 +85,23 @@ In future if we need to add additional properties for Address then we need to ch
 => person obj contains address obj
 => Student obj contains address obj
 
+- provide landmark for every address.
+ only Address class is impacted.
+
+- Person has 3 addresses.
+then no of i.v = 3 + 3 = 6
+class Person:
+       id,name,age,addr1,addr2,addr3
+       #addr1,addr2,addr3 are obj
+	   
 
 Assignment
 ---------------------------------------
+
+#Person with 3 addresses
+#Person has address, emp has address, student has address
+
+
 1.A person has 3 addresses
 present address
 permanent address

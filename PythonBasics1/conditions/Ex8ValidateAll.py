@@ -1,14 +1,16 @@
 """
 take id ,age , usertype as input
 perform validation
-if id,age,usertype is valid ==> print valid data
-if any data found to be invalid ==> print invalid data
-
 
 id should be positive:
 age should be greater than 18:
 usertype should be "admin":
 
+if id,age,usertype is valid ==> print valid data
+if any data found to be invalid ==> print invalid data
+
+
+ 
 
 
 can we write multiple conditions in oen if statement?

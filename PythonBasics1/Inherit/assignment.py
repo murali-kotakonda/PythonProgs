@@ -1,3 +1,28 @@
+"""
+
+Person has id,name, age
+Employee has id,name, age , pan , pf
+Staff has id,name, age , pan , pf , contractId , contractPeriod.
+
+
+req:
+p=Person()
+p.input()  # take input  for id,name, age
+p.display() # print the data for id,name, age
+
+e = Employee()
+e.input()  # take input  for id,name, age , pan , pf
+e.display() # print the data for id,name, age , pan , pf
+
+
+s= Staff()
+s.input()  # take input for id,name, age , pan , pf , contractId , contractPeriod.
+s.display() # print the data for s.input()  # take input for id,name, age , pan , pf , contractId , contractPeriod.
+
+
+"""
+
+
 class Person:
     def showdata(self):
         self.id = input("enter id ")

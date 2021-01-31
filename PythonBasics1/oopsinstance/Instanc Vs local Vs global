@@ -4,24 +4,27 @@ Difference between local varibales , global variables , instance variables:
 x = 90
 
 
-def process2():
-  a =78
+def process2(y):
+    a = y + 10
+
 
 class Data:
-  y = 100
+    b = 100
 
-  def process(self):
-    z= 89
+    def process(self):
+        c = 89
 
 
-Points:
----------------------
-class: Data
-instance function : process()
-global function : process2()
-local variables: a and z are local variables
-instance variables: y
+"""
 Global variable: x
+instance variable : b
+local variables
+   for proces2()   -> a and y
+   for process()  -> c
+process2() -> global function
+process()  -> instance function
+"""
+
 
 
 local variable:

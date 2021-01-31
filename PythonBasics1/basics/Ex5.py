@@ -8,7 +8,6 @@ x = 90 #[value is provided by dev]
 x = input("enter num")  # value provided from console/command prompt
 
 
-
 its is the dev responsibility to convert from string to any other data type:
 
 how to convert from str to int?

@@ -6,7 +6,7 @@ python supports :
 1.For loop
 2.While loop
 
-for is  block where the code  for body should be written with tab space.
+for is block where the code  for body should be written with tab space.
 for loop has 3 sections:
 1.init
 2.condition

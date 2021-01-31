@@ -9,6 +9,9 @@ class Employee:
 class Staff(Employee , Person):   # Staff is child class for Employee and Person
 
 
+Staff gets inheritence from Person
+Staff gets inheritence from Employee
+
 #Staff will inherit props + methods from Employee , Person.
 
 

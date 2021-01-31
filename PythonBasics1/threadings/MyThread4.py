@@ -23,11 +23,11 @@ class Mythread(threading.Thread):
        time.sleep(5)
        if(self.oper == 'add'):
            print("add :{}".format(self.n1 + self.n2))
-       if(self.oper == 'mul'):
+       elif(self.oper == 'mul'):
            print("mul :{}".format( self.n1 * self.n2))
-       if(self.oper == 'sub'):
+       elif(self.oper == 'sub'):
            print("sub :{}".format(self.n1 - self.n2))
-       if(self.oper == 'div'):
+       elif(self.oper == 'div'):
            print("div :{}".format(self.n1 / self.n2))
        
  
@@ -35,7 +35,7 @@ class Mythread(threading.Thread):
 n1 = 40;
 n2 = 20;
 
-myTh1 = Mythread("th1", n1, n2, "add")            
+myTh1 = Mythread("th1", n1, n2, "add")
 myTh2 = Mythread("th2", n1, n2, "mul")
 myTh3 = Mythread("th3", n1, n2, "sub")
 myTh4 = Mythread("th4", n1, n2, "div")
@@ -45,7 +45,7 @@ myTh1.start()
 myTh2.start()
 myTh3.start()
 myTh4.start()
- 
+
 # wait till all thread execution compltes
 myTh1.join()
 myTh2.join()

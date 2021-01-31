@@ -68,12 +68,14 @@ print(a << 2)
 
 assignment:
 ---------------
-sum of 30 and 40 is 50
-sub of 30 and 40 is  10
-mul  of 30 and 40 is  600
-div1  of 30 and 40 is  1.5
-div2  of 30 and 40 is  1
-rem   of 30 and 40 is  10
+ 
+sum of 30 and 20 is 50
+sub of 30 and 20 is  10
+mul  of 30 and 20 is  600
+div1  of 30 and 20 is  1.5
+div2  of 30 and 20 is  1
+rem   of 30 and 20 is  10
+
 
 
 """

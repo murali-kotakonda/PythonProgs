@@ -1,8 +1,8 @@
 numbers = [1, 3, 4, 2]
 
 # Sorting list of Integers in ascending
-numbers.sort() # will not create new list , it will alter the original list
 print("ascending")
+numbers.sort() # will not create new list , it will alter the original list
 print(numbers)
 
 

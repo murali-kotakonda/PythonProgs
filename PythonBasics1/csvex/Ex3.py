@@ -1,3 +1,11 @@
+"""
+
+csv read :
+-> using csvReader
+-> using DictReader
+
+"""
+
 import csv
 
 #file = open("students.csv", 'r', newline='')
@@ -9,7 +17,6 @@ with open('students.csv', mode='r')as file:
     # displaying the contents of the CSV file
     for lines in csvFile:
         print(lines)
-
 
 
 

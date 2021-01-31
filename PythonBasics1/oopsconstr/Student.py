@@ -1,3 +1,20 @@
+
+"""
+A student has name, stuid ,branch , sem
+
+create obj
+set data
+show
+
+- class
+- instance variables
+- instance function
+- constr 
+
+
+ 
+"""
+
 class Student:
     def __init__(self, b, s, r):  # this is constr
         self.branch = b

@@ -1,5 +1,5 @@
 #List comprehension:
-#we have a lis/tuple/colection using which we need to create a new collection by applying some sort filtering or manipulating
+#we have a list/tuple/colection using which we need to create a new collection by applying some sort filtering or manipulating
 
 # Variable
 # Expression for output

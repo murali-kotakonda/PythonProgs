@@ -15,8 +15,7 @@ class Mythread(threading.Thread):
     def __init__(self, name):
         threading.Thread.__init__(self)
         self.name = name
-        print("thraed created", name)
-        
+
     def run(self):
         print("running " + self.name)
         time.sleep(5)

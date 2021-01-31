@@ -1,17 +1,23 @@
 """
 
-can a dev create exception?
+can a developer create exception?
 YES
 
+
 STEPS:
+-----------------------
 1.Create exception obj
 2.raise the exception
 
-syntax:
+#syntax for Create exception obj:
+ex1 = ValueError("invalid data")
+ex2 = IndexError("invalid index value")
+ex3 = ArithmeticError("invalid arthmetic ")
 
-ex = ArithmeticError("NUM2 cannot be zero")
-raise ex
-
+#syntax for raise exception
+raise ex1
+raise ex2
+raise ex3
 
 
 Req: Perform div of two nums

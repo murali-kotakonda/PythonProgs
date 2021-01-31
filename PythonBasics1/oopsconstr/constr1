@@ -25,12 +25,10 @@ Adv:
 
 Req: create obj + set data
 
-class Person{
-id=None
-age=None
-name=None
-
-}
+class Person:
+    id=None
+    age=None
+    name=None
 
 Old style: (without constr)
 ----------------
@@ -53,7 +51,7 @@ Changes for class:
 Req:
 Create class for person with id,name , age as instance variables.
 
-Earlier:
+Earlier:(without constr)
 -------
 class Person:
 
@@ -61,7 +59,7 @@ class Person:
   age= None
   name= None
 
-#id, name , age are insance variables.
+#id, name , age are instance variables.
 
 P = Person()  #create obj
 
@@ -73,7 +71,9 @@ p.age=45
 
 __init__.py  -> is a python file name
  __init__ -> is a constructor inside the class
-Now:
+
+
+Now:(with constr)
 --------------------
 class Person:
 
@@ -83,9 +83,10 @@ class Person:
       self.name=pName
       self.age=pAge
 
+class: Person
 #__init__ is the constructor
 #pId,pName,pAge are the local variables
-#self is the defalut param to the constr.
+#self is the default param to the constr.
 #here id, name, age are the instance variables
 
 p = Person(2000,"user1", 45) # internally calls __init__(self) automatically

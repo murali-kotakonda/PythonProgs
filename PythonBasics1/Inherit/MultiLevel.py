@@ -7,9 +7,12 @@ Staff has id,name, age , pan , pf , contractId , contractPeriod.
 Multi Level :
 --------------------
  [Threee class
- Person
+ Person is  a prent class
  Employee extends Person
  Staff extends Employee
+'
+Person is parent for Employee
+Employee is the parent for Staff'
 
 Staff class gets the inheritence from Person and Employee.
 
@@ -34,6 +37,7 @@ Employee constr will call person constr
 Staff constr will call the employee constr
 
 
+
 """
 
 class Person:
@@ -47,7 +51,7 @@ class Person:
         print(self.name)
         print(self.age)
 
-
+#Employee is child class for Person
 class Employee(Person):
     def __init__(self,id,name,age,pfNo,pan):
         Person.__init__(self, id, name, age)
@@ -59,6 +63,7 @@ class Employee(Person):
         print(self.pfNo)
 
 
+#Staf is child class for Employee
 class Staff(Employee):
     def __init__(self, id, name, age, pan, pfNo, contactId,contarctPeriod):
         '''invoke parent constructor'''

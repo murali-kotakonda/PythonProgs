@@ -13,19 +13,14 @@ and observe code flow and variable values.
 
 """
 //take input for id , age , usertype
+
 //validate id & age , usertype
 //if id is positive print valid id , if not print invalid id
 //if age is greater than 18 print valid age else print invalid age
 //if usertype is "admin" print valid usertype else print invalid usertype
 """
 
-"""
-//take input for id , age , usertype
-//validate id & age , usertype
-//if id is positive print valid id , if not print invalid id
-//if age is greater than 18 print valid age else print invalid age
-//if usertype is "admin" print valid usertype else print invalid usertype
-"""
+ 
 
 #take input for id , age , usertype
 id = int(input("enter id :"))

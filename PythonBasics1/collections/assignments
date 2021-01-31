@@ -24,12 +24,15 @@ else:
 
 #Find the frequency    [without using count funtion ]
 intList = [1, 2, 3, 535, 35, 35, 5, 1]
+i/p: 1
+o/p:  1 is repeated for 2 times
 print(intList.count(1))  # frequency
 
-#Take the input for no of employee ; and take id,name,age   for every employee
-store in list and print
-store in set[avoid duplicates] and print
 
+store objects inside the list or set
+#Take the input for no of employee ; and take id,name,age   for every employee
+->store in list and print
+->store in set[avoid duplicates] and print
 
 
 # Requirement : words as input

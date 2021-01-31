@@ -1,7 +1,13 @@
+"""
 #lambda arguments : expression
+-> is also a functoin without name
+-> simplified version for a funtion
+-> applicable only when the number of lines is less
+-> code simplicity
+
 #, anonymous function is valid and is valid  in the scope
 # while a regular function is valid in the program.
-
+"""
 
 def squareof(x):
     return x * x
@@ -10,31 +16,42 @@ def squareof(x):
 p = squareof(5)
 print(p)
 
+#apprch2 using lamda
+
 """
-i/P : x
-expression :  x*x
+i/p: y 
+expression : y*y
+
+syntax: 
 
 f = lambda <i/p> : <expression>
 """
 
-f = lambda x: x * x
-print(f(5))
-print(f(6))
+mySq = lambda y : y*y
+
+print(mySq(10))
+print(mySq(5))
+print(mySq(4))
 
 #################################################################################################################
-def mysum(x,y):
-    return x+y
+# add function
+def add(x, y):
+    return x + y
 
-print(mysum(10,20))
+print(add(10, 20))
+print(add(5, 4))
+print(add(4, 20))
+#approch2 using lamda
 """
-i/P : x,y
-expresion :  x+y
+i/p: x,y
+expression : x + y
+ 
 """
-myFun = lambda  x,y : x + y
 
-print(myFun(20,25))  # 45
-print(myFun(25,25))  # 50
-print(myFun(30,25))     #55
+myAdd = lambda x,y : x + y
+print(myAdd(10,20))
+print(myAdd(5,4))
+print(myAdd(4,20))
 
 ###############################################################################################################
 def mysum(x):
@@ -66,26 +83,25 @@ def bigger(x,y):
 print(bigger(20,13))
 print(bigger(3,14))
 
-big = lambda x,y : x if x>y else y
-print(big(10,9))
-print(big(50,78))
+myBig = lambda x,y : x if (x>y) else y
+print("Big  = ",myBig(20,30))
+print("Big  = ",myBig(50,60))
+print("Big  = ",myBig(100,70))
 
-small = lambda x,y : x if x<y else y
-print(small(10,9))     # 9
-print(small(50,78))    # 50
 
+mySmall = lambda x,y : y if (x>y) else x
+print("Small  = ",mySmall(20,30))
+print("Small  = ",mySmall(50,60))
+print("Small  = ",mySmall(100,70))
 
 print("******************** printing   even2 *******************************")
 li = [1,2,3,4,5,6,7,8,9,10,-1,20,-45]
 
 # approach1
-
 evenNos = []
-
 for num in li:
     if num % 2 == 0:
         evenNos.append(num)
-
 print(evenNos)
 
 
@@ -93,7 +109,7 @@ print(evenNos)
  
   
 #approach2
-forfilter we cna use inbuilt function filter()
+for filter we can use inbuilt function filter()
 filter() function expects 2 args:
 1.list
 2.lambda

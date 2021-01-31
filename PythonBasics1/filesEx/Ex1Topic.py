@@ -1,3 +1,6 @@
+
+"""
+use open() funtionto create the file obj.
 #The open() function takes two parameters;
 # filename, and mode.
 # "r" - Read - Default value. Opens a file for reading, error if the file does not exist
@@ -7,13 +10,15 @@
 # "w" - Write - Opens a file for writing, creates the file if it does not exist
 #
 # "x" - Create - Creates the specified file, returns an error if the file exists
-"""
+
 f = open("demofile.txt","r")
 f = open("demofile.txt","a")
 f = open("demofile.txt","w")
 f = open("demofile.txt","x")
 
-a , w , x ===> will creare file if file doesnot exists.
+Modes:
+------
+a , w , x ===> will creatre file if file doesnot exists.
 r ==> file should exists.
 
 

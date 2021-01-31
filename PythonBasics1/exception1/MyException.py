@@ -18,8 +18,9 @@ age <18
 ====> which exception should We use from python ? None ;
 ===> hence we hav to create our own exception class
 
-
-1.Dev will create exeception class
+steps:
+--------------------
+1.Dev will create exception class
 2.dev will raise exception
 3.dev will handle the exception
 

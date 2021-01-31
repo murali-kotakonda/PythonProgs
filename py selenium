@@ -1,0 +1,95 @@
+Python:
+-------
+
+- easy to read  + easy to write
+- programming lang + scripting lang
+- large no of inbuilt + external libs
+- expression lang
+  ( what we speak is what we write )
+
+  ex: java
+  req: print hello
+
+Java:
+-----
+public class Ex{
+
+ public static void main(String a[]){
+ System.out.println("hello");
+}
+
+
+python:
+-------
+print("helo")
+
+
+- python supports Object oriented lang + procedure oriented programming
+
+who can use python :
+---------------------
+developer
+tester  -(selenium )
+Ui developer
+scripting developer
+data science
+AI , ML
+devops team
+
+
+what tester we need to learn:
+-----------------------------
+- tester needs python for automation testing
+topics:
+-------
+programming: core python 3.8
+
+web tech:
+html
+
+db:
+sql
+oracle db
+sql developer
+
+automation:
+selenium
+framework -> POM , key driven
+pytest
+unittest
+any basics of bdd  ( cucumber )
+
+pycharm editor
+
+workshop project
+
+
+
+
+selenium:
+---------------
+- used for web application testing
+- using selenium it is easy and simple to interact with the
+web application and
+- simplify writing test cases
+- simplify the communication between python and web application
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
