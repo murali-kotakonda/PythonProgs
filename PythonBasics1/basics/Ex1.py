@@ -15,11 +15,8 @@ string
 boolean
 complex
 
- 
 variable : is the reference name that holds the data/value.
 every variable is associated to the data type .
-   
-
 
 """
 #How to create a variable for diff datatypes?
@@ -48,7 +45,7 @@ print(x, y ,z , a , b , c, d, e )
 
 #how to print all the varibles in a new line using print function
 print("*******************print in new line**************************")
-print(x, y ,z , a , b , c, d, e, sep="\n" )
+print(x, y ,z , a , b , c, d, e, sep="#" )
 
 
 

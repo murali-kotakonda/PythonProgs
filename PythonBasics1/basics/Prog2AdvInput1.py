@@ -18,6 +18,7 @@ print("x= ",x)
 print("y= ",y)
 print("z= ",z)
 
+print("First number is ", x, " and second number is " ,y , " 33rd value = ",z)
 print("First number is {} and second number is {}, 33rd value = {}".format(x,y,z))
 # taking two inputs at a time 
 a, b = input("Enter a two value: ").split() 

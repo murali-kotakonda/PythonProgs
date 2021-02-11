@@ -7,5 +7,9 @@
     <orderEntry type="jdk" jdkName="Python 3.7 (PythonMorning8)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="PythonMorning8" />
+    <orderEntry type="module" module-name="Py9pm" />
+    <orderEntry type="module" module-name="pyDjango" />
+    <orderEntry type="module" module-name="PySelenium" />
+    <orderEntry type="module" module-name="Python8PM" />
   </component>
 </module>

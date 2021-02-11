@@ -10,8 +10,6 @@ if id,age,usertype is valid ==> print valid data
 if any data found to be invalid ==> print invalid data
 
 
- 
-
 
 can we write multiple conditions in oen if statement?
 YES

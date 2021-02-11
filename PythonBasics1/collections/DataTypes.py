@@ -15,14 +15,15 @@ collection supported in python:
 ->Set
 ->Dictionary
 
-#               Index     Insertion order   Allow Duplicates?   Mutuable   Represent                  searchByposition         searchBycontent
+# Collection    Index     Insertion order   Allow Duplicates?   Mutuable   Represent                  searchByposition         searchBycontent
 # List -        Yes           Yes             Yes                Yes          []                         Yes(fast)				 yes(slow)
 # Tuple -       Yes           Yes             Yes                No           ()                         Yes(fast) 				 yes(slow)
 # Set  -        No            No              No                 Yes          {}                            NA					 yes(fast)
 # Dictionary -  No            No              No                 Yes          {}with key + value            NA					 yes(fast)
 
 
-Index --> position based operations
+Index --> 
+position based operations
 insert/delete/update/read based on positions.
 position starts from 0
 1st element is added at 0 position.
@@ -38,7 +39,7 @@ Read:
 List/ Tuple o/p: 50 , 60 , 10 , 67 , 100, 3
 Set/Dict  : 60 , 50 ,  100, 3 ,  67  ,10
 [stores the elements in random order.]
-
+supported for list and tuple
 
 Allow duplicates:
 List and Tuple will allows duplicates.

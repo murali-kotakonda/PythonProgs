@@ -1,0 +1,13 @@
+"""
+
+take size as input
+
+o/p:
+print all numbers from 1 till the input
+
+"""
+
+size = int(input("enter number : "))
+
+for i in range(1,size+1):
+    print(i)

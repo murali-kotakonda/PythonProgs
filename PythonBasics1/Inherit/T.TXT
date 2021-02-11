@@ -26,7 +26,7 @@ write instance variables and methods for parent and reuse for parent and child
 
 
 Inheritence Types:
-->Single-
+->Single
 -> Multilevel
 ->Hierarchial
 ->Multiple

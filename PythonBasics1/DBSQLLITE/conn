@@ -5,9 +5,6 @@ pip install cx_Oracle
 
 
 
-
-
-
 Mysql
 
 python -m pip install mysql-connector

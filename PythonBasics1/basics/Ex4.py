@@ -1,4 +1,6 @@
 #Opeartors
+# perform arthmetic operations on two variables
+
 n1 = 30
 n2= 20
 

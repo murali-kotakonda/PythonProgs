@@ -1,5 +1,5 @@
 """
-How to create atable using sqlite
+How to create a table using sqlite
 
 Table : PERSON
 

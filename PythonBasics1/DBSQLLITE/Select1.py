@@ -4,7 +4,7 @@ SELECT * FROM person   -> Get all rows and all  columns values
 SELECT ID,NAME  FROM person -> Get all rows and fetch only ID,NAME  column values
 SELECT * FROM person where ID=1212; -> Get  all  columns values for a row  whose ID = 1212
 SELECT * FROM person where NAME='KUMAR'   -> Get  all  columns values for a row  whose NAME = KUMAR
-SELECT ID FROM person where NAME='KUMAR' -> Get  Only Idcolumn value for a row  whose NAME = KUMAR
+SELECT ID FROM person where NAME='KUMAR' -> Get  Only Id column value for a row  whose NAME = KUMAR
 
 """
 

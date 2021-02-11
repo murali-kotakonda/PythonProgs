@@ -7,7 +7,7 @@ Staff has id,name, age , pan , pf , contractId , contractPeriod.
 Multi Level :
 --------------------
  [Threee class
- Person is  a prent class
+ Person is  a parent class
  Employee extends Person
  Staff extends Employee
 '

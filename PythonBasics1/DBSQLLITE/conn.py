@@ -27,12 +27,10 @@ command: pip install mysql-connector
  import MySQLdb
 con = MySQLdb.connect("localhost","testuser","testpassword","gfgdb" )
  
-
-
-
 Sqllite:
 ---------------
 import sqlite3
+con = sqlite3.connect("myTable.db")
 
 for db operations we need
 -> connection obj
@@ -72,7 +70,7 @@ b) cursor.fetchone() method
 a) call cursor.execute(<sql here>)  method
 b) cursor.fetchall() method
 
-4.commit transaction
+4.commit transaction [only for  INSERT/UPDATE/DELETE ]
 connection.commit()
 
 5.close connection

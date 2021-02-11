@@ -1,7 +1,7 @@
 # Str is commonly data type
 # by defualt we have buildin strin operations
 
-name= "hi Eminent It  technologies bye"
+name= "hi Accumed It  technologies bye"
 
 # find length of string
 size = len(name)
@@ -12,13 +12,13 @@ print("length of str==", size)
 name="Hi How Are you"
 upStr = name.upper() # creates a new string
 
+#lower
 lowStr = name.lower() # creates a new string
 print(upStr)
 print(lowStr)
 
-
 # string is ending with "bye"
-name= "hi Eminent technologies bye"
+name= "hi Accumed technologies bye"
 flag = name.endswith("bye")
 if flag:
     print("string ends with bye")
@@ -34,7 +34,7 @@ else:
     
 
 # word "tech" is substring of name??????
-name= "hi Eminent technologies bye"
+name= "hi Accumed technologies bye"
 s1="tech"
 s2 ="hi"
 s3="xyz"
@@ -42,13 +42,11 @@ s3="xyz"
 charNo = name.find(s1) # retuns int
 print(charNo)
 
-charNo = name.find(s3) # retuns int
+charNo = name.find(s2) # retuns int
 print(charNo)
 
 charNo = name.find(s3) # retuns int
 print(charNo)
-
-
 
 # find method returns int
 # int value >=0 ===> string is found
@@ -107,7 +105,7 @@ print(name.isdigit()) # returns true if all chars are digits [0-9]
 name="user134131@"
 print(name.isalnum()) # returns true if all chars are alphabets + digits[a-z] [A-Z] and [0-9]
 
-
+#Replace word
 name= " shyam !!! kumar!! harsha!! jaya! shyam"
 newStr= name.replace("shyam", "shubham")
 print(newStr)
@@ -124,8 +122,8 @@ print(str[10:25])# from 10th till 24
 
 
 print("lasstt")
-print(str[-1]) # last but one  n
-print(str[-3]) # last but three f
+print(str[-1]) # last char  n
+print(str[-3]) # last  f
 
 print(str[:-3]) # from 0 position till (size-3) position
 print(str[-3:]) # last three chras
@@ -145,4 +143,3 @@ print(str[-3:]) # last three chras
 
 # input : sentence   o/p: no of times  a word has been repetaed??
 # hi kumar shyma kumar varsa shyam ram kumar
-

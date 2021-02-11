@@ -1,9 +1,10 @@
 """
-//take input for id , age , usertype
-//validate id & age , usertype
-//if id is positive print valid id , if not print invalid id
-//if age is greater than 18 print valid age else print invalid age
-//if usertype is "admin" print valid usertype else print invalid usertype
+take input for id , age , usertype
+validate id & age , usertype
+
+if id is positive print valid id , if not print invalid id
+if age is greater than 18 print valid age else print invalid age
+if usertype is "admin" print valid usertype else print invalid usertype
 
 if id is valid then only validate the age [ when id is invalid dont validate further ]
 if age is valid then only validate the usertype[ when age is invalid dont validate further ]

@@ -22,12 +22,17 @@ O/p : 120
 #Find the Fibonosis till that number
 #sum of numbers from 1 till the input
 
-#Find the rank for given studnet Name , sub1 , sub2 , sub3
+#Find the rank for given
+student Name
+, sub1 , sub2 , sub3
 # take size as input : 3
 # user1 70 , 80 90
 # user2 100 90 100
 # user3 100 80 70
 
+
+O/p:
+user2 got `st rank with 290 marks
 
 
 1.take number as input

@@ -1,7 +1,7 @@
 """
 #how to intake the inputs from the console
 # use input() function
-#by default input() funt considers every value as string
+#by default input() funtn considers every value as string
 
 syntax:
 x = 90 #[value is provided by dev]  
@@ -29,8 +29,15 @@ x = int( input("enter num") )
 x = float( input("enter decimal") )
 
 
-
 """
+
+a = input("enter a num")
+b = input("enter a float")
+c = input("enter a string")
+
+print(type(a),type(b),type(c) )
+
+
 a = int(input("enter a number"))
 
 b= float(input("enter a float"))

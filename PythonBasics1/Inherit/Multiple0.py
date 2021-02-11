@@ -3,11 +3,13 @@ Multiple Inheritence:
 ------------------------------
 -> One child having many parent classes
 class Person:
+   <some logic>
 
 class Employee:
+   <some logic>
 
 class Staff(Employee , Person):   # Staff is child class for Employee and Person
-
+     <some logic>
 
 Staff gets inheritence from Person
 Staff gets inheritence from Employee
