@@ -1,4 +1,15 @@
+"""
+Take input for number of  persons:
+
+for every person take input for id,name,age.
+and keep data inside the obj
+print the data
+
+"""
+
+
 class Person:
+
     # instance variables
     id = None
     name = None

@@ -1,10 +1,7 @@
 # code :- reused in diff places of ur project
 #solution: write code once and reuse any no of times  ==> FUNTIONS
 # EX:
-#SYNATX : 1. def keyword to write a function 
-#         2. after def specify funtion name
-#         3. function can take any data type and can return any data type
-# use the indentation for the funtion body
+#syntax
 
 # create a funtion with no input and no output
 def sayHi():

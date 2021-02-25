@@ -1,3 +1,9 @@
+""""
+create 3 objs
+set the data
+print the data
+"""
+
 class person:
     id=None
     name=None

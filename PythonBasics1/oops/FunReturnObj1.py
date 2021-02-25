@@ -1,5 +1,6 @@
-#create 3 objs , set data and show data
+#
 """
+create 3 objs , set data and show data
 simplify logic for printing the person obj data
 
 solution:

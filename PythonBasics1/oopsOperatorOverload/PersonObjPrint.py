@@ -17,7 +17,7 @@ print(p)
 """
 by default print function prints the obj address.
 
-print funtoon has to print the obj data?
+print funtion has to print the obj data?
 solution:
 provide the __str__ function inside the class
 

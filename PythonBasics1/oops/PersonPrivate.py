@@ -1,4 +1,4 @@
-#if the insatcne varibale or the instance funtion starts with '__' then it is private.
+#if the instance variable or the instance function  starts with '__' then it is private.
 #private cannot be accessed outside the class.
 
 class Data:

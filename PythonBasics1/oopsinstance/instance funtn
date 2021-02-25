@@ -26,6 +26,10 @@ class Data:
 # show() is a instance function [ inside the class ]
 
 
+How to call global function:
+-----------------------------------
+display()
+
 
 syntax for calling the instance method:
 --------------------------------------------
@@ -45,9 +49,7 @@ d = Data()
 d.show()
 
 
-How to call global function:
------------------------------------
-display()
+
 
 
 Object is the default arg available to the instance method in the form of self.

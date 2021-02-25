@@ -8,10 +8,13 @@ one parent having multiple child classes.
 RBI: Parent class has
        - createAccount()
        - processLoan()
+
 SBI is a child of RBI
 		   - demat1()
+
 HDFC is a child of RBI
 			  - demat2()
+
 ICICI is a child of RBI
 			  - demat3()
 
@@ -73,7 +76,7 @@ sbi.demat1() # LOGIC FROM SBI
 
 print("**********HDFC**********")
 h = HDFC()
-h.createAccount()# LOGIC FROM RBI 
+h.createAccount()# LOGIC FROM RBI
 h.processLoan()# LOGIC FROM RBI
 h.demat2() # LOGIC FROM HDFC
 

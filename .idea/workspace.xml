@@ -20,166 +20,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc8419ee-be58-4ae5-92ca-5193bbda4583" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/conditions/Ex8ValidateAll_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/conditions/conditions2/Ex1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/conditions/conditions2/Ex2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/conditions/conditions2/Ex3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/conditions/conditions2/Ex4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/conditions/conditions2/Ex5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/conditions/conditions2/Ex6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/conditions/conditions2/Ex7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/conditions/conditions2/Ex8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/conditions/conditions2/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/conditions/conditions2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/loops/Ex1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/loops/Ex2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/loops/Ex2_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/loops/Ex2_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/loops/Ex3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/loops/Ex5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/loops/Ex6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/loops/Ex7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/loops/Ex8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/loops/Ex9_WhileSum1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/loops/Ex9_WhileSum2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/loops/Ex9_WhileSum3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/loops/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonBasics1/loops/ex8_whileInt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/Ex10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/Ex11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/Ex12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/Ex9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/Multiple00.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/Multiple1_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PySelenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/1basics/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/10FindElements.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/10FindElements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/11.DragAndDrop.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/11.DragAndDrop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/13.Scroll.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/13.Scroll.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/14.MouseHover.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/14.MouseHover.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/15.Keys1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/15.Keys1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/15.Keys2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/15.Keys2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/16Frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/16Frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/17Table.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/17Table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/4ConditionalCommands.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/4ConditionalCommands.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/5.WaitCommands.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/5.WaitCommands.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/6.WaitCommands.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/6.WaitCommands.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/7.InputText.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/7.InputText.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/Ex10Window.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/Ex10Window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/Ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/Ex2_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/Ex22.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/Ex22.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/Ex3GetAllLinks.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/Ex3GetAllLinks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/Ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/Ex4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/Ex5Locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/Ex1Locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/Ex6Dropdown.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/Ex6Dropdown.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/Ex7Alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/Ex7Alert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/Ex8Alert2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/Ex8Alert2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/Ex9AlertWithMsg.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/Ex9AlertWithMsg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/WindowAlert.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/WindowAlert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3report/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/2fieldsOld/sele/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/2fieldsOld/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/Ex2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/PythonSep21/.idea/PythonSep21.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/PythonSep21/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/PythonSep21/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/basics/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/1basics/Ex1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/basics/Ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/1basics/Ex2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/basics/Ex3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/1basics/Ex3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/basics/Ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/1basics/Ex4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/basics/Ex5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/1basics/Ex5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/basics/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestsuit/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/basics/basetest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/1basics/basetest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/basics/commons.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/1basics/commons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/basics/file.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/1basics/file.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/basics/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/1basics/test.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/basics/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/1basics/test.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/dataprovider/ExcelDataProvdierGoogleSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/4dataprovider/ExcelDataProvdierGoogleSearch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/dataprovider/ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/4dataprovider/ex2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/dataprovider/example1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/4dataprovider/example1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/dataprovider/unittest1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/4dataprovider/unittest1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/addnewdept.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/addnewdept.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/advancesearchemployee.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/advancesearchemployee.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/basetest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/basetest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/changepassword.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/changepassword.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/commons.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/commons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/createnewemp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/createnewemp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/loginpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/loginpage1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/loginpage1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/loginpageDataProviderExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/loginpageDataProviderExcel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/mysubordinates.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/mysubordinates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/searchdeptname.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/searchdeptname.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/searchemp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/searchemp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/showalldept.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/showalldept.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/showallemp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/showallemp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/empdemo/updateprofile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5empdemo/updateprofile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/ex1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/pom/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5pom/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/pom/addnewemppage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5pom/addnewemppage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/pom/changepasswordpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5pom/changepasswordpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/pom/commonpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5pom/commonpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/pom/commons.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5pom/commons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/pom/dataproviderlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5pom/dataproviderlogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/pom/lifecycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5pom/lifecycle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/pom/login.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5pom/login.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/pom/loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5pom/loginpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/pom/loginpagedataprovider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5pom/loginpagedataprovider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/pom/testaddnewemp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5pom/testaddnewemp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/pom/testchangepassword.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5pom/testchangepassword.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/pom/testlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5pom/testlogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/pom/writedatatocsv.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/5pom/writedatatocsv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/report/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3report/Ex1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/report/TestResults___main__.MyTest_2020-08-05_17-17-00.html" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3report/TestResults___main__.MyTest_2020-08-05_17-17-00.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/report/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/Notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/report/inst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/Actions" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/Actions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/UnitTest1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/Ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/UnitTest1_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/Ex3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/UnitTest1_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/Ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/UnitTest1_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/Ex5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/UnitTest1_5_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/Ex6.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/UnitTest1_6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/Ex_formHtml.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/UnitTest1_5form_html.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/Locators" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/Locators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/Notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/basetest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/basetest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/file.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/file.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/lifecycle.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/lifecycle.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/skip.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/skip.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/unittest2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/unittest2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/unittest3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/unittest3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/unittest5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/unittest5_Alert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/unittest6_windows.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/unittest6_windows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/unittest7.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/unittest7_actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/unittest8.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/unittest8_xpth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestEx/xpath NOTES" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/xpath NOTES" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestsuit/Ex3SUITE.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestsuit/Ex3SUITE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestsuit/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestsuit/ex11.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestsuit/ex11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestsuit/ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestsuit/ex2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestsuit/ex3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestsuit/ex3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestsuit/mysuit.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestsuit/mysuit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PySelenium/unitTestsuit/suite.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestsuit/suite.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PyTrain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PyTrain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PySelenium/3unitTestEx/UnitTest1_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PySelenium/3unitTestEx/UnitTest1_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PySelenium/3unitTestEx/UnitTest1_5_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/UnitTest1_5_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PySelenium/3unitTestEx/UnitTest1_5form_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/UnitTest1_5form_html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PySelenium/3unitTestEx/unittest3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PySelenium/3unitTestEx/unittest6_windows.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/unittest6_windows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PySelenium/3unitTestEx/unittest7_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/unittest7_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PySelenium/3unitTestEx/xpath NOTES" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/3unitTestEx/xpath NOTES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PySelenium/basics/commons.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PySelenium/basics/commons.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/DBSQLLITE/InsertMany.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/DBSQLLITE/InsertMany.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/DBSQLLITE/Select1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/DBSQLLITE/Select1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/DBSQLLITE/Select3.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/DBSQLLITE/Select3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/DBSQLLITE/conn" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/DBSQLLITE/conn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/DBSQLLITE/conn.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/DBSQLLITE/conn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/DBSQLLITE/createTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/DBSQLLITE/createTable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/MultiLevel.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/MultiLevel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/Multiple0.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/Multiple0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/T.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/T.TXT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/basics/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/basics/Ex1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/basics/Ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/basics/Ex4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/basics/Ex5.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/basics/Ex5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/basics/Prog2AdvInput1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/basics/Prog2AdvInput1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/basics/TestStrperations.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/basics/TestStrperations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/basics/loops/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/basics/loops/Ex1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/conditions/Ex7Validate1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/conditions/Ex7Validate1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/conditions/Ex8ValidateAll.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/conditions/Ex8ValidateAll.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonBasics1/conditions/Ex9ValidateUnPwd.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/conditions/Ex9ValidateUnPwd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/Loop1.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/Loop1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyDjango/myProject/login/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyDjango/myProject/login/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pyDjango/myProject/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyDjango/myProject/login/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/Hierarchial.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/Hierarchial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/Hierarchial2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/Hierarchial2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/Hierarchial3.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/Hierarchial3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/SIngleInheri1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/SIngleInheri1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/Inherit/SIngleInheri2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/Inherit/SIngleInheri2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/basics/functions/Ex11.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/basics/functions/Ex11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/basics/functions/Ex17.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/basics/functions/Ex17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/basics/functions/Ex19.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/basics/functions/Ex19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/basics/functions/Ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/basics/functions/Ex4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/basics/functions/Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/basics/functions/Functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/basics/functions/ex10.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/basics/functions/ex10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/basics/functions/notes" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/basics/functions/notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/excel1/Ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/excel1/Ex2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oops/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oops/Ex1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oops/Ex1WithInput.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oops/Ex1WithInput.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oops/Ex1WithInputMulti.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oops/Ex1WithInputMulti.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oops/FunReturnObj0.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oops/FunReturnObj0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oops/FunReturnObj1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oops/FunReturnObj1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oops/PersonPrivate.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oops/PersonPrivate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oops/intro" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oops/intro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopsOperatorOverload/PersonObjPrint.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oopsOperatorOverload/PersonObjPrint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopsconstr/constr1" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oopsconstr/constr1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopshasA/notes" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oopshasA/notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopsinstance/Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oopsinstance/Calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopsinstance/InstanceFuntn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonBasics1/oopsinstance/instance funtn" beforeDir="false" afterPath="$PROJECT_DIR$/PythonBasics1/oopsinstance/instance funtn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyDjango/django/django.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../pyDjango/django/django.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyDjango/myProject/Migrations" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyDjango/myProject/Notes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyDjango/myProject/Rest Notes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyDjango/myProject/dbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyDjango/myProject/model Fileds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyDjango/myProject/myProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyDjango/myProject/myProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyDjango/myProject/myProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pyDjango/myProject/myProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyDjango/myProject/mysql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyDjango/myProject/rest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyDjango/myProject/session notes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyDjango/myProject/sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyDjango/myProject/static Config" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,22 +103,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PythonBasics1/loops" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PythonBasics1/Inherit" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Murali\Training\Git" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\Inherit" />
       <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\loops" />
       <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1" />
       <recent name="C:\Murali\Training\Git\PythonProgs-master\PythonBasics1\conditions" />
       <recent name="C:\Users\i335484\PycharmProjects\PythonMorning8\operatorOverload" />
-      <recent name="C:\Users\i335484\PycharmProjects\PythonMorning8\oopsconstr" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Murali\Training\Git" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex8_whileInt">
+  <component name="RunManager" selected="Python.Multiple1_1">
     <configuration name="DictOpedel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,6 +161,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Multiple1_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTrain" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonBasics1/Inherit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBasics1/Inherit/Multiple1_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="PersonPrivate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyTrain" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,27 +195,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBasics1/oops/PersonPrivate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Sets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyTrain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonBasics1/collections" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBasics1/collections/Sets.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Multiple1_1" />
         <item itemvalue="Python.ex8_whileInt" />
         <item itemvalue="Python.Ex8ValidateAll_1" />
         <item itemvalue="Python.PersonPrivate" />
         <item itemvalue="Python.DictOpedel" />
-        <item itemvalue="Python.Sets" />
       </list>
     </recent_temporary>
   </component>
@@ -368,22 +264,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612938731004" />
-    <state width="1515" height="148" key="GridCell.Tab.0.bottom" timestamp="1613027495049">
+    <state width="1515" height="148" key="GridCell.Tab.0.bottom" timestamp="1614178742370">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="148" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613027495049" />
-    <state width="1515" height="148" key="GridCell.Tab.0.center" timestamp="1613027495049">
+    <state width="1515" height="148" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614178742370" />
+    <state width="1515" height="148" key="GridCell.Tab.0.center" timestamp="1614178742369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="148" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613027495049" />
-    <state width="1515" height="148" key="GridCell.Tab.0.left" timestamp="1613027495049">
+    <state width="1515" height="148" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614178742369" />
+    <state width="1515" height="148" key="GridCell.Tab.0.left" timestamp="1614178742369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="148" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613027495048" />
-    <state width="1515" height="148" key="GridCell.Tab.0.right" timestamp="1613027495049">
+    <state width="1515" height="148" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614178742369" />
+    <state width="1515" height="148" key="GridCell.Tab.0.right" timestamp="1614178742369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="148" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613027495049" />
+    <state width="1515" height="148" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614178742369" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

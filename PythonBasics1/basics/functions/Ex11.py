@@ -1,6 +1,6 @@
 """
 
-function that takes name as input and returns with Mr.Mrs
+function that takes name as input and returns by appending  Mr.Mrs
 """
 
 #WRITE THE FUNCTION

@@ -6,12 +6,11 @@ write a function that takes 2 nums as input and prints the bigger number.
 
 #how to write function
 def big(x,y):
-     bigger=0
      if(x>y):
-         bigger=x
+         print("Big = ", x)
      else:
-         bigger = y
-     print("Big = ", bigger)
+         print("Big = ", y)
+
 
  # x, y , bigger are the local variables
 

@@ -54,13 +54,25 @@ for row in rows:
         print(c.value)
 
 # Get all cells from column A
+print("Get all cells from column A")
 rows = sheet["A"]
+
+for cell in rows:
+       print(cell.value)
+
+
 
 # Get all cells for a range of columns
 rows = sheet["A:B"]
+for cell in rows:
+       print(cell[0].value,cell[1].value)
 
- # Get all cells from row 5
-rows = sheet[5]
+ # Get all cells from row 2
+print("Read by row number")
+rows = sheet[2]
+for cell in rows:
+       print(cell.value)
+
 
  # Get all cells for a range of rows
 rows = sheet[5:6]

@@ -6,8 +6,6 @@ Employee has id, name, age, pan, pfNo as instance variables
 create obj and set data for person and employee.
 
 
-
-"""
 #Person class as parent
 #logic inside a constr => to initialize the instace variables
 
@@ -16,6 +14,7 @@ create obj and set data for person and employee.
 #Employee constr has 5 args
 #From Employee constr we need to call the person constr
 
+"""
 
 class Person:
     def __init__(self,id,name,age):

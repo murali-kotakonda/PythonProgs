@@ -49,15 +49,16 @@ sbi.createAccount() # LOGIC FROM RBI
 sbi.processLoan() # LOGIC FROM RBI
 sbi.demat() # LOGIC FROM SBI
 
-print("**********HDFC**********")
-h = HDFC()
-h.createAccount()# LOGIC FROM RBI 
-h.processLoan()# LOGIC FROM HDFC + RBI
-h.demat() # LOGIC FROM HDFC
 
 print("**********ICICI**********")
 i = ICICI()
 i.createAccount() # LOGIC FROM RBI
 i.processLoan() # LOGIC FROM RBI
 i.demat() # LOGIC FROM ICICI
-        
+
+
+print("**********HDFC**********")
+h = HDFC()
+h.createAccount()# LOGIC FROM RBI
+h.processLoan()# LOGIC FROM HDFC + RBI
+h.demat() # LOGIC FROM HDFC

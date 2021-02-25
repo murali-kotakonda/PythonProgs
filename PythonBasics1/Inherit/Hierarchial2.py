@@ -48,7 +48,7 @@ class ICICI(RBI):
 
 
 """
-for icici we have 3 type sof methods:
+for icici we have 3 type of methods:
 createAccount()  -> inherited method
 processLoan() -> overriden method
 demat3() -> child specific method

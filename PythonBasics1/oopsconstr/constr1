@@ -86,10 +86,14 @@ class Person:
 class: Person
 #__init__ is the constructor
 #pId,pName,pAge are the local variables
-#self is the default param to the constr.
 #here id, name, age are the instance variables
+#self is the default param to the constr.
+#self refers to current obj
 
 p = Person(2000,"user1", 45) # internally calls __init__(self) automatically
+
+p1 = Person(2001,"user22", 41) # internally calls __init__(self) automatically and self = p1
+p2 = Person(2002,"user13", 42) # internally calls __init__(self) automatically and self = p2
 
 
 

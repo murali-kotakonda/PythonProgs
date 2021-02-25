@@ -1,5 +1,5 @@
 """
-var arg function: a fuction that takes any umber of arguments.
+var arg function: a fuction that takes any number of arguments.
 """
 
 #WRITE THE FUNCTION

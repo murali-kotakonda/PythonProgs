@@ -38,6 +38,12 @@ class Student:
        # here addrObj is a Address obj
 
 
+person has 3 addresses:
+--------------------------
+
+class Person:
+       id,name,age,addrObj1,addrObj2,addrObj3
+       # here addrObj1,addrObj2,addrObj3 are the Address obj
 
 In future if we need to add additional properties for Address then we need to change Person and Student class.
 
@@ -109,8 +115,6 @@ office address
 
 Req:
 create obj and set data for person with 3 addresses and print.
-
-
 
 
 

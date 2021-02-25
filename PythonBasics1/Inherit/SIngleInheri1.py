@@ -1,9 +1,5 @@
 """
-
-Person has id, name, age as instance variables
-Employee has id, name, age, pan, pfNo as instance variables
-
-Req:
+ Req:
 Person has id, name, age as instance variables
 Employee has id, name, age, pan, pfNo as instance variables
 

@@ -3,10 +3,14 @@
 # self being 1st argument is mandatory
 
 """
-
-Ex:
-
-create obj , set data and display for Person that has  id,name,age as instance variables.
+ 
+Person has  id,name,age
+create obj , set data and display for Person .
+using
+a)class
+b)instance variables
+c)instance function
+d)constr
 
 
 """
