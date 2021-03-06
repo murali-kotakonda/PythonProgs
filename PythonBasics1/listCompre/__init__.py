@@ -1,5 +1,6 @@
 #List comprehension:
-#we have a list/tuple/colection using which we need to create a new collection by applying some sort filtering or manipulating
+#we have a list/tuple/colection using which we need to create a new collection by applying some
+# sort filtering or manipulating
 
 # Variable
 # Expression for output
@@ -14,7 +15,6 @@ mylist = [1, 2, 3, 4, 5, 6]
 
 # Approach1
 output = []
-
 for number in mylist:
     output.append(number * number)
 
@@ -70,7 +70,6 @@ for occur in word.split("#"):
 print(words)
 
 # Approach2
-
 words = [occur for occur in word.split("#")]
 print(words)
 
@@ -97,16 +96,12 @@ evenList = [  num for num in myList  if number % 2 == 0  ]
 print(evenList)
 
 #Odd Nos
-oddList = [  num for num in myList  if number % 2 != 0  ]
+oddList = [  num for num in myList  if num % 2 != 0  ]
 print(oddList)
 
-
 #add divisble by 5
-list = [  num for num in myList  if number % 5 == 0  ]
+list = [  num for num in myList  if num % 5 == 0  ]
 print(list)
-
-
-
 
 
 

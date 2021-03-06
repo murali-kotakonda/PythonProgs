@@ -22,7 +22,7 @@ f1(20, 30)
 f1(30, 80)
 
 
-#Ex3:
+#Ex3: [funtion returnung value]
 def change(text):
     return text.upper()
 

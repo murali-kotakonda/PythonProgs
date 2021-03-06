@@ -1,5 +1,5 @@
 x= 50
-y =2
+y =0
 
 try:
     divRes = x/y

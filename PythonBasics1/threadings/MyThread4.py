@@ -6,6 +6,9 @@ Created on Aug 16, 2018
 
 '''
 
+"""
+perform add, mul,sub and div for two numbers using threads
+"""
 import threading
 import time
 

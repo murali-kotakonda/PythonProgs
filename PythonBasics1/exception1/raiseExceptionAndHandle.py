@@ -1,3 +1,10 @@
+"""
+Req: Perform div of two nums
+if the second num is zero then throw exception.
+
+and handle the exception
+"""
+
 def div(n1, n2):
     if n2 == 0:
         raise ArithmeticError("NUM2 cannot be zero")

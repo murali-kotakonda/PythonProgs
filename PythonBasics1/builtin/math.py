@@ -26,15 +26,18 @@ print(pow(8,3))
 
 "sort numbers"
 data = (34,1,6,78,90)
-print(sorted(data))
+"sort numbers in asc order"
+list2 = sorted(data)
+print(list2)
 
 "sort numbers in decending order"
-print(sorted(data,reverse=True))
-
-
+list2 = sorted(data,reverse=True)
+print(list2)
 
 data = ("HELLO","APPLE","ZEBRA")
+#"SORT strings in asc order"
 print(sorted(data))
+
 #"SORT strings in desc order"
 print(sorted(data,reverse=True))
 

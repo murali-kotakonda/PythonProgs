@@ -10,9 +10,9 @@ use write() function to write string to file
 """
 f = open("user.txt", "a")
 
-f.write("hello1 raj \n")
-f.write("user111111\n")
-f.write("where are you")
+f.write("hello1adad raj \n")
+f.write("user111111ad\n")
+f.write("where are youaddff")
 
 print("write success")
 f.close()

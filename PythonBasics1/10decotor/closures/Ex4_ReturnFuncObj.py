@@ -12,10 +12,10 @@ Req:
 call the inner function globally
 
 solution:
-outer funtion has to return the inner object
+outer function has to return the function
+ inner object
 
 """
-
 
 
 
@@ -27,7 +27,7 @@ def f1():
     print("outer end")
     return sqr  # return the inner function obj
 
-# get the funtion obj by calling the funtion
+# get the inner function obj by calling the outer funtion
 sqrObj = f1()  # call outer function
 
 # fObj is funton obj for sqr()
@@ -86,7 +86,8 @@ def f1(x):
 
 f2Obj = f1(15)  # get inner futn obj
 
-f2Obj = f1(15)  # get inner futn obj
+f2Obj = f1(25)  # get inner futn obj
+
 f2Obj(10)  # call innner funtn
 f2Obj(20)  # call innner funtn
 f2Obj(30)  # call innner funtn

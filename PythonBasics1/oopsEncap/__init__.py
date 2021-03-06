@@ -1,4 +1,64 @@
 """
+
+Case#1:
+-----------------------------------------------------
+Class Vehicle:
+
+    //instance variables
+    wheel,
+    engine
+    fuel.
+
+    def  brake():
+      <logic to stop car>
+
+    def  acclerate(){
+     <logic to speed accelerate>
+
+    def  showFuelReading(){
+	 <logic to show fuel reading>
+
+
+
+
+Req#1:To stop vehicle
+solution:
+call the brake()
+
+brake() -> changing the values for the instance variable wheel + engine
+
+
+
+Req#2:speedup vehicle
+solution) call accelarate() function.
+
+acclearate() - >changing the values for the instance variable wheel + engine using fuel..
+
+
+
+Req#3:see the fuel reading:
+solution) call the showFuelReading() function..
+shows the current state of the fuel
+
+
+
+conclusion:
+--------------
+-> Hide the instance variables and expose the methods.
+-> change the instance variables/read the instance variables using the methods.
+[any action on obj perform using the method]
+-> one action == one method
+
+
+
+
+
+changes in class:
+  1. make instance variables as private
+  2.expose the methods to set data and read data (setters & getters)
+  for every instance variables provide setter and getter
+
+
 How to make instance variables private??
 
 

@@ -24,7 +24,7 @@ myset3 = {1, 'kumar', 23, 'kumar', 23, 1}
 print(myset3)
 
 
-
+print("***** Add new element ***************")
 # to add entry into the set
 myset3.add("mythri")
 myset3.add("mythri")
@@ -32,10 +32,12 @@ myset3.add("mythri")
 print(myset3)
 
 
+print("***** search by content ***************")
 #search by content use 'in'
 print('kumar' in myset3)
 print('ram' in myset3)
 
+print("*****length of set ***************")
 #length
 print(len(myset3))
 
@@ -49,8 +51,6 @@ print("------------delete kumar----------------")
 myset3.remove("kumar")
 print(myset3)
 print(len(myset3))
-
-
 
 myset4 = {1, 'raj', 23}
 myset5 = {'raj', 'banglalore', 'India'}

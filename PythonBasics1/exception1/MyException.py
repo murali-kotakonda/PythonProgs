@@ -2,7 +2,7 @@
 Custom Exception or use defined exception:
 -----------------------------------------------
 
-why should a dev create exception?
+why should a dev create exception class?
 This is required for handling negative scenarios in the application.
 
 ex:
@@ -41,6 +41,7 @@ class ServiceException(Exception):
         self.errorCode = errorCode
         self.errorMsg = errorMsg
 
+  How to raise exception?
   raise ServiceException("erro1", "Negative numbers not allowed")
 
 ex2:
@@ -50,6 +51,7 @@ class MyException(Exception):
         Exception.__init__(self)
         self.errorMsg = errorMsg
 
+How to raise exception?
 raise MyException("age caanot be less then 18")
 
 

@@ -22,15 +22,18 @@ p2 = Person(2001,"user2",24)
 p3 = Person(2002,"user3",25)
 
 #add objs inside the list
+# list =[p1,p2,p3]
 list.append(p1)
 list.append(p2)
 list.append(p3)
+
 
 #print objs using list
 for p in list:
     print(p.id)
     print(p.name)
     print(p.age)
+
 
 """
 #assignment:

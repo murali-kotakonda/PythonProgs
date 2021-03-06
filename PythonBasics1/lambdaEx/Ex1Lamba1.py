@@ -123,16 +123,21 @@ for i in list:
     print(i)
 
 
-
+print("**********Filter Odd numbers********************")
 #Odd
 list = filter(lambda x: x%2!=0 , li)
 print(list)
 
-
+print("**********Filter positive numbers********************")
 #get positive nums
 list = filter(lambda x: x>=0 , li)
 print(list)
 
+
+print("**********Filter --ve numbers********************")
+#get positive nums
+list = filter(lambda x: x<0 , li)
+print(list)
 
 
 print("printing   even")

@@ -10,11 +10,12 @@ we need to write 3 except blocks
 list = [1, 2, 3]
 
 x = 50
-y = 1
+y = 0
 
+age =None
 try:
     print(list[2])
-    print(list[1])
+    print(list[9])
 
     divRes = x / y
 

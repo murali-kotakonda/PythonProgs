@@ -45,9 +45,14 @@ what are the class+method+line nos involved for exeption(stacktrace)
 ->stops the application flow..
 
 
-how to do exception hanlding in python:
+how to do exception handling  in python:
 ------------------------------------------
 introduce 4 blocks:
+->try
+->except
+->else
+->finally
+
 ->try
     [write the code that has chances for exception]
 ->except
@@ -59,5 +64,6 @@ introduce 4 blocks:
    -> optionl
    -> executed every time
    -> required only when dealing with 3rd parties ( db/file/external calls)
-   -> write the clean up code for resources
+   -> write the clean up code for resources.
+   ex: release the lock, close the connection
 

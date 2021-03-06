@@ -13,7 +13,7 @@ in case of dictionary every entry contains [key] and [value]
 - Dict is a content based operation.
  insert/update/delete/read based on content.
 
-
+search by content is fast
 """
 
 myData = {
@@ -57,6 +57,12 @@ print(myData)
 print("*********update entry name*******")
 myData["name"] ="raj kumar"
 print(myData)
+
+
+print("*********add duplicate key ******")
+myData.update({"sal" : 90000})
+print(myData)
+
 
 # length
 print("********Lenghth = ***********")

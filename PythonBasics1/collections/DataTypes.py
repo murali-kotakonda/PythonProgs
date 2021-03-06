@@ -35,11 +35,12 @@ list and tuple supports the index based operations.
 Insertion order:
 The order in which the elements are added === the order in which the elements are stored.
 add: 50 , 60 , 10 , 67 , 100, 3
+supported for list and tuple
 Read:
 List/ Tuple o/p: 50 , 60 , 10 , 67 , 100, 3
 Set/Dict  : 60 , 50 ,  100, 3 ,  67  ,10
-[stores the elements in random order.]
-supported for list and tuple
+[Set/Dict  stores the elements in random order.]
+
 
 Allow duplicates:
 List and Tuple will allows duplicates.
@@ -51,7 +52,7 @@ Set/Dict : the no of elements is 1 [no duplicate elements.]
 
 Mutuable:
 can it be changed or altered ( add new element/ update existing / delete existing )
-Tuple is imMutuable ,once created it cannot be changed,
+Tuple is Immutuable ,once created it cannot be changed.
 
 
 syntax for creating a variable:

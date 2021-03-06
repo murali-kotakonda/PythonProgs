@@ -1,5 +1,5 @@
 """
-# nested functiions
+# nested functions
 (function inside a function)
 1.outer function
 2.inner function
@@ -12,10 +12,14 @@ inner function can access the data from outer function.
 
 def f1():
     print("hello")
+    #creating inner function
     def f2():
         print("hello2")
+
+    #callung inner function
     f2()
 
+#call outer function
 f1()
 
 

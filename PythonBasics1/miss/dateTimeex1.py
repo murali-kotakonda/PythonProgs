@@ -70,7 +70,18 @@ import datetime
 
 from datetime import datetime
 
+#get current date
 now = datetime.now()
+
+
+print ("Current date and time : ")
+print (now.strftime("%Y-%m-%d %H:%M:%S"))
+
+
+print ("Current date : ")
+print (now.strftime("%Y-%m-%d"))
+
+#
 
 print("Current date and time: ",  now)
 print("date1 : ", now.strftime("%Y-%m-%d %H:%M:%S"))

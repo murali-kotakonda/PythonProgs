@@ -3,7 +3,7 @@
 
 from Module1 import Person
 #from Module1 import *
-from Module1 import Person,display1
+from Module1 import display1,Person
 #from pkg import <class>, <funtion>
 
 from Module2 import performSum

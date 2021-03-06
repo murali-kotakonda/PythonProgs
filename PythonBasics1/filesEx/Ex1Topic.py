@@ -1,6 +1,6 @@
 
 """
-use open() funtionto create the file obj.
+use open() funtion to create the file obj.
 #The open() function takes two parameters;
 # filename, and mode.
 # "r" - Read - Default value. Opens a file for reading, error if the file does not exist

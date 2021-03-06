@@ -1,7 +1,7 @@
 """
 Threading:
 ------------
--> concurrent programmimg/ parallel programming.
+-> concurrent programming/ parallel programming.
 -> by default single thread is created by python to run prog.
   
 
@@ -16,7 +16,7 @@ adv:
   
 
 
-Process: Requires seprate memory.   
+Process: Requires seperate memory.
 Thread:  
 - is a single unit/agent under the process.
 - Thread uses the memory allocated for the Process.
@@ -31,23 +31,24 @@ When do we need to create thread?
 A) 
   When the tasks  are independent to each other.
   o/p of one task is not required for the other task.
-  
-         
 
-module : threading
+By default python creates the main thread.
+using the main thread we need to create the additional threads.
+
+
+
+use module "threading"
 
 How to create Thread:
 -------------------------
 1. Create a Thread (ex:MyThread) extending threading.Thread
 2. Provide the run() function inside the class.
+
 3.create the Object for MyThread.
 4.call the start method using the object.
 [start method internally calls the run() function]
   
   
-By deafult python creates the main thread.
-using the main thread we need to create the additional threads.
 
-    
     
 """

@@ -3,11 +3,13 @@
 can a developer create exception?
 YES
 
-
 STEPS:
 -----------------------
 1.Create exception obj
 2.raise the exception
+
+- raise the exception on conditional basis
+- raise exception logic should be written inside the conditional blocks.
 
 #syntax for Create exception obj:
 ex1 = ValueError("invalid data")

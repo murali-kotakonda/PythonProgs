@@ -11,7 +11,7 @@ we need to withdraw
 300
 400
 
-at the same time , afterevery withdraw you need to print final balance.
+at the same time , after  every withdraw you need to print final balance.
 
 sample o/p:
 --------------

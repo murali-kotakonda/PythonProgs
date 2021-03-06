@@ -16,8 +16,6 @@ print(myList[1])
 print(myList[2])
 
 
-
-
 print("************************** Add new element ************************************")
 # update the list or add element to list
 # add new element to list
@@ -52,14 +50,13 @@ print("************************** remove element by content ********************
 # remove by element value
 myList.remove("myNewPancard")
 # myList.remove("myNewPancardazffsf") # throws exception if not found
+print(myList)
 
 print("************************** remove by position ************************************")
 # remove by position
 del myList[1]
 #myList.remove(myList[0])
 print(myList)
-
-
 
 
 cities = ['bangalore', 'chennai', 'mumbai', 'hyd']
@@ -122,15 +119,6 @@ print(sum(intList))
 print(intList.count(1))  # frequency
 
 
-
-
-
-
-
-
-
-
-
 """
 
 # slicing
@@ -190,26 +178,6 @@ Use set() to store a number of values without duplicate.
 
 Solution:
 """
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
