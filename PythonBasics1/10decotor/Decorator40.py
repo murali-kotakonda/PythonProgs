@@ -22,7 +22,7 @@ def checkNegative(func):
         if n1<0 or n2 <0:
            return "numbers  n1,n2 cannot be negative "
         return func(n1,n2)
-    return operation;
+    return operation
 
 
 @checkNegative

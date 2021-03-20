@@ -11,7 +11,7 @@ def log(func):
          print("funtion start "+ str(func.__name__))
          func()
          print("funtion end " + str(func.__name__))
-    return operation;
+    return operation
 
 @log
 def sum(x,y):
