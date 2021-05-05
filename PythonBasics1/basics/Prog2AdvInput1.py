@@ -1,3 +1,16 @@
+"""
+How to take multiple data as input in single line
+
+earlier:
+a =input("enter data : ")
+b =input("enter data : ")
+c= input("enter data : ")
+
+Now:
+a,b,c = input("enter data : ").split()
+
+"""
+
 x, y = input("Enter a two value: ").split() 
 print("x value: ", x) 
 print("y value: ", y) 

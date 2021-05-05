@@ -1,3 +1,7 @@
+list1 = [1,2,4,56,8]
+print(list1[2:5])
+
+
 #Create a list with data
 myList = [12, 'krishna', 4587.432 ]
 
@@ -178,8 +182,6 @@ Use set() to store a number of values without duplicate.
 
 Solution:
 """
-
-
 
 
 

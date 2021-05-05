@@ -9,11 +9,12 @@ python will identify the datatype.
 
 what are the primitive datatypes supported?
 ans)
-int
-float
-string
-boolean
-complex
+int  -> numbers
+float  -> decimlas
+string  -> charactrs
+boolean  - true/false
+complex  -> real+ imaginary number
+
 
 variable : is the reference name that holds the data/value.
 every variable is associated to the data type .

@@ -1,6 +1,5 @@
 Python:
 -------
-
 - easy to read  + easy to write
 - programming lang + scripting lang
 - large no of inbuilt + external libs
@@ -40,6 +39,8 @@ devops team
 what tester we need to learn:
 -----------------------------
 - tester needs python for automation testing
+
+
 topics:
 -------
 programming: core python 3.8
@@ -54,9 +55,10 @@ sql developer
 
 automation:
 selenium
-framework -> POM , key driven
 pytest
 unittest
+framework -> POM , key driven
+
 any basics of bdd  ( cucumber )
 
 pycharm editor
@@ -68,11 +70,74 @@ workshop project
 
 selenium:
 ---------------
+- IS A external library
 - used for web application testing
 - using selenium it is easy and simple to interact with the
 web application and
 - simplify writing test cases
 - simplify the communication between python and web application
+
+
+selenium:
+---------------
+- IS A external library
+- used for web application testing
+- using selenium it is easy and simple to interact with the
+web application
+- simplify writing test cases
+- simplify the communication between python and web application
+
+framework:
+-------------------
+- is a lib that contains the solution code for the common prblms across the apps.
+
+
+
+
+selenium:
+-----------------------
+1.driver setup
+2.window operations
+3.page navigations
+4.identifiers/locators
+ID
+NAME
+XPATH
+LINK TEST
+PARTIAL LINK TEXT
+TAG NAME
+CLASS NAME
+CSS SELECTOR
+
+5. ACTIONS AND ASSERTIONS ON:
+TEXT FIELD
+PASSWORD
+CHECKBOX
+RADIO
+DROPDOWN
+MULTI DROPDWN
+LINKS
+BUTTONS
+TEXT AREA
+
+
+5. REPORTING
+
+6. LOGGING
+
+7.frameworks :
+ -> POM
+ -> data provider
+ -> keyword driven
+
+8. test engine
+  - unit testing
+  - py test
+
+
+8. workshop
+
+
 
 
 

@@ -6,39 +6,29 @@ python supports :
 2.While loop
 
 
-when should I use FOR loop?
-ANS)
-when we know the number of iterations/runs
-
-
-
-when should I use WHILE loop?
-ANS)
-when we dont know the number of iterations/runs.
-
-
-"""
-Loops/iterations:
--> execute same code but on different data for multiple runs until condition is satisfied.
-
-python supports :
-1.For loop
-2.While loop
-
-for is block where the code  for body should be written with tab space.
-for loop has 3 sections:
-1.init
-2.condition
-3.increment/decerment
-=> while loop only condition is mandatory
-
 when should i use for loop?
 ans) when we know the number of iterations/runs
      when we are looping the collections like list,tuple,dict
 
+
+
 when should i use while loop?
 ans)
 when we dont know the number of iterations/runs.
+
+ 
+
+
+ 
+for is block where the code  for body should be written with tab space.
+
+for loop has 3 sections:
+1.init
+2.condition
+3.increment/decerment
+
+
+=> while loop only condition is mandatory
 
 
 """

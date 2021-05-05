@@ -1,5 +1,5 @@
 """
-#how to intake the inputs from the console
+#how to take the inputs from the console
 # use input() function
 #by default input() funtn considers every value as string
 

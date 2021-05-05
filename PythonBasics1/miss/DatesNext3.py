@@ -7,7 +7,7 @@ today = datetime.date.today()
 
 yesterday = today - datetime.timedelta(days=1)
 tomorrow = today + datetime.timedelta(days=1)
-dt = today - datetime.timedelta(5)
+dt = today - datetime.timedelta(24)
 
 print('Yesterday : ', yesterday)
 print('Today : ', today)
