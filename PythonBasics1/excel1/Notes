@@ -1,0 +1,58 @@
+1.install th package "openpyxl"
+command :
+pip install openpyxl
+
+2. objs:
+- workbook
+- sheet
+- row
+- cell
+
+3.How to create the workbook obj:
+
+a) new excel
+from openpyxl import Workbook
+workbook = Workbook()
+
+b)for existing excel
+workbook = load_workbook('response.xlsx')
+
+4.How to get the sheet obj
+
+a) get current sheet
+sheet = workbook.active
+
+b) get sheet by name
+sheet = workbook["<sheet name>"] #recommended
+sheet = workbook.get_sheet_by_name("Mysheet")
+
+c)create new sheet
+sheet = workBook.create_sheet("my data")
+
+d) delete the sheet
+workbook.remove(<sheet obj>)
+
+e)get all sheet names
+sheets = workbook.get_sheet_names()
+
+f)rename a sheet
+sheetObj.title = 'my sheet'
+
+
+5.How to identify no of rows
+rowCount = sheet.max_row
+
+6.How to identify no of columns
+columnCount = sheet.max_column
+
+7.How to get all the rows
+rows =  workbook[ "sheet1" ].rows # using workbook obj
+rows = sheetObj.rows    # using sheetObj
+
+
+8.How to save excel
+# save file
+workbook.save(filename="response.xlsx")
+
+
+

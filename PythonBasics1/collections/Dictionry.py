@@ -28,7 +28,7 @@ myData = {
    
   key and value are seperated by :
  
-  very entry is seperated by comma
+  every entry is seperated by comma
   Keys are unique
 
 """
@@ -59,9 +59,10 @@ myData["name"] ="raj kumar"
 print(myData)
 
 
+
 print("*********add duplicate key ******")
-myData.update({"sal" : 90000})
-print(myData)
+myData.update(  {"name" : "shanvi"} ) # as key is unque, if we try to add entry with duplicate key , value will be updated
+print(myData)# 'krishna' is replaced with shanvi
 
 
 # length
@@ -82,10 +83,12 @@ print(myvalues)
 
 #check if the key exists : use in operation along with keys() function
 # check if the key exists
+print("********************check if key exists*********************************")
 if 'name' in myData.keys():
     print('name key  found')
 else:
     print('name key not found')
+
 
 if 'deptId' in myData.keys():
     print('deptId key found')
@@ -94,7 +97,7 @@ else:
 
 
 print("*****************remove based on key[  name ]****************************")
-del myData["name"] # this dletes the key and value
+del myData["name"] # this deletes the key and value
 print(myData)
 
 # iterate the dictionary
@@ -104,4 +107,6 @@ for k,v in myData.items():
 
 
 # delete all entries
+print("************************delete all entries******************************")
 myData.clear()
+print(myData)

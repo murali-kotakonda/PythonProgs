@@ -5,6 +5,14 @@
 -> applicable only when the number of lines is less
 -> code simplicity
 
+
+a lambda contains two sections:
+-> arguments
+-> expression
+
+syntax:
+f1 = lambda <arguments> : <expression>
+
 #, anonymous function is valid and is valid  in the scope
 # while a regular function is valid in the program.
 """
@@ -66,12 +74,24 @@ print(f(5))
 ##################################################################################
 # lambda for sum of 3 nums
 #################################################################################################################
+# add function
+print("********************Noraml function*******************")
 def mysum(a,b,c):
     return a+b+c
 
 
-sum = lambda a, b, c : a + b + c
-print(sum(5, 6, 2))
+print(mysum(10,20,30))
+print(mysum(10,30,30))
+print(mysum(10,100,30))
+
+print("********************Lambda function*******************")
+myAdd = lambda a,b,c : a+b+c
+
+print(myAdd(10,20,30))
+print(myAdd(10,30,30))
+print(myAdd(10,100,30))
+
+
 
 ###################################################################################
 def bigger(x,y):

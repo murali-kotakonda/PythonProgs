@@ -2,7 +2,7 @@
 
 
 """
-#code for returning the function
+#code for returning value from the function
 def getData():
     x  = "Hello"
     return x

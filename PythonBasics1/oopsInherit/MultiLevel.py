@@ -36,8 +36,6 @@ Staff has  constr has  7 args
 Employee constr will call person constr
 Staff constr will call the employee constr
 
-
-
 """
 
 class Person:

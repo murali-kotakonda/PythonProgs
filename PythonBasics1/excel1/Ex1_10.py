@@ -1,6 +1,12 @@
 from openpyxl import Workbook
 #The recommended package for reading and writing Excel 2010 files (ie: .xlsx)
 
+"""
+id    name   age
+200   user1  31
+
+"""
+
 # create workbook obj
 workbook = Workbook()
 

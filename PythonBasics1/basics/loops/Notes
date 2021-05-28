@@ -1,0 +1,24 @@
+Loops/iterations:
+-> execute same code but on different data for multiple runs until condition is satisfied.
+
+
+python supports :
+1.For loop
+2.While loop
+
+
+
+when should I use FOR loop?
+ans) when we know the number of iterations/runs
+
+
+when should I use WHILE loop?
+ans)
+when we dont know the number of iterations/runs.
+
+for loop has 3 sections:
+1.init
+2.condition
+3.increment/decerment
+
+=> while loop only condition is mandatory

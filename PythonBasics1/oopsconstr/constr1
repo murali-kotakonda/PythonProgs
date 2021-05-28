@@ -30,7 +30,7 @@ class Person:
     age=None
     name=None
 
-Old style: (without constr)
+set the data  (without constr) - Old style
 ----------------
 p = Person()
 p.id=200

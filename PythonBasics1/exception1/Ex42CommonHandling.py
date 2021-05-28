@@ -1,10 +1,15 @@
 """
 write common exception handling for ValueError,IndexError,ArithmeticError
 for ValueError,IndexError,ArithmeticError --> print "Client error"
+ 
 
 Req:
 when we have common exception handling for different execption
 how can we group it
+
+solution:
+except (IndexError,ZeroDivisionError,ValueError) as ex:  
+    <some code>
 
 """
 

@@ -69,7 +69,7 @@ res = myset4 | myset5
 print(res)
 
 # Common in both the sets
-print("*************common in sets********************8")
+print("*******************common in sets**************************")
 res = myset4 & myset5
 print(res)
 

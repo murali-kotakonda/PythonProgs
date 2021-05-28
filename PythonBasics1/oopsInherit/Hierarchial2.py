@@ -14,6 +14,7 @@ RBI: Parent class has
 #solution:????
 no need of logic from parent
 logic should come only from child
+method overriding:
 -> parent and child class will have the same methodName
 but with diff logic
 ->replace the parent inherited method with child method

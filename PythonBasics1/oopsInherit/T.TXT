@@ -19,6 +19,7 @@ Inheritence:
 
 
 Public properties and funtions are inherited/available to child classes from parent class.
+private cannot be inherited.
 
 adv: 
 reusability of instance variables and methods
@@ -46,7 +47,7 @@ class Person :
 #Person is a class
 #name, age, id are instance variables
 #m1 is public method
-#m3 is private mthod
+#m3 is private method ( if we write __ before the function name thn it wil be private)
 
 
 How to make employee class as child class for Person:

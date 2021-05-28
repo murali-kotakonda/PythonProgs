@@ -57,16 +57,16 @@ Tuple is Immutuable ,once created it cannot be changed.
 
 syntax for creating a variable:
 -----------------------------
-List:
+How to create a List:
 data = [] or data = list()
 
-Tuple
+How to create a Tuple
 data = () or data = tuple()
 
-Set
+How to create a Set
 data = {} or data = set()
 
-Dictionay
+How to create a Dictionay
 data = dict()
 
 

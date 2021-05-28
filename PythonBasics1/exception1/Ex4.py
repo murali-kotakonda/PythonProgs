@@ -1,9 +1,12 @@
 """
-IndexError
-ZeroDivisionError
-ValueError
+can we write try with multiple except blocks?
+Yes
 
-we need to write 3 except blocks 
+at a time only one except block is executed.
+
+For IndexError ,ZeroDivisionError ,ValueError
+
+we need to write 3 except blocks
 
 """
 
@@ -13,22 +16,23 @@ x = 50
 y = 0
 
 age =None
+
+
 try:
-    print(list[2])
-    print(list[9])
+    print(list[0])
+    print(list[7])  # trying to access 8th element but list has 4 elements
 
     divRes = x / y
+    print("result = ", divRes)
 
-    age = int(input("enter age"))
-    print("after concerting age= ", age)
+    age  =  int(input("enter age") )
+    print("after concerting age= ",age)
 except IndexError as ex:
-    print("exception occured , please use the correct index ")
-
+    print("invalid index please try again")
 except ZeroDivisionError as ex:
-    print("division by zero not possible")
-
+    print("denominator cannot be zero. Please correct ")
 except ValueError as ex:
-    print("enter a valid number")
-
+    print("Please enter only digits for age")
 else:
     print("No exception")
+

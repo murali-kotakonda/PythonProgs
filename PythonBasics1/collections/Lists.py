@@ -1,7 +1,3 @@
-list1 = [1,2,4,56,8]
-print(list1[2:5])
-
-
 #Create a list with data
 myList = [12, 'krishna', 4587.432 ]
 
@@ -79,9 +75,6 @@ for data in myList:
 
 
 
-
-
-
 # deletes the last element
 myList.pop()
 print(myList)
@@ -121,6 +114,15 @@ print(max(intList))
 print(min(intList))
 print(sum(intList))
 print(intList.count(1))  # frequency
+
+
+
+print("*********slicing *********")
+list1 = [1,2,4,56,8]
+print(list1[0:3])
+print(list1[2:5])
+print("printing ", list1[-1])
+print("printing ", list1[0:2])
 
 
 """

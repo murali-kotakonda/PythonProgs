@@ -1,12 +1,10 @@
-# take numbers as input and perform sum , if the input is negative then stop the program
+print("********************************************")
+for i in range(3,50):
+   print(i)
 
-sum = 0
-num = 0
+"""
+1. init : i=3
+2. condition : i< 50
+3. increment : i = i +1
+"""
 
-while (True):
-    num = int(input("enter number"))
-    if (num < 0):
-        break
-    sum= sum + num
-
-print(" sum = ", sum)

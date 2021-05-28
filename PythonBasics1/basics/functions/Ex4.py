@@ -26,3 +26,17 @@ n4= int(input("enter num2"))
 big(n3,n4)
 
 #n1,n2,n3,n4 are global variables.
+
+"""
+write a function that takes 2 nums as input and prints the smaller number.
+
+"""
+"""
+write a function that takes 3 nums as input and prints the smaller number.
+
+"""
+"""
+write a function that takes 3 nums as input and prints the bigger number.
+
+"""
+

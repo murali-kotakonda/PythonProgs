@@ -1,11 +1,19 @@
-# take numbers as input and perform sum , if the input is negative then stop the program
+#Print  1 to 50
 
-sum = 0
-num = 0
+print("********************************************")
+for i in range(50):
+   print(i)
+"""
+1. init : i=0
+2. condition : i< 50
+3. increment : i = i +1
+"""
 
-while num >= 0:
-    num = int(input("enter number"))
-    if (num > 0):
-        sum = sum + num
 
-print(" sum = ", sum)
+
+
+"""
+
+
+
+"""

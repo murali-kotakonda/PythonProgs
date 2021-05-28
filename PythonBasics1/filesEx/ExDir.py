@@ -31,15 +31,23 @@ import os
 import struct
 from os import path
 """
+import os
+from os import path
 
-create a folder 
-use os.mkdir("<folder name>")
+create a folder
+os.mkdir("<folder name>")
 
- 
-create a folder if folder doesnt exists.
 
 how to check if folder exists:
-use os.path.exists("test5") funtion - returs boolean
+os.path.exists("<folder name>") # returs boolean
+
+
+How to remove a folder:
+os.rmdir("<folder name>")
+
+
+How to rename the folder:
+os.rename('<old folder name>', '<new folder name>')
 
  
 """

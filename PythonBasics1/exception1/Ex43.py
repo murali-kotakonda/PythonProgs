@@ -7,6 +7,11 @@ Req:
 when we have common exception handling for different execption
 how can we group it
 
+except (IndexError,ZeroDivisionError,ValueError) as ex: # executed when there is an exception
+    print("Client error")
+except Exception as ex: # executed when there is an exception
+    print("Server error")
+    
 """
 
 list = [1, 2, 3]

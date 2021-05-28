@@ -3,6 +3,7 @@
 use open() funtion to create the file obj.
 #The open() function takes two parameters;
 # filename, and mode.
+
 # "r" - Read - Default value. Opens a file for reading, error if the file does not exist
 # 
 # "a" - Append - Opens a file for appending, creates the file if it does not exist

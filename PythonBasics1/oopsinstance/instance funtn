@@ -10,6 +10,8 @@ instance function or method:
 
 ->  instance function can be called only using the object.
 -> from a  instance function we can access the instance variables of the object using 'self'
+
+
 ex:
 def display():
     print("in display)
@@ -33,11 +35,9 @@ display()
 
 syntax for calling the instance method:
 --------------------------------------------
-
 1.create the object
 2.call the instance function using the object
-
-
+ 
 instance function() --> common function for all the objects  created for the class
 
 
@@ -47,11 +47,7 @@ d = Data()
 
 #call the function using the object
 d.show()
-
-
-
-
-
+ 
 Object is the default arg available to the instance method in the form of self.
 using instance methods you dont need to pass data every time
 

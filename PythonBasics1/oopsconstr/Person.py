@@ -24,12 +24,12 @@ class Person:
 
 # Create object
 
-p1 = Person(2000, "kumar", 34)  # obj is created , internally calls __init__
+p1 = Person(2000, "kumar", 34)  # obj is created , internally calls __init__ and self = p1
 
-p2 = Person(2001, "ram", 38)  # obj is created , internally calls __init__
+p2 = Person(2001, "ram", 38)  # obj is created , internally calls __init__ and self = p2
 
-p3 = Person(2003, "raj", 39)  # obj is created , internally calls __init__
-
+p3 = Person(2003, "raj", 39)  # obj is created , internally calls __init__ and self = p3
+ 
 
 print(p1.id,p1.name,p1.age)
 print(p2.id,p2.name,p2.age)

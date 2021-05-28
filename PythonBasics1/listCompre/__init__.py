@@ -1,37 +1,54 @@
+"""
 #List comprehension:
-#we have a list/tuple/colection using which we need to create a new collection by applying some
-# sort filtering or manipulating
+#short hand notation for creating the target list using the source list
 
+- It has 4 sections:
 # Variable
 # Expression for output
 # Reference sequence
 # Predicate (Optional)
 
+I/p: is  list/tuple/collection
+O/p : list/tuple/collection  by applying some filtering or manipulating logic
 
+adv:
+----
+- reducing the number of lines of code
+- simple code for manipulating the list/tuple
+
+ 
+"""
+
+  
 # Ex1 perform square of every num and store in a new list
 print("numbers square")
 
 mylist = [1, 2, 3, 4, 5, 6]
 
+print("********************Approach 1**************************")
 # Approach1
 output = []
-for number in mylist:
-    output.append(number * number)
+
+for num in mylist:  # get every num from 1st list
+    res =  num * num  # perform square of each number
+    output.append(res)   # add to the 2nd list
 
 print(output)
 
-# Approach2
+print("********************Approach 2**************************")
+
 """
 Reference -> mylist
-Expression  -> number * number
-Variable -> number  [Every num in list]
+Expression  -> num * num
+Variable -> num  [Every num in list]
+
+output =  [ <expression> for <variable> in <Reference>]
+
 """
 
-#syntax:
-# output =  [ <expression> for <variable> in <Reference>]
+output1 =  [ num * num for num in mylist]
+print(output1)
 
-output = [(number * number) for number in mylist]
-print(output)
 
 
 
@@ -40,7 +57,7 @@ print(output)
 
 
 #Ex2
-print("********************add each num in second number*******************************")
+print("********************add each num from 1st list and add to second list*******************************")
 mylist = [1, 2, 3, 4, 5, 6]
 output = [(number) for number in mylist]
 print(output)
@@ -49,7 +66,7 @@ print(output)
 
 
 #Ex3
-print("********************double of  each num in second number*******************************")
+print("********************double of  each num in second list*******************************")
 mylist = [1, 2, 3, 4, 5, 6]
 
 output = [(number * 2) for number in mylist]
@@ -62,16 +79,20 @@ print(output)
 # split the word in sentence and add to list
 word = "Python#hana#sap#java"
 
-# Approach1
+
+print("********************Approach 1**************************")
 words = []
 for occur in word.split("#"):
     words.append(occur)
 
 print(words)
 
-# Approach2
-words = [occur for occur in word.split("#")]
-print(words)
+
+print("********************Approach 2**************************")
+
+
+output1 =  [ occur for occur in word.split("#")]
+print(output1)
 
 
 
@@ -89,19 +110,29 @@ print(pow2)
 
 
 
-myList = [1, 2, 3, 4, 5, 6,7,8,10,20,24,25,27,19,30]
+mylist = [1, 2, 3, 4, 5, 6,7,8,10,20,24,25,27,19,30]
 
-#even Nos
-evenList = [  num for num in myList  if number % 2 == 0  ]
-print(evenList)
+print("************************even Nos*****************************")
+#create a new list with even Nos
+output1 =  [ num  for num in mylist if num%2==0]
+print(output1)
 
-#Odd Nos
-oddList = [  num for num in myList  if num % 2 != 0  ]
-print(oddList)
 
-#add divisble by 5
-list = [  num for num in myList  if num % 5 == 0  ]
-print(list)
+print("************************Odd Nos*****************************")
+#create a new list with Odd Nos
+output1 =  [ num  for num in mylist if num%2!=0]
+print(output1)
+
+
+
+print("************************numbers divisble by 5*****************************")
+#create a new list with numbers divisble by 5
+output1 =  [ num  for num in mylist if num%5==0]
+print(output1)
+
+
+
+
 
 
 

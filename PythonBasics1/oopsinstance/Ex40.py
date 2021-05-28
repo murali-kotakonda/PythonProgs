@@ -3,8 +3,6 @@ write a instance function to display the obj data
 
 """
 
-
-
 class Person:
     id= None
     age= None
