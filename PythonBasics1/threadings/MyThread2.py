@@ -43,6 +43,10 @@ print("****************bye*****************")
 
 
 """
+How to make the thread to sleep
+time.sleep(5)
+
+
   thread states:
 	  1. ready state -- when the developer creates the thread and adds to the cpu job list
 	  2. running -- when cpu gives appointment to the thread
@@ -65,6 +69,7 @@ AFTER SLEEP it goes back to running state
 
 4.wait state [for a undefined time]
 AFTER wait it goes back to running state
+ex: join function
 
 5.dead
 once the run() method execution is completed.

@@ -1,5 +1,12 @@
 #import only class, function
 
+"""
+import  Module2 # import  all the content in the file
+
+from Module1 import  display1  # import  only display1() functn
+from Module2 import performSum #import  only performSum() functn
+ 
+ """
 
 from Module1 import Person
 #from Module1 import *

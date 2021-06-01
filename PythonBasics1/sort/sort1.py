@@ -1,14 +1,23 @@
-numbers = [1, 3, 4, 2]
+numbers = [ 3, 4, 2,3,12,25,35,14,5,1,64]
 
 # Sorting list of Integers in ascending
+"""
+for ascending order use numbers.sort()
+for descending order use numbers.sort(reverse=True)
+sort() function modifies the same list
+"""
 print("ascending")
-numbers.sort() # will not create new list , it will alter the original list
-print(numbers)
-
+print("Before ", numbers)
+numbers.sort()
+print("After ", numbers)
 
 print("descending")
+print("Before ", numbers)
 numbers.sort(reverse=True)
-print(numbers)
+print("After ", numbers)
+
+
+
 
 
 print("reverse")
@@ -23,19 +32,25 @@ print(numbers)
 
 
 
+"""
+for ascending order use sorted()
+for descending order use sorted(reverse=True)
+sorted() function will not modifies the same list; it will create the new list
+"""
+numbers = [ 3, 4, 2,3,12,25,35,14,5,1,64]
 
-# Sorting list of Integers in descending
-numbers = [1, 3, 4, 2]
-#sorted funtion creates a new list after sorting
+print("ascending")
+print("Before ", numbers)
+newList = sorted(numbers)
+print("After ", newList)
 
-# Sorting list of Integers in ascend
-nums2 = sorted(numbers)
-print("original ",numbers)
-print("after ascending" , nums2)
+print("descending")
+print("Before ", numbers)
+newList = sorted(numbers,reverse=True)
+print("After ", newList)
 
-nums2 = sorted(numbers, reverse=True)
-print("original ",numbers)
-print("after descending" , nums2)
+
+
 
 
 
