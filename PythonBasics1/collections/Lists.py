@@ -16,6 +16,9 @@ print(myList[1])
 print(myList[2])
 
 
+
+
+
 print("************************** Add new element ************************************")
 # update the list or add element to list
 # add new element to list
@@ -186,7 +189,46 @@ Solution:
 """
 
 
+class FileCommentViewSet(viewsets.ModelViewSet):
+    queryset = FileComment.objects.all()
+    serializer_class = FileCommentSerializer
+    filter_backends = [filters.SearchFilter, OrderingFilter, ]
+    filterset_class = FileCommentFilter
+    search_fields = ['comment_category']
+    ordering_fields = ['update_time']
+
+    def get_queryset(self):
+        comment_category = self.request.query_params.get('category')
+        '''queryset = FileComment.objects.filter(comment_category__icontains=comment_category).\
+            filter(parent__isnull=True).order_by('created_at')'''
+        queryset_with_latest_comment = FileComment.objects.filter(comment_category=comment_category).order_by(
+            '-created_at').filter(parent__isnull=True)
+        '''comment = FileComment.objects.filter(comment_category__icontains=comment_category)
+        #var1 = FileComment.objects.values('comment_category')
+        var2 = FileComment.objects.values('comment', 'comment_category').order_by('-created_at')
+        print(var2)'''
 
 
+        print(queryset_with_latest_comment)
+        response = list(queryset_with_latest_comment)
+        orderDict = OrderedDict()  # filecomment Id vs latest comment date
+
+        self.findDates(self, orderDict,response)
+
+        print(orderDict)
+
+        return response
+
+
+    def findDates(self, orderDict,response ):
+        for f in response:
+            if f.id in orderDict.keys():
+                date = orderDict[f.id]
+                #compare date and f.updated_at
+                orderDict.update({f.id: f.updated_at})
+            else:
+                orderDict.update({f.id: f.updated_at})
+            if (len(f.childen) > 0):
+                self.findDates(self, orderDict, f.childen)
 
 
